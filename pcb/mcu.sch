@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F1:STM32F103C8Tx U?
+L MCU_ST_STM32F1:STM32F103C8Tx U1
 U 1 1 5D0AE0C1
 P 5750 3500
-F 0 "U?" H 5700 1911 50  0000 C CNN
+F 0 "U1" H 5700 1911 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 5700 1820 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5150 2100 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 5750 3500 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5D0B3E48
 P 5700 5250
-F 0 "#PWR?" H 5700 5000 50  0001 C CNN
+F 0 "#PWR05" H 5700 5000 50  0001 C CNN
 F 1 "GND" H 5705 5077 50  0000 C CNN
 F 2 "" H 5700 5250 50  0001 C CNN
 F 3 "" H 5700 5250 50  0001 C CNN
@@ -49,10 +49,10 @@ Wire Wire Line
 Text Notes 1500 600  0    50   ~ 0
 Decoupling
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR01
 U 1 1 5D0BC77C
 P 1650 850
-F 0 "#PWR?" H 1650 700 50  0001 C CNN
+F 0 "#PWR01" H 1650 700 50  0001 C CNN
 F 1 "+3.3V" H 1665 1023 50  0000 C CNN
 F 2 "" H 1650 850 50  0001 C CNN
 F 3 "" H 1650 850 50  0001 C CNN
@@ -60,10 +60,10 @@ F 3 "" H 1650 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5D0BCC7C
 P 650 1100
-F 0 "C?" H 765 1146 50  0000 L CNN
+F 0 "C1" H 765 1146 50  0000 L CNN
 F 1 "100n" H 765 1055 50  0000 L CNN
 F 2 "" H 688 950 50  0001 C CNN
 F 3 "~" H 650 1100 50  0001 C CNN
@@ -71,10 +71,10 @@ F 3 "~" H 650 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5D0BD12F
 P 1050 1100
-F 0 "C?" H 1165 1146 50  0000 L CNN
+F 0 "C2" H 1165 1146 50  0000 L CNN
 F 1 "100n" H 1165 1055 50  0000 L CNN
 F 2 "" H 1088 950 50  0001 C CNN
 F 3 "~" H 1050 1100 50  0001 C CNN
@@ -82,10 +82,10 @@ F 3 "~" H 1050 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 5D0BD74C
 P 1450 1100
-F 0 "C?" H 1565 1146 50  0000 L CNN
+F 0 "C3" H 1565 1146 50  0000 L CNN
 F 1 "100n" H 1565 1055 50  0000 L CNN
 F 2 "" H 1488 950 50  0001 C CNN
 F 3 "~" H 1450 1100 50  0001 C CNN
@@ -100,10 +100,10 @@ Connection ~ 5750 1900
 Wire Wire Line
 	5750 1900 5650 1900
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR03
 U 1 1 5D0AFF21
 P 5750 1900
-F 0 "#PWR?" H 5750 1750 50  0001 C CNN
+F 0 "#PWR03" H 5750 1750 50  0001 C CNN
 F 1 "+3.3V" H 5765 2073 50  0000 C CNN
 F 2 "" H 5750 1900 50  0001 C CNN
 F 3 "" H 5750 1900 50  0001 C CNN
@@ -133,10 +133,10 @@ Connection ~ 5700 5250
 Wire Wire Line
 	5700 5250 5650 5250
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5D0C6E4D
 P 1850 1100
-F 0 "C?" H 1965 1146 50  0000 L CNN
+F 0 "C4" H 1965 1146 50  0000 L CNN
 F 1 "4.7u" H 1965 1055 50  0000 L CNN
 F 2 "" H 1888 950 50  0001 C CNN
 F 3 "~" H 1850 1100 50  0001 C CNN
@@ -144,10 +144,10 @@ F 3 "~" H 1850 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5D0C8182
 P 2250 1100
-F 0 "C?" H 2365 1146 50  0000 L CNN
+F 0 "C5" H 2365 1146 50  0000 L CNN
 F 1 "10n" H 2365 1055 50  0000 L CNN
 F 2 "" H 2288 950 50  0001 C CNN
 F 3 "~" H 2250 1100 50  0001 C CNN
@@ -155,10 +155,10 @@ F 3 "~" H 2250 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5D0C8C05
 P 2600 1100
-F 0 "C?" H 2715 1146 50  0000 L CNN
+F 0 "C6" H 2715 1146 50  0000 L CNN
 F 1 "1u" H 2715 1055 50  0000 L CNN
 F 2 "" H 2638 950 50  0001 C CNN
 F 3 "~" H 2600 1100 50  0001 C CNN
@@ -195,10 +195,10 @@ Connection ~ 2250 850
 Wire Wire Line
 	2250 850  1850 850 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 5D0D37FC
 P 1650 1350
-F 0 "#PWR?" H 1650 1100 50  0001 C CNN
+F 0 "#PWR02" H 1650 1100 50  0001 C CNN
 F 1 "GND" H 1655 1177 50  0000 C CNN
 F 2 "" H 1650 1350 50  0001 C CNN
 F 3 "" H 1650 1350 50  0001 C CNN
@@ -234,4 +234,75 @@ Wire Wire Line
 Connection ~ 1850 1350
 Wire Wire Line
 	1850 1350 2250 1350
+Text Notes 900  1800 0    50   ~ 0
+Crystal
+$Comp
+L Device:Crystal Y1
+U 1 1 5D0DE5C2
+P 1050 2200
+F 0 "Y1" H 1050 2468 50  0000 C CNN
+F 1 "Crystal" H 1050 2377 50  0000 C CNN
+F 2 "" H 1050 2200 50  0001 C CNN
+F 3 "~" H 1050 2200 50  0001 C CNN
+	1    1050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D0DEFF9
+P 1050 2750
+F 0 "#PWR04" H 1050 2500 50  0001 C CNN
+F 1 "GND" H 1055 2577 50  0000 C CNN
+F 2 "" H 1050 2750 50  0001 C CNN
+F 3 "" H 1050 2750 50  0001 C CNN
+	1    1050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5D0DF7DE
+P 800 2500
+F 0 "C7" H 915 2546 50  0000 L CNN
+F 1 "10p" H 915 2455 50  0000 L CNN
+F 2 "" H 838 2350 50  0001 C CNN
+F 3 "~" H 800 2500 50  0001 C CNN
+	1    800  2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5D0DFE7A
+P 1300 2500
+F 0 "C8" H 1415 2546 50  0000 L CNN
+F 1 "10p" H 1415 2455 50  0000 L CNN
+F 2 "" H 1338 2350 50  0001 C CNN
+F 3 "~" H 1300 2500 50  0001 C CNN
+	1    1300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  2650 800  2750
+Wire Wire Line
+	800  2750 1050 2750
+Wire Wire Line
+	1300 2650 1300 2750
+Wire Wire Line
+	1300 2750 1050 2750
+Connection ~ 1050 2750
+Wire Wire Line
+	800  2350 800  2200
+Wire Wire Line
+	800  2200 900  2200
+Wire Wire Line
+	1200 2200 1300 2200
+Wire Wire Line
+	1300 2200 1300 2350
+Text Label 800  2200 2    50   ~ 0
+osc_in
+Text Label 1300 2200 0    50   ~ 0
+osc_out
+Text Label 5050 2600 2    50   ~ 0
+osc_in
+Text Label 5050 2700 2    50   ~ 0
+osc_out
 $EndSCHEMATC
