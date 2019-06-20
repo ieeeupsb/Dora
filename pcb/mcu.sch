@@ -685,4 +685,38 @@ Text HLabel 6350 4100 2    50   Input ~ 0
 motor_left
 Text HLabel 6350 4200 2    50   Input ~ 0
 motor_right
+Text Label 6350 3300 0    50   ~ 0
+line_sensor0
+Text Label 6350 3400 0    50   ~ 0
+line_sensor1
+Text Label 6350 3500 0    50   ~ 0
+line_sensor2
+Text Label 6350 3600 0    50   ~ 0
+line_sensor3
+Text Label 6350 3700 0    50   ~ 0
+line_sensor4
+Entry Wire Line
+	6800 3300 6900 3400
+Entry Wire Line
+	6800 3400 6900 3500
+Entry Wire Line
+	6800 3500 6900 3600
+Entry Wire Line
+	6800 3600 6900 3700
+Entry Wire Line
+	6800 3700 6900 3800
+Text HLabel 6900 3200 2    50   Input ~ 0
+line_sensors
+Wire Wire Line
+	6800 3300 6350 3300
+Wire Wire Line
+	6350 3400 6800 3400
+Wire Wire Line
+	6800 3500 6350 3500
+Wire Wire Line
+	6800 3600 6350 3600
+Wire Wire Line
+	6800 3700 6350 3700
+Wire Bus Line
+	6900 3150 6900 3800
 $EndSCHEMATC
