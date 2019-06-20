@@ -22,5 +22,7 @@ F1 "mcu.sch" 50
 F2 "motor_left" I L 5200 3300 50 
 F3 "motor_right" I L 5200 3400 50 
 F4 "line_sensors" I L 5200 3550 50 
+F5 "SCL" I L 5200 3700 50 
+F6 "SDA" I L 5200 3800 50 
 $EndSheet
 $EndSCHEMATC

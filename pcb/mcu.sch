@@ -719,4 +719,8 @@ Wire Wire Line
 	6800 3700 6350 3700
 Wire Bus Line
 	6900 3150 6900 3800
+Text HLabel 5050 3900 0    50   Input ~ 0
+SCL
+Text HLabel 5050 4000 0    50   Input ~ 0
+SDA
 $EndSCHEMATC
