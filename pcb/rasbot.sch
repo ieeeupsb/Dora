@@ -15,14 +15,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5200 3200 750  750 
+S 5200 3200 850  950 
 U 5D0ADCD4
 F0 "mcu" 50
 F1 "mcu.sch" 50
 F2 "motor_left" I L 5200 3300 50 
 F3 "motor_right" I L 5200 3400 50 
 F4 "line_sensors" I L 5200 3550 50 
-F5 "SCL" I L 5200 3700 50 
-F6 "SDA" I L 5200 3800 50 
+F5 "SCL" I L 5200 3800 50 
+F6 "SDA" I L 5200 3900 50 
+F7 "light_sensor" I L 5200 3650 50 
 $EndSheet
 $EndSCHEMATC

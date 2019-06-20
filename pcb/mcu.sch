@@ -723,4 +723,6 @@ Text HLabel 5050 3900 0    50   Input ~ 0
 SCL
 Text HLabel 5050 4000 0    50   Input ~ 0
 SDA
+Text HLabel 6350 3800 2    50   Input ~ 0
+light_sensor
 $EndSCHEMATC
