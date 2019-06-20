@@ -681,4 +681,8 @@ Text Label 5050 3000 2    50   ~ 0
 LSE_in
 Text Label 5050 3100 2    50   ~ 0
 LSE_out
+Text HLabel 6350 4100 2    50   Input ~ 0
+motor_left
+Text HLabel 6350 4200 2    50   Input ~ 0
+motor_right
 $EndSCHEMATC

@@ -19,5 +19,7 @@ S 5200 3200 750  750
 U 5D0ADCD4
 F0 "mcu" 50
 F1 "mcu.sch" 50
+F2 "motor_left" I L 5200 3300 50 
+F3 "motor_right" I L 5200 3400 50 
 $EndSheet
 $EndSCHEMATC
