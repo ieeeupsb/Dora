@@ -677,4 +677,8 @@ Text Label 1950 2050 2    50   ~ 0
 HSE_in
 Text Label 2450 2050 0    50   ~ 0
 HSE_out
+Text Label 5050 3000 2    50   ~ 0
+LSE_in
+Text Label 5050 3100 2    50   ~ 0
+LSE_out
 $EndSCHEMATC
