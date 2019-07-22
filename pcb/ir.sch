@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 19
+Sheet 4 12
 Title ""
 Date ""
 Rev ""
@@ -15,177 +15,368 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5500 1600 550  500 
+S 3150 1200 550  600 
 U 5D254F86
 F0 "IR_Row0" 50
-F1 "infrared_matrix.sch" 50
-F2 "X" I L 5500 1700 50 
-F3 "SEL0" I L 5500 1800 50 
-F4 "SEL1" I L 5500 1900 50 
-F5 "SEL2" I L 5500 2000 50 
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 3150 1400 50 
+F3 "SEL1" I L 3150 1500 50 
+F4 "SEL2" I L 3150 1600 50 
+F5 "v+" I L 3150 1250 50 
+F6 "v-" I L 3150 1750 50 
+F7 "out" I R 3700 1500 50 
 $EndSheet
-$Sheet
-S 5500 2300 550  500 
-U 5D254F8C
-F0 "IR_Row1" 50
-F1 "infrared_matrix.sch" 50
-F2 "X" I L 5500 2400 50 
-F3 "SEL0" I L 5500 2500 50 
-F4 "SEL1" I L 5500 2600 50 
-F5 "SEL2" I L 5500 2700 50 
-$EndSheet
-$Sheet
-S 5500 3000 550  500 
-U 5D254F92
-F0 "IR_Row2" 50
-F1 "infrared_matrix.sch" 50
-F2 "X" I L 5500 3100 50 
-F3 "SEL0" I L 5500 3200 50 
-F4 "SEL1" I L 5500 3300 50 
-F5 "SEL2" I L 5500 3400 50 
-$EndSheet
-$Sheet
-S 5500 3700 550  500 
-U 5D254F98
-F0 "IR_Row3" 50
-F1 "infrared_matrix.sch" 50
-F2 "X" I L 5500 3800 50 
-F3 "SEL0" I L 5500 3900 50 
-F4 "SEL1" I L 5500 4000 50 
-F5 "SEL2" I L 5500 4100 50 
-$EndSheet
-$Sheet
-S 5500 5100 550  500 
-U 5D254F9E
-F0 "IR_Row5" 50
-F1 "infrared_matrix.sch" 50
-F2 "X" I L 5500 5200 50 
-F3 "SEL0" I L 5500 5300 50 
-F4 "SEL1" I L 5500 5400 50 
-F5 "SEL2" I L 5500 5500 50 
-$EndSheet
-$Sheet
-S 5500 5800 550  500 
-U 5D254FA4
-F0 "IR_Row6" 50
-F1 "infrared_matrix.sch" 50
-F2 "X" I L 5500 5900 50 
-F3 "SEL0" I L 5500 6000 50 
-F4 "SEL1" I L 5500 6100 50 
-F5 "SEL2" I L 5500 6200 50 
-$EndSheet
-Text Label 5200 1800 0    50   ~ 0
+Text Label 2850 1400 0    50   ~ 0
 IR_SEL0
-Text Label 5200 1900 0    50   ~ 0
+Text Label 2850 1500 0    50   ~ 0
 IR_SEL1
-Text Label 5200 2000 0    50   ~ 0
+Text Label 2850 1600 0    50   ~ 0
 IR_SEL2
-Text Label 5500 2500 2    50   ~ 0
-IR_SEL0
-Text Label 5500 2600 2    50   ~ 0
-IR_SEL1
-Text Label 5500 2700 2    50   ~ 0
-IR_SEL2
-Text Label 5500 3200 2    50   ~ 0
-IR_SEL0
-Text Label 5500 3300 2    50   ~ 0
-IR_SEL1
-Text Label 5500 3400 2    50   ~ 0
-IR_SEL2
-Text Label 5500 3900 2    50   ~ 0
-IR_SEL0
-Text Label 5500 4000 2    50   ~ 0
-IR_SEL1
-Text Label 5500 4100 2    50   ~ 0
-IR_SEL2
-Text Label 5500 4600 2    50   ~ 0
-IR_SEL0
-Text Label 5500 4700 2    50   ~ 0
-IR_SEL1
-Text Label 5500 4800 2    50   ~ 0
-IR_SEL2
-Text Label 5500 5300 2    50   ~ 0
-IR_SEL0
-Text Label 5500 5400 2    50   ~ 0
-IR_SEL1
-Text Label 5500 5500 2    50   ~ 0
-IR_SEL2
-Text Label 5500 6000 2    50   ~ 0
-IR_SEL0
-Text Label 5500 6100 2    50   ~ 0
-IR_SEL1
-Text Label 5500 6200 2    50   ~ 0
-IR_SEL2
-$Sheet
-S 5500 4400 550  500 
-U 5D254FC0
-F0 "IR_Row4" 50
-F1 "infrared_matrix.sch" 50
-F2 "X" I L 5500 4500 50 
-F3 "SEL0" I L 5500 4600 50 
-F4 "SEL1" I L 5500 4700 50 
-F5 "SEL2" I L 5500 4800 50 
-$EndSheet
 Entry Wire Line
-	5200 5200 5100 5100
+	2400 1300 2500 1400
 Entry Wire Line
-	5200 4500 5100 4400
-Wire Wire Line
-	5500 5900 5200 5900
-Wire Wire Line
-	5500 5200 5200 5200
-Wire Wire Line
-	5500 4500 5200 4500
-Wire Wire Line
-	5500 3800 5200 3800
+	2400 1400 2500 1500
 Entry Wire Line
-	5100 3700 5200 3800
-Entry Wire Line
-	5100 5800 5200 5900
-Wire Wire Line
-	5200 3100 5500 3100
-Entry Wire Line
-	5100 3000 5200 3100
-Wire Wire Line
-	5500 2400 5200 2400
-Entry Wire Line
-	5100 2300 5200 2400
-Wire Wire Line
-	5500 1700 5200 1700
-Entry Wire Line
-	5100 1600 5200 1700
-Text HLabel 5100 1550 0    50   Input ~ 0
-IR_col
-Entry Wire Line
-	4750 1700 4850 1800
-Entry Wire Line
-	4750 1800 4850 1900
-Entry Wire Line
-	4750 1900 4850 2000
-Text HLabel 4750 1550 0    50   Input ~ 0
+	2400 1500 2500 1600
+Text HLabel 2400 1150 0    50   Input ~ 0
 IR_SEL
-Text Label 5200 5900 0    50   ~ 0
-IR_row6
-Text Label 5200 4500 0    50   ~ 0
-IR_row4
-Text Label 5200 5200 0    50   ~ 0
-IR_row5
-Text Label 5200 3800 0    50   ~ 0
-IR_row3
-Text Label 5200 3100 0    50   ~ 0
-IR_row2
-Text Label 5200 2400 0    50   ~ 0
-IR_row1
-Text Label 5200 1700 0    50   ~ 0
-IR_row0
 Wire Wire Line
-	4850 1800 5500 1800
+	2500 1400 3150 1400
 Wire Wire Line
-	4850 1900 5500 1900
+	2500 1500 3150 1500
 Wire Wire Line
-	4850 2000 5500 2000
+	2500 1600 3150 1600
+$Comp
+L power:+12V #PWR?
+U 1 1 5D40BFEA
+P 2650 1050
+F 0 "#PWR?" H 2650 900 50  0001 C CNN
+F 1 "+12V" H 2665 1223 50  0000 C CNN
+F 2 "" H 2650 1050 50  0001 C CNN
+F 3 "" H 2650 1050 50  0001 C CNN
+	1    2650 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1050 2650 1250
+$Sheet
+S 3150 2000 550  600 
+U 5D40D6FB
+F0 "IR_Row1" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 3150 2200 50 
+F3 "SEL1" I L 3150 2300 50 
+F4 "SEL2" I L 3150 2400 50 
+F5 "v+" I L 3150 2050 50 
+F6 "v-" I L 3150 2550 50 
+F7 "out" I R 3700 2300 50 
+$EndSheet
+$Sheet
+S 3150 3600 550  600 
+U 5D40DB29
+F0 "IR_Row3" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 3150 3800 50 
+F3 "SEL1" I L 3150 3900 50 
+F4 "SEL2" I L 3150 4000 50 
+F5 "v+" I L 3150 3650 50 
+F6 "v-" I L 3150 4150 50 
+F7 "out" I R 3700 3900 50 
+$EndSheet
+$Sheet
+S 3150 4400 550  600 
+U 5D40DC5E
+F0 "IR_Row4" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 3150 4600 50 
+F3 "SEL1" I L 3150 4700 50 
+F4 "SEL2" I L 3150 4800 50 
+F5 "v+" I L 3150 4450 50 
+F6 "v-" I L 3150 4950 50 
+F7 "out" I R 3700 4700 50 
+$EndSheet
+$Sheet
+S 3150 5200 550  600 
+U 5D40DD62
+F0 "IR_Row5" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 3150 5400 50 
+F3 "SEL1" I L 3150 5500 50 
+F4 "SEL2" I L 3150 5600 50 
+F5 "v+" I L 3150 5250 50 
+F6 "v-" I L 3150 5750 50 
+F7 "out" I R 3700 5500 50 
+$EndSheet
+$Sheet
+S 3150 6000 550  600 
+U 5D40E002
+F0 "IR_Row6" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 3150 6200 50 
+F3 "SEL1" I L 3150 6300 50 
+F4 "SEL2" I L 3150 6400 50 
+F5 "v+" I L 3150 6050 50 
+F6 "v-" I L 3150 6550 50 
+F7 "out" I R 3700 6300 50 
+$EndSheet
+Wire Wire Line
+	3150 1250 2650 1250
+Wire Wire Line
+	3150 2050 2650 2050
+Wire Wire Line
+	2650 2050 2650 2850
+Wire Wire Line
+	3150 2850 2650 2850
+Connection ~ 2650 2850
+Wire Wire Line
+	2650 2850 2650 3650
+Wire Wire Line
+	3150 3650 2650 3650
+Connection ~ 2650 3650
+Wire Wire Line
+	2650 3650 2650 4450
+Wire Wire Line
+	3150 4450 2650 4450
+Connection ~ 2650 4450
+Wire Wire Line
+	2650 4450 2650 5250
+Wire Wire Line
+	3150 5250 2650 5250
+Connection ~ 2650 5250
+Wire Wire Line
+	3150 6050 2650 6050
+Wire Wire Line
+	2650 5250 2650 6050
+Entry Wire Line
+	4200 6300 4300 6200
+Wire Wire Line
+	3700 6300 4200 6300
+Entry Wire Line
+	4200 5500 4300 5400
+Entry Wire Line
+	4200 4700 4300 4600
+Entry Wire Line
+	4200 3900 4300 3800
+Entry Wire Line
+	4200 3100 4300 3000
+Entry Wire Line
+	4200 2300 4300 2200
+Entry Wire Line
+	4200 1500 4300 1400
+Wire Wire Line
+	3700 5500 4200 5500
+Wire Wire Line
+	3700 4700 4200 4700
+Wire Wire Line
+	3700 3900 4200 3900
+Wire Wire Line
+	3700 3100 4200 3100
+Wire Wire Line
+	3700 2300 4200 2300
+Wire Wire Line
+	3700 1500 4200 1500
+Text Label 2850 2200 0    50   ~ 0
+IR_SEL0
+Text Label 2850 2300 0    50   ~ 0
+IR_SEL1
+Text Label 2850 2400 0    50   ~ 0
+IR_SEL2
+Entry Wire Line
+	2400 2100 2500 2200
+Entry Wire Line
+	2400 2200 2500 2300
+Entry Wire Line
+	2400 2300 2500 2400
+Wire Wire Line
+	2500 2200 3150 2200
+Wire Wire Line
+	2500 2300 3150 2300
+Wire Wire Line
+	2500 2400 3150 2400
+Text Label 2850 3000 0    50   ~ 0
+IR_SEL0
+Text Label 2850 3100 0    50   ~ 0
+IR_SEL1
+Text Label 2850 3200 0    50   ~ 0
+IR_SEL2
+Entry Wire Line
+	2400 2900 2500 3000
+Entry Wire Line
+	2400 3000 2500 3100
+Entry Wire Line
+	2400 3100 2500 3200
+Wire Wire Line
+	2500 3000 3150 3000
+Wire Wire Line
+	2500 3100 3150 3100
+Wire Wire Line
+	2500 3200 3150 3200
+Text Label 2850 3800 0    50   ~ 0
+IR_SEL0
+Text Label 2850 3900 0    50   ~ 0
+IR_SEL1
+Text Label 2850 4000 0    50   ~ 0
+IR_SEL2
+Entry Wire Line
+	2400 3700 2500 3800
+Entry Wire Line
+	2400 3800 2500 3900
+Entry Wire Line
+	2400 3900 2500 4000
+Wire Wire Line
+	2500 3800 3150 3800
+Wire Wire Line
+	2500 3900 3150 3900
+Wire Wire Line
+	2500 4000 3150 4000
+Text Label 2850 4600 0    50   ~ 0
+IR_SEL0
+Text Label 2850 4700 0    50   ~ 0
+IR_SEL1
+Text Label 2850 4800 0    50   ~ 0
+IR_SEL2
+Entry Wire Line
+	2400 4500 2500 4600
+Entry Wire Line
+	2400 4600 2500 4700
+Entry Wire Line
+	2400 4700 2500 4800
+Wire Wire Line
+	2500 4600 3150 4600
+Wire Wire Line
+	2500 4700 3150 4700
+Wire Wire Line
+	2500 4800 3150 4800
+Text Label 2850 5400 0    50   ~ 0
+IR_SEL0
+Text Label 2850 5500 0    50   ~ 0
+IR_SEL1
+Text Label 2850 5600 0    50   ~ 0
+IR_SEL2
+Entry Wire Line
+	2400 5300 2500 5400
+Entry Wire Line
+	2400 5400 2500 5500
+Entry Wire Line
+	2400 5500 2500 5600
+Wire Wire Line
+	2500 5400 3150 5400
+Wire Wire Line
+	2500 5500 3150 5500
+Wire Wire Line
+	2500 5600 3150 5600
+Text Label 2850 6200 0    50   ~ 0
+IR_SEL0
+Text Label 2850 6300 0    50   ~ 0
+IR_SEL1
+Text Label 2850 6400 0    50   ~ 0
+IR_SEL2
+Entry Wire Line
+	2400 6100 2500 6200
+Entry Wire Line
+	2400 6200 2500 6300
+Entry Wire Line
+	2400 6300 2500 6400
+Wire Wire Line
+	2500 6200 3150 6200
+Wire Wire Line
+	2500 6300 3150 6300
+Wire Wire Line
+	2500 6400 3150 6400
+Text HLabel 4300 1150 2    50   Input ~ 0
+IR_OUT
+Text Label 3700 1500 0    50   ~ 0
+IR_OUT0
+Text Label 3700 2300 0    50   ~ 0
+IR_OUT1
+Text Label 3700 3100 0    50   ~ 0
+IR_OUT2
+Text Label 3700 3900 0    50   ~ 0
+IR_OUT3
+Text Label 3700 4700 0    50   ~ 0
+IR_OUT4
+Text Label 3700 5500 0    50   ~ 0
+IR_OUT5
+Text Label 3700 6300 0    50   ~ 0
+IR_OUT6
+$Comp
+L Device:R R?
+U 1 1 5D41D265
+P 2750 6850
+F 0 "R?" H 2820 6896 50  0000 L CNN
+F 1 "150" H 2820 6805 50  0000 L CNN
+F 2 "" V 2680 6850 50  0001 C CNN
+F 3 "~" H 2750 6850 50  0001 C CNN
+	1    2750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D41F6C3
+P 2750 7400
+F 0 "#PWR?" H 2750 7150 50  0001 C CNN
+F 1 "GND" H 2755 7227 50  0000 C CNN
+F 2 "" H 2750 7400 50  0001 C CNN
+F 3 "" H 2750 7400 50  0001 C CNN
+	1    2750 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6700 2750 6550
+Wire Wire Line
+	2750 6550 3150 6550
+Wire Wire Line
+	2750 6550 2750 5750
+Wire Wire Line
+	2750 5750 3150 5750
+Connection ~ 2750 6550
+Wire Wire Line
+	2750 5750 2750 4950
+Wire Wire Line
+	2750 1750 3150 1750
+Connection ~ 2750 5750
+Wire Wire Line
+	3150 2550 2750 2550
+Connection ~ 2750 2550
+Wire Wire Line
+	2750 2550 2750 1750
+Wire Wire Line
+	3150 4150 2750 4150
+Connection ~ 2750 4150
+Wire Wire Line
+	2750 4150 2750 2550
+Wire Wire Line
+	3150 4950 2750 4950
+Connection ~ 2750 4950
+Wire Wire Line
+	2750 4950 2750 4150
+Text HLabel 2450 7200 0    50   Input ~ 0
+en
+$Sheet
+S 3150 2800 550  600 
+U 5D40DA1E
+F0 "IR_Row2" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 3150 3000 50 
+F3 "SEL1" I L 3150 3100 50 
+F4 "SEL2" I L 3150 3200 50 
+F5 "v+" I L 3150 2850 50 
+F6 "v-" I L 3150 3350 50 
+F7 "out" I R 3700 3100 50 
+$EndSheet
 Wire Bus Line
-	4750 1550 4750 1950
+	4300 1150 4300 6200
 Wire Bus Line
-	5100 1550 5100 5850
+	2400 1150 2400 6300
+$Comp
+L rasbot:AO3400 Q?
+U 1 1 5D362773
+P 2700 7200
+F 0 "Q?" H 2856 7246 50  0000 L CNN
+F 1 "AO3400" H 2856 7155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3425 7125 50  0001 C CNN
+F 3 "http://dalincom.ru/datasheet/AO3400.pdf" H 2700 7200 50  0001 C CNN
+	1    2700 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
