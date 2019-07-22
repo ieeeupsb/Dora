@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 19
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -25,8 +25,9 @@ S 9200 1200 1150 1400
 U 5D1373A3
 F0 "Sensors" 50
 F1 "sensors.sch" 50
-F2 "IR_col" I L 9200 1300 50 
-F3 "IR_SEL" I L 9200 1400 50 
+F2 "IR_SEL" I L 9200 1300 50 
+F3 "IR_OUT" I L 9200 1400 50 
+F4 "en" I L 9200 1500 50 
 $EndSheet
 $Sheet
 S 1400 1300 900  1000
