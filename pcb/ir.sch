@@ -311,17 +311,6 @@ F 3 "~" H 2750 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5D41DADF
-P 2650 7200
-F 0 "Q?" H 2856 7246 50  0000 L CNN
-F 1 "2N7002" H 2856 7155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 7125 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2650 7200 50  0001 L CNN
-	1    2650 7200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5D41F6C3
 P 2750 7400
@@ -379,4 +368,15 @@ Wire Bus Line
 	4300 1150 4300 6200
 Wire Bus Line
 	2400 1150 2400 6300
+$Comp
+L rasbot:AO3400 Q?
+U 1 1 5D362773
+P 2700 7200
+F 0 "Q?" H 2856 7246 50  0000 L CNN
+F 1 "AO3400" H 2856 7155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3425 7125 50  0001 C CNN
+F 3 "http://dalincom.ru/datasheet/AO3400.pdf" H 2700 7200 50  0001 C CNN
+	1    2700 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
