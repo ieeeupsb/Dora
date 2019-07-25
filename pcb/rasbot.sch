@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:rasbot-cache
+LIBS:inter-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -34,5 +35,15 @@ S 1400 1300 900  1000
 U 5D25A1F3
 F0 "Motors" 50
 F1 "motors.sch" 50
+$EndSheet
+$Sheet
+S 4250 1050 2050 1100
+U 5D3A4E48
+F0 "Interfaces" 50
+F1 "interfaces.sch" 50
+F2 "buzzer" I L 4250 1150 50 
+F3 "LED_RGB1" I L 4250 1250 50 
+F4 "LED_RGB3" I L 4250 1450 50 
+F5 "LED_RGB2" I L 4250 1350 50 
 $EndSheet
 $EndSCHEMATC
