@@ -210,17 +210,6 @@ Wire Wire Line
 	2100 1200 1650 1200
 Wire Wire Line
 	1650 1200 1650 1250
-$Comp
-L Device:R R?
-U 1 1 5D37B34E
-P 1750 1000
-F 0 "R?" V 1543 1000 50  0000 C CNN
-F 1 "100" V 1634 1000 50  0000 C CNN
-F 2 "" V 1680 1000 50  0001 C CNN
-F 3 "~" H 1750 1000 50  0001 C CNN
-	1    1750 1000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1900 1000 2100 1000
 Wire Wire Line
@@ -281,12 +270,6 @@ Text Label 2300 2250 0    50   ~ 0
 G
 Text Label 2300 2600 0    50   ~ 0
 B
-Wire Bus Line
-	2450 3900 2450 4650
-Wire Bus Line
-	2450 2900 2450 3650
-Wire Bus Line
-	2450 1800 2450 2700
 $Comp
 L power:GND #PWR?
 U 1 1 5D3B8045
@@ -330,5 +313,22 @@ F 2 "" H 1650 1250 50  0001 C CNN
 F 3 "" H 1650 1250 50  0001 C CNN
 	1    1650 1250
 	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	2450 1800 2450 2700
+Wire Bus Line
+	2450 2900 2450 3650
+Wire Bus Line
+	2450 3900 2450 4650
+$Comp
+L Device:R R?
+U 1 1 5D37B34E
+P 1750 1000
+F 0 "R?" V 1543 1000 50  0000 C CNN
+F 1 "1K" V 1634 1000 50  0000 C CNN
+F 2 "" V 1680 1000 50  0001 C CNN
+F 3 "~" H 1750 1000 50  0001 C CNN
+	1    1750 1000
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
