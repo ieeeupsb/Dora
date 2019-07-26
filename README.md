@@ -17,3 +17,5 @@ If you are a user of this robot and something is not working on your side please
 Be it hardware or software you can freely contribute to this project. Usually the Issues page here on GitHub has work that needs to be done. You are free to solve one yourself. Even if you are not familiar with hardware neither software you can simply create new issues suggesting new things or changes/fixes to the current design (hardware or software).
 
 This project is configured with CADLAB.io so visual differences of changes can be analysed.
+
+If you are a contributor to this project keep in mind that pushing to the master branch is protected and can be only done by first creating a branch and then file a Pull Request which has to have at least two reviewers before it can be merged. This is meant to improve the quality of the project.
