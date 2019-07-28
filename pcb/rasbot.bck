@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AO3400
+F http://dalincom.ru/datasheet/AO3400.pdf
+$ENDCMP
+#
+$CMP DRV8873SPWPRQ1
+D H-Bridge Motor Driver
+K Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8873.pdf
+$ENDCMP
+#
+#End Doc Library
