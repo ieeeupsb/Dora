@@ -35,4 +35,20 @@ F 3 "http://www.ti.com/lit/ds/symlink/drv8873.pdf" H 6900 4050 50  0001 C CNN
 	1    6900 3750
 	1    0    0    -1  
 $EndComp
+Text HLabel 3950 4050 0    50   Input ~ 0
+SCLK
+Text HLabel 3950 4150 0    50   Input ~ 0
+SDI
+Text HLabel 3950 4250 0    50   Input ~ 0
+SDO
+Text HLabel 3950 3950 0    50   Input ~ 0
+nSCS_LEFT
+Text HLabel 6400 4050 0    50   Input ~ 0
+SCLK
+Text HLabel 6400 4150 0    50   Input ~ 0
+SDI
+Text HLabel 6400 4250 0    50   Input ~ 0
+SDO
+Text HLabel 6400 3950 0    50   Input ~ 0
+nSCS_RIGHT
 $EndSCHEMATC
