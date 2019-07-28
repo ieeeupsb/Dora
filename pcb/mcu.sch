@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:rasbot-cache
-LIBS:inter-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -951,10 +950,6 @@ Wire Bus Line
 	3650 1950 3650 1850
 Entry Wire Line
 	3650 1850 3550 1950
-Wire Bus Line
-	3650 3200 3650 3400
-Wire Bus Line
-	3600 5300 3600 5550
 $Comp
 L Device:C C10
 U 1 1 5D0DF7DE
@@ -966,4 +961,8 @@ F 3 "~" H 9050 2550 50  0001 C CNN
 	1    9050 2550
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	3650 3200 3650 3400
+Wire Bus Line
+	3600 5300 3600 5550
 $EndSCHEMATC

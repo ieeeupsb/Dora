@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:rasbot-cache
-LIBS:inter-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -243,7 +242,7 @@ IR_OUT5
 Text Label 6250 6150 0    50   ~ 0
 IR_OUT6
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR021
 U 1 1 5D41F6C3
 P 5300 7250
 F 0 "#PWR021" H 5300 7000 50  0001 C CNN
@@ -267,9 +266,11 @@ F5 "v-" I L 5700 3200 50
 F6 "OUT" I R 6250 2950 50 
 $EndSheet
 $Comp
-L rasbot:AO3400 Q1
+L rasbot-rescue:AO3400-rasbot Q1
 U 1 1 5D362773
 P 5250 6950
+AR Path="/5D362773" Ref="Q1"  Part="1" 
+AR Path="/5D1373A3/5D25183D/5D362773" Ref="Q1"  Part="1" 
 F 0 "Q1" H 5406 6996 50  0000 L CNN
 F 1 "AO3400" H 5406 6905 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5975 6875 50  0001 C CNN
