@@ -1092,6 +1092,48 @@ Wire Wire Line
 	1100 3450 1400 3450
 Wire Wire Line
 	1100 3550 1400 3550
+Text Label 1400 3450 2    50   ~ 0
+IR_SEL1
+Text Label 1400 3550 2    50   ~ 0
+IR_SEL2
+Text Label 1400 5650 2    50   ~ 0
+Ultra4_TRIG
+Text Label 1400 5750 2    50   ~ 0
+Ultra4_ECHO
+Text HLabel 800  5200 0    50   BiDi ~ 0
+Ultrasonic
+Entry Wire Line
+	800  4950 900  5050
+Entry Wire Line
+	800  5050 900  5150
+Entry Wire Line
+	800  5150 900  5250
+Entry Wire Line
+	800  5250 900  5350
+Entry Wire Line
+	800  5350 900  5450
+Entry Wire Line
+	800  5450 900  5550
+Entry Wire Line
+	800  5550 900  5650
+Entry Wire Line
+	800  5650 900  5750
+Wire Wire Line
+	900  5750 1400 5750
+Wire Wire Line
+	900  5650 1400 5650
+Wire Wire Line
+	900  5550 1400 5550
+Wire Wire Line
+	900  5450 1400 5450
+Wire Wire Line
+	1400 5350 900  5350
+Wire Wire Line
+	900  5250 1400 5250
+Wire Wire Line
+	1400 5150 900  5150
+Wire Wire Line
+	900  5050 1400 5050
 Wire Bus Line
 	950  6150 950  6350
 Wire Bus Line
@@ -1102,8 +1144,20 @@ Wire Bus Line
 	3600 4950 3600 5250
 Wire Bus Line
 	1000 3200 1000 3500
-Text Label 1400 3450 2    50   ~ 0
-IR_SEL1
-Text Label 1400 3550 2    50   ~ 0
-IR_SEL2
+Wire Bus Line
+	800  4900 800  5650
+Text Label 1400 5550 2    50   ~ 0
+Ultra3_ECHO
+Text Label 1400 5450 2    50   ~ 0
+Ultra3_TRIG
+Text Label 1400 5250 2    50   ~ 0
+Ultra2_TRIG
+Text Label 1400 5350 2    50   ~ 0
+Ultra2_ECHO
+Text Label 1400 5050 2    50   ~ 0
+Ultra1_TRIG
+Text Label 1400 5150 2    50   ~ 0
+Ultra1_ECHO
+Text HLabel 1400 3750 0    50   Output ~ 0
+Ultra_EN
 $EndSCHEMATC
