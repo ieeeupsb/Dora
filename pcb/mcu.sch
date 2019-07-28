@@ -888,7 +888,7 @@ IR_OUT
 Wire Wire Line
 	3550 2350 3200 2350
 Text Label 3250 2350 0    50   ~ 0
-IR_OUT0
+IR_OUT2
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 5D0FA90C
@@ -920,7 +920,7 @@ IR_OUT
 Wire Wire Line
 	3550 3350 3200 3350
 Text Label 3250 3350 0    50   ~ 0
-IR_OUT1
+IR_OUT3
 Entry Wire Line
 	3650 3350 3550 3450
 Entry Wire Line
@@ -928,21 +928,19 @@ Entry Wire Line
 Wire Wire Line
 	3200 3450 3550 3450
 Text Label 3250 3450 0    50   ~ 0
-IR_OUT2
-Text HLabel 3600 5250 2    50   Input ~ 0
+IR_OUT4
+Text HLabel 3600 5400 2    50   Input ~ 0
 IR_OUT
 Wire Wire Line
-	3500 5050 3150 5050
-Text Label 3200 5050 0    50   ~ 0
-IR_OUT3
+	3550 1950 3200 1950
+Text Label 3250 1950 0    50   ~ 0
+IR_OUT0
 Entry Wire Line
-	3600 5050 3500 5150
-Entry Wire Line
-	3500 5050 3600 4950
+	3650 1950 3550 2050
 Wire Wire Line
-	3150 5150 3500 5150
-Text Label 3200 5150 0    50   ~ 0
-IR_OUT4
+	3200 2050 3550 2050
+Text Label 3250 2050 0    50   ~ 0
+IR_OUT1
 Entry Wire Line
 	3500 5450 3600 5350
 Entry Wire Line
@@ -951,14 +949,20 @@ Wire Wire Line
 	3200 5550 3500 5550
 Wire Wire Line
 	3200 5450 3500 5450
-Wire Bus Line
-	3650 3200 3650 3400
-Wire Bus Line
-	3600 4900 3600 5550
 Text Label 3200 5450 0    50   ~ 0
 IR_OUT5
 Text Label 3200 5550 0    50   ~ 0
 IR_OUT6
 Text HLabel 1400 4050 0    50   Input ~ 0
 IR_EN
+Text HLabel 3650 1900 2    50   Input ~ 0
+IR_OUT
+Wire Bus Line
+	3650 1950 3650 1850
+Entry Wire Line
+	3650 1850 3550 1950
+Wire Bus Line
+	3650 3200 3650 3400
+Wire Bus Line
+	3600 5300 3600 5550
 $EndSCHEMATC
