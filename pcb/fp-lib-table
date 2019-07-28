@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name rasbot)(type KiCad)(uri ${KIPRJMOD}/rasbot.pretty)(options "")(descr ""))
-)
