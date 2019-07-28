@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:rasbot-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L rasbot:DRV8873SPWPRQ1 U?
+L rasbot:DRV8873SPWPRQ1 U58
 U 1 1 5D3E6DD6
 P 4450 3750
-F 0 "U?" H 4450 2861 50  0000 C CNN
+F 0 "U58" H 4450 2861 50  0000 C CNN
 F 1 "DRV8873SPWPRQ1" H 4450 2770 50  0000 C CNN
 F 2 "rasbot:DRV8873SPWPRQ1" H 4450 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/drv8873.pdf" H 4450 4050 50  0001 C CNN
@@ -26,10 +25,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/drv8873.pdf" H 4450 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rasbot:DRV8873SPWPRQ1 U?
+L rasbot:DRV8873SPWPRQ1 U59
 U 1 1 5D3E7727
 P 6900 3750
-F 0 "U?" H 6900 2861 50  0000 C CNN
+F 0 "U59" H 6900 2861 50  0000 C CNN
 F 1 "DRV8873SPWPRQ1" H 6900 2770 50  0000 C CNN
 F 2 "rasbot:DRV8873SPWPRQ1" H 6900 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/drv8873.pdf" H 6900 4050 50  0001 C CNN
