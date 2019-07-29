@@ -1,9 +1,11 @@
 EESchema Schematic File Version 4
+LIBS:rasbot-cache
+LIBS:power-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 14
 Title ""
 Date ""
 Rev ""

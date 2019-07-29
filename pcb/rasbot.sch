@@ -1,9 +1,11 @@
 EESchema Schematic File Version 4
+LIBS:rasbot-cache
+LIBS:power-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -170,4 +172,10 @@ Text Label 5100 4050 2    50   ~ 0
 Rotary_DT
 Text Label 5100 4150 2    50   ~ 0
 Rotary_CLK
+$Sheet
+S 1800 4600 1600 1050
+U 5D3FCA2F
+F0 "Power" 50
+F1 "power.sch" 50
+$EndSheet
 $EndSCHEMATC
