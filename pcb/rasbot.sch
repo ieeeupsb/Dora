@@ -41,6 +41,9 @@ F21 "SCL1" O L 5100 3250 50
 F22 "SDA1" B L 5100 3350 50 
 F23 "Ultrasonic" B R 6500 4200 50 
 F24 "Ultra_EN" O R 6500 4100 50 
+F25 "Rotary_DT" I L 5100 4050 50 
+F26 "Rotary_CLK" I L 5100 4150 50 
+F27 "Rotary_SW" I L 5100 3950 50 
 $EndSheet
 $Sheet
 S 8650 1900 1100 1100
@@ -155,4 +158,16 @@ Text Label 6500 4200 0    50   ~ 0
 Ultra
 Text Label 6500 4100 0    50   ~ 0
 Ultra_EN
+Text Label 8700 5050 2    50   ~ 0
+Rotary_SW
+Text Label 8700 5150 2    50   ~ 0
+Rotary_DT
+Text Label 8700 5250 2    50   ~ 0
+Rotary_CLK
+Text Label 5100 3950 2    50   ~ 0
+Rotary_SW
+Text Label 5100 4050 2    50   ~ 0
+Rotary_DT
+Text Label 5100 4150 2    50   ~ 0
+Rotary_CLK
 $EndSCHEMATC

@@ -961,25 +961,13 @@ RIGHT_ENC1
 Text HLabel 1400 4850 0    50   Input ~ 0
 RIGHT_ENC2
 Entry Wire Line
-	3550 5650 3650 5550
-Entry Wire Line
-	3550 5850 3650 5750
-Entry Wire Line
-	3550 5750 3650 5650
-Text HLabel 3650 5650 2    50   Output ~ 0
+	1050 6550 950  6450
+Text HLabel 950  6500 0    50   Output ~ 0
 LED_RGB1
-Text Label 3200 5650 0    50   ~ 0
+Text Label 1400 6550 2    50   ~ 0
 R
-Text Label 3200 5750 0    50   ~ 0
-G
-Text Label 3200 5850 0    50   ~ 0
-B
 Wire Wire Line
-	3200 5650 3550 5650
-Wire Wire Line
-	3200 5750 3550 5750
-Wire Wire Line
-	3200 5850 3550 5850
+	1400 6550 1050 6550
 Wire Wire Line
 	3200 5150 3500 5150
 Wire Wire Line
@@ -1134,18 +1122,6 @@ Wire Wire Line
 	1400 5150 900  5150
 Wire Wire Line
 	900  5050 1400 5050
-Wire Bus Line
-	950  6150 950  6350
-Wire Bus Line
-	3650 5550 3650 5750
-Wire Bus Line
-	3650 1550 3650 1750
-Wire Bus Line
-	3600 4950 3600 5250
-Wire Bus Line
-	1000 3200 1000 3500
-Wire Bus Line
-	800  4900 800  5650
 Text Label 1400 5550 2    50   ~ 0
 Ultra3_ECHO
 Text Label 1400 5450 2    50   ~ 0
@@ -1160,4 +1136,38 @@ Text Label 1400 5150 2    50   ~ 0
 Ultra1_ECHO
 Text HLabel 1400 3750 0    50   Output ~ 0
 Ultra_EN
+Entry Wire Line
+	3550 2850 3650 2750
+Entry Wire Line
+	3550 2750 3650 2650
+Text Label 3200 2750 0    50   ~ 0
+G
+Text Label 3200 2850 0    50   ~ 0
+B
+Wire Wire Line
+	3200 2750 3550 2750
+Wire Wire Line
+	3200 2850 3550 2850
+Text HLabel 3650 2700 2    50   Output ~ 0
+LED_RGB1
+Wire Bus Line
+	950  6500 950  6450
+Wire Bus Line
+	950  6150 950  6350
+Wire Bus Line
+	3650 1550 3650 1750
+Wire Bus Line
+	3650 2600 3650 2750
+Wire Bus Line
+	3600 4950 3600 5250
+Wire Bus Line
+	1000 3200 1000 3500
+Wire Bus Line
+	800  4900 800  5650
+Text HLabel 1400 3850 0    50   Input ~ 0
+Rotary_DT
+Text HLabel 1400 3950 0    50   Input ~ 0
+Rotary_CLK
+Text HLabel 3200 6350 2    50   Input ~ 0
+Rotary_SW
 $EndSCHEMATC
