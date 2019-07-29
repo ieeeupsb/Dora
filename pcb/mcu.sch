@@ -548,9 +548,9 @@ Text Notes 10450 3850 0    50   ~ 0
 Serial
 Text Notes 9500 3650 0    100  ~ 20
 Programming
-Text Label 3200 2550 0    50   ~ 0
+Text Label 3200 3950 0    50   ~ 0
 TX
-Text Label 3200 2650 0    50   ~ 0
+Text Label 3200 4050 0    50   ~ 0
 RX
 $Comp
 L MCU_ST_STM32F4:STM32F407VGTx U1
@@ -976,10 +976,10 @@ Wire Wire Line
 	3200 5350 3500 5350
 Wire Wire Line
 	3500 5050 3200 5050
-Text HLabel 3200 3950 2    50   Output ~ 0
-SCL1
-Text HLabel 3200 4050 2    50   BiDi ~ 0
-SDA1
+Text HLabel 3200 4350 2    50   Output ~ 0
+SCL2
+Text HLabel 3200 4450 2    50   BiDi ~ 0
+SDA2
 Text HLabel 3200 4650 2    50   Input ~ 0
 SPI2_SCK
 Text HLabel 3200 4550 2    50   Input ~ 0
@@ -1137,37 +1137,37 @@ Ultra1_ECHO
 Text HLabel 1400 3750 0    50   Output ~ 0
 Ultra_EN
 Entry Wire Line
-	3550 2850 3650 2750
-Entry Wire Line
 	3550 2750 3650 2650
-Text Label 3200 2750 0    50   ~ 0
+Entry Wire Line
+	3550 2650 3650 2550
+Text Label 3200 2650 0    50   ~ 0
 G
-Text Label 3200 2850 0    50   ~ 0
+Text Label 3200 2750 0    50   ~ 0
 B
 Wire Wire Line
-	3200 2750 3550 2750
+	3200 2650 3550 2650
 Wire Wire Line
-	3200 2850 3550 2850
-Text HLabel 3650 2700 2    50   Output ~ 0
+	3200 2750 3550 2750
+Text HLabel 3650 2600 2    50   Output ~ 0
 LED_RGB1
 Wire Bus Line
 	950  6500 950  6450
-Wire Bus Line
-	950  6150 950  6350
-Wire Bus Line
-	3650 1550 3650 1750
-Wire Bus Line
-	3650 2600 3650 2750
-Wire Bus Line
-	3600 4950 3600 5250
-Wire Bus Line
-	1000 3200 1000 3500
-Wire Bus Line
-	800  4900 800  5650
 Text HLabel 1400 3850 0    50   Input ~ 0
 Rotary_DT
 Text HLabel 1400 3950 0    50   Input ~ 0
 Rotary_CLK
 Text HLabel 3200 6350 2    50   Input ~ 0
 Rotary_SW
+Wire Bus Line
+	950  6150 950  6350
+Wire Bus Line
+	3650 1550 3650 1750
+Wire Bus Line
+	3650 2500 3650 2650
+Wire Bus Line
+	3600 4950 3600 5250
+Wire Bus Line
+	1000 3200 1000 3500
+Wire Bus Line
+	800  4900 800  5650
 $EndSCHEMATC
