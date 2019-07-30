@@ -6,16 +6,16 @@ K MOSFET NMOS
 F http://www.aosmd.com/pdfs/datasheet/ao3400.pdf
 $ENDCMP
 #
-$CMP DRV8873SPWPRQ1
-D H-Bridge Motor Driver
-K Motor Driver
-F http://www.ti.com/lit/ds/symlink/drv8873.pdf
-$ENDCMP
-#
 $CMP BQ76925
 D Lithium battery monitor, 3-6 cells, integrated balancing and protection, I2C interface
 K lithium battery balance monitor protection
 F http://www.ti.com/lit/ds/symlink/bq76925.pdf
+$ENDCMP
+#
+$CMP DRV8873SPWPRQ1
+D H-Bridge Motor Driver
+K Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8873.pdf
 $ENDCMP
 #
 #End Doc Library
