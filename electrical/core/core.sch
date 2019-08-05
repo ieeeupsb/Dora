@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -171,4 +171,11 @@ Text Label 4950 4050 2    50   ~ 0
 Rotary_DT
 Text Label 4950 4150 2    50   ~ 0
 Rotary_CLK
+$Sheet
+S 2000 4650 1250 1350
+U 5D48851F
+F0 "Power" 50
+F1 "power.sch" 50
+F2 "Battery_VREF" O R 3250 4900 50 
+$EndSheet
 $EndSCHEMATC
