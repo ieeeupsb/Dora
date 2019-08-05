@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name rasbot)(type Legacy)(uri ${KIPRJMOD}/rasbot.lib)(options "")(descr ""))
-)
