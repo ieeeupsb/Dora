@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:rasbot-cache
+LIBS:core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -499,57 +499,17 @@ F 3 "" H 7800 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 5450 9100 5500
-Wire Wire Line
-	8700 5500 9100 5500
 Connection ~ 9100 5500
 Wire Wire Line
 	9100 5500 9100 5850
-Wire Wire Line
-	8700 5850 9100 5850
 Connection ~ 9100 5850
 Wire Wire Line
 	9100 5850 9100 6000
 Wire Wire Line
 	7800 5450 7800 5500
-$Comp
-L rasbot:WSL-2512_.002_1% RSENSE1
-U 1 1 5D3FE69C
-P 8400 5500
-F 0 "RSENSE1" H 8400 5706 50  0000 C CNN
-F 1 "WSL-2512_.002_1%" H 8400 5615 50  0000 C CNN
-F 2 "RESC1005X40" H 8400 5500 50  0001 L BNN
-F 3 "" H 8400 5500 50  0001 L BNN
-F 4 "WSL-2512 .002 1%" H 8400 5500 50  0001 L BNN "Field4"
-F 5 "0402 Vishay Dale" H 8400 5500 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 8400 5500 50  0001 L BNN "Field6"
-F 7 "None" H 8400 5500 50  0001 L BNN "Field7"
-F 8 "Vishay Dale" H 8400 5500 50  0001 L BNN "Field8"
-	1    8400 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L rasbot:WSL-2512_.002_1% RESENSE2
-U 1 1 5D3FFD93
-P 8400 5850
-F 0 "RESENSE2" H 8400 6056 50  0000 C CNN
-F 1 "WSL-2512_.002_1%" H 8400 5965 50  0000 C CNN
-F 2 "RESC1005X40" H 8400 5850 50  0001 L BNN
-F 3 "" H 8400 5850 50  0001 L BNN
-F 4 "WSL-2512 .002 1%" H 8400 5850 50  0001 L BNN "Field4"
-F 5 "0402 Vishay Dale" H 8400 5850 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 8400 5850 50  0001 L BNN "Field6"
-F 7 "None" H 8400 5850 50  0001 L BNN "Field7"
-F 8 "Vishay Dale" H 8400 5850 50  0001 L BNN "Field8"
-	1    8400 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 5500 7800 5500
 Connection ~ 7800 5500
 Wire Wire Line
 	7800 5500 7800 5850
-Wire Wire Line
-	8100 5850 7800 5850
 Connection ~ 7800 5850
 Wire Wire Line
 	7800 5850 7800 6000
@@ -620,4 +580,36 @@ Battery_Temp
 Wire Wire Line
 	8650 3200 8550 3200
 Connection ~ 8550 3200
+$Comp
+L Device:R R?
+U 1 1 5D48CBC4
+P 8400 5500
+F 0 "R?" V 8193 5500 50  0000 C CNN
+F 1 "R" V 8284 5500 50  0000 C CNN
+F 2 "" V 8330 5500 50  0001 C CNN
+F 3 "~" H 8400 5500 50  0001 C CNN
+F 4 "WSL-2512 .002 1%" V 8400 5500 50  0001 C CNN "Notes"
+	1    8400 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 5500 9100 5500
+Wire Wire Line
+	7800 5500 8250 5500
+$Comp
+L Device:R R?
+U 1 1 5D4A9804
+P 8400 5850
+F 0 "R?" V 8193 5850 50  0000 C CNN
+F 1 "R" V 8284 5850 50  0000 C CNN
+F 2 "" V 8330 5850 50  0001 C CNN
+F 3 "~" H 8400 5850 50  0001 C CNN
+F 4 "WSL-2512 .002 1%" V 8400 5850 50  0001 C CNN "Notes"
+	1    8400 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 5850 9100 5850
+Wire Wire Line
+	7800 5850 8250 5850
 $EndSCHEMATC
