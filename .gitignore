@@ -3,12 +3,14 @@ bin/
 tmp/
 *.tmp
 *.bak
+*-bak
 *.swp
 *~.nib
 local.properties
 .settings/
 .loadpath
 .recommenders
+*-rescue*
 
 # External tool builders
 .externalToolBuilders/
