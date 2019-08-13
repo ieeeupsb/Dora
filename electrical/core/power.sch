@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:core-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -401,15 +400,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 2800 4350 2800
 Connection ~ 4350 2800
-Wire Wire Line
-	5900 3650 5900 3750
-Connection ~ 5900 3950
-Connection ~ 5900 3750
-Wire Wire Line
-	5900 3750 5900 3850
-Connection ~ 5900 3850
-Wire Wire Line
-	5900 3850 5900 3950
 Text HLabel 4800 5000 0    50   Output ~ 0
 Battery_PackCurrent
 $Comp
@@ -445,7 +435,6 @@ Wire Wire Line
 	4800 2100 4900 2100
 Wire Wire Line
 	6300 2100 6300 3050
-Connection ~ 6300 3050
 $Comp
 L Diode:BZT52Bxx D5
 U 1 1 5D4436A6
@@ -612,4 +601,19 @@ Wire Wire Line
 	8550 5850 9100 5850
 Wire Wire Line
 	7800 5850 8250 5850
+$Comp
+L rasbot:BQ76925 U4
+U 1 1 5D5320D1
+P 6300 3750
+F 0 "U4" H 6300 4631 50  0000 C CNN
+F 1 "BQ76925" H 6300 4540 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6200 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/bq76925.pdf" H 6200 4050 50  0001 C CNN
+	1    6300 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 3050
+Wire Wire Line
+	5900 3850 5900 3950
+Connection ~ 5900 3950
 $EndSCHEMATC

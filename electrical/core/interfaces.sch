@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:core-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -361,4 +360,16 @@ Wire Bus Line
 	4400 4050 4400 4800
 Wire Bus Line
 	4400 2950 4400 3850
+$Comp
+L rasbot:AO3400 Q2
+U 1 1 5D53F350
+P 5750 4900
+F 0 "Q2" H 6006 4946 50  0000 L CNN
+F 1 "AO3400" H 6006 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6575 4825 50  0001 C CNN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 5850 4900 50  0001 C CNN
+	1    5750 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 5100
 $EndSCHEMATC

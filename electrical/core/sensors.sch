@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:core-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -33,17 +32,6 @@ Wire Wire Line
 	4000 3000 4000 3100
 Wire Wire Line
 	4000 3100 3650 3100
-$Comp
-L rasbot:AO3400 Q1
-U 1 1 5D585660
-P 3100 3650
-F 0 "Q1" H 3356 3696 50  0000 L CNN
-F 1 "AO3400" H 3356 3605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3925 3575 50  0001 C CNN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 3200 3650 50  0001 C CNN
-	1    3100 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3450 3700 3400
 Wire Wire Line
