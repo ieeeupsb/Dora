@@ -1,0 +1,178 @@
+EESchema Schematic File Version 4
+LIBS:core-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3350 3850 0    50   Output ~ 0
+nFAULT
+$Comp
+L Driver_Motor:DRV8872DDA U?
+U 1 1 5D544B77
+P 3750 3650
+AR Path="/5D25A1F3/5D544B77" Ref="U?"  Part="1" 
+AR Path="/5D25A1F3/5D541DD1/5D544B77" Ref="U?"  Part="1" 
+AR Path="/5D25A1F3/5D545404/5D544B77" Ref="U?"  Part="1" 
+F 0 "U?" H 3750 4131 50  0000 C CNN
+F 1 "DRV8872DDA" H 3750 4040 50  0000 C CNN
+F 2 "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias" H 3950 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8872.pdf" H 3500 4000 50  0001 C CNN
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D544B7F
+P 3750 4050
+AR Path="/5D25A1F3/5D544B7F" Ref="#PWR?"  Part="1" 
+AR Path="/5D25A1F3/5D541DD1/5D544B7F" Ref="#PWR?"  Part="1" 
+AR Path="/5D25A1F3/5D545404/5D544B7F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3750 3800 50  0001 C CNN
+F 1 "GND" H 3755 3877 50  0000 C CNN
+F 2 "" H 3750 4050 50  0001 C CNN
+F 3 "" H 3750 4050 50  0001 C CNN
+	1    3750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D544B85
+P 4500 3250
+AR Path="/5D25A1F3/5D544B85" Ref="#PWR?"  Part="1" 
+AR Path="/5D25A1F3/5D541DD1/5D544B85" Ref="#PWR?"  Part="1" 
+AR Path="/5D25A1F3/5D545404/5D544B85" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4500 3000 50  0001 C CNN
+F 1 "GND" H 4505 3077 50  0000 C CNN
+F 2 "" H 4500 3250 50  0001 C CNN
+F 3 "" H 4500 3250 50  0001 C CNN
+	1    4500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D544B8B
+P 4250 3100
+AR Path="/5D25A1F3/5D544B8B" Ref="C?"  Part="1" 
+AR Path="/5D25A1F3/5D541DD1/5D544B8B" Ref="C?"  Part="1" 
+AR Path="/5D25A1F3/5D545404/5D544B8B" Ref="C?"  Part="1" 
+F 0 "C?" H 4365 3146 50  0000 L CNN
+F 1 "0.1uF" H 4365 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4288 2950 50  0001 C CNN
+F 3 "~" H 4250 3100 50  0001 C CNN
+	1    4250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D544B91
+P 4750 3100
+AR Path="/5D25A1F3/5D544B91" Ref="C?"  Part="1" 
+AR Path="/5D25A1F3/5D541DD1/5D544B91" Ref="C?"  Part="1" 
+AR Path="/5D25A1F3/5D545404/5D544B91" Ref="C?"  Part="1" 
+F 0 "C?" H 4865 3146 50  0000 L CNN
+F 1 "47uF" H 4865 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4788 2950 50  0001 C CNN
+F 3 "~" H 4750 3100 50  0001 C CNN
+	1    4750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5D544B97
+P 4250 2950
+AR Path="/5D25A1F3/5D544B97" Ref="#PWR?"  Part="1" 
+AR Path="/5D25A1F3/5D541DD1/5D544B97" Ref="#PWR?"  Part="1" 
+AR Path="/5D25A1F3/5D545404/5D544B97" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4250 2800 50  0001 C CNN
+F 1 "+12V" H 4265 3123 50  0000 C CNN
+F 2 "" H 4250 2950 50  0001 C CNN
+F 3 "" H 4250 2950 50  0001 C CNN
+	1    4250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3250 4500 3250
+Wire Wire Line
+	4250 3250 4500 3250
+Connection ~ 4500 3250
+Wire Wire Line
+	3750 3350 4100 3350
+Wire Wire Line
+	4100 3350 4100 2950
+Wire Wire Line
+	4100 2950 4250 2950
+Connection ~ 4250 2950
+Wire Wire Line
+	4250 2950 4750 2950
+Text HLabel 3350 3550 0    50   Input ~ 0
+IN1
+Text HLabel 3350 3650 0    50   Input ~ 0
+IN2
+$Comp
+L Motor:Motor_DC M?
+U 1 1 5D546FBD
+P 5350 3550
+F 0 "M?" H 5508 3546 50  0000 L CNN
+F 1 "Motor_DC" H 5508 3455 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5350 3460 50  0001 C CNN
+F 3 "~" H 5350 3460 50  0001 C CNN
+	1    5350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3550 4950 3550
+Wire Wire Line
+	4150 3650 4950 3650
+Wire Wire Line
+	4950 3550 4950 3350
+Wire Wire Line
+	4950 3350 5350 3350
+Wire Wire Line
+	4950 3850 5350 3850
+Wire Wire Line
+	4950 3650 4950 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5D54A668
+P 4200 4200
+AR Path="/5D25A1F3/5D54A668" Ref="#PWR?"  Part="1" 
+AR Path="/5D25A1F3/5D541DD1/5D54A668" Ref="#PWR?"  Part="1" 
+AR Path="/5D25A1F3/5D545404/5D54A668" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4200 3950 50  0001 C CNN
+F 1 "GND" H 4205 4027 50  0000 C CNN
+F 2 "" H 4200 4200 50  0001 C CNN
+F 3 "" H 4200 4200 50  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D54AAA2
+P 4200 4050
+F 0 "R?" H 4270 4096 50  0000 L CNN
+F 1 "180m" H 4270 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 4050 50  0001 C CNN
+F 3 "~" H 4200 4050 50  0001 C CNN
+	1    4200 4050
+	1    0    0    -1  
+$EndComp
+Text HLabel 4250 3850 2    50   Output ~ 0
+SENSE
+Wire Wire Line
+	4150 3850 4200 3850
+Wire Wire Line
+	4200 3850 4200 3900
+Wire Wire Line
+	4250 3850 4200 3850
+Connection ~ 4200 3850
+$EndSCHEMATC
