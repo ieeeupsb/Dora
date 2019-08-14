@@ -1169,72 +1169,6 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf" H 7450 4350 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
-U 1 1 5D55C2BD
-P 6850 4050
-F 0 "#PWR011" H 6850 3800 50  0001 C CNN
-F 1 "GND" H 6855 3877 50  0000 C CNN
-F 2 "" H 6850 4050 50  0001 C CNN
-F 3 "" H 6850 4050 50  0001 C CNN
-	1    6850 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5D55C6F6
-P 6550 4550
-F 0 "#PWR06" H 6550 4300 50  0001 C CNN
-F 1 "GND" H 6555 4377 50  0000 C CNN
-F 2 "" H 6550 4550 50  0001 C CNN
-F 3 "" H 6550 4550 50  0001 C CNN
-	1    6550 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR010
-U 1 1 5D5663DA
-P 6850 3650
-F 0 "#PWR010" H 6850 3500 50  0001 C CNN
-F 1 "+3.3V" H 6865 3823 50  0000 C CNN
-F 2 "" H 6850 3650 50  0001 C CNN
-F 3 "" H 6850 3650 50  0001 C CNN
-	1    6850 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR05
-U 1 1 5D567349
-P 6550 4150
-F 0 "#PWR05" H 6550 4000 50  0001 C CNN
-F 1 "+3.3V" H 6565 4323 50  0000 C CNN
-F 2 "" H 6550 4150 50  0001 C CNN
-F 3 "" H 6550 4150 50  0001 C CNN
-	1    6550 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR012
-U 1 1 5D568A18
-P 6850 4600
-F 0 "#PWR012" H 6850 4450 50  0001 C CNN
-F 1 "+3.3V" H 6865 4773 50  0000 C CNN
-F 2 "" H 6850 4600 50  0001 C CNN
-F 3 "" H 6850 4600 50  0001 C CNN
-	1    6850 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 5D570291
-P 6850 5000
-F 0 "#PWR013" H 6850 4750 50  0001 C CNN
-F 1 "GND" H 6855 4827 50  0000 C CNN
-F 2 "" H 6850 5000 50  0001 C CNN
-F 3 "" H 6850 5000 50  0001 C CNN
-	1    6850 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR014
 U 1 1 5D58762D
 P 7450 4650
@@ -1258,49 +1192,6 @@ F 3 "" H 7450 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 4050 7450 3850
-$Comp
-L Jumper:SolderJumper_3_Open JP3
-U 1 1 5D5C5583
-P 6850 4800
-F 0 "JP3" V 6896 4867 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 6805 4867 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 6850 4800 50  0001 C CNN
-F 3 "~" H 6850 4800 50  0001 C CNN
-	1    6850 4800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP2
-U 1 1 5D5D90B6
-P 6850 3850
-F 0 "JP2" V 6896 3917 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 6805 3917 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 6850 3850 50  0001 C CNN
-F 3 "~" H 6850 3850 50  0001 C CNN
-	1    6850 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP1
-U 1 1 5D5D963D
-P 6550 4350
-F 0 "JP1" V 6596 4417 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 6505 4417 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 6550 4350 50  0001 C CNN
-F 3 "~" H 6550 4350 50  0001 C CNN
-	1    6550 4350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7050 4350 6700 4350
-Wire Wire Line
-	7050 4450 7050 4800
-Wire Wire Line
-	7050 4800 7000 4800
-Wire Wire Line
-	7050 4250 7050 3850
-Wire Wire Line
-	7050 3850 7000 3850
 $Comp
 L Device:R R14
 U 1 1 5D5948E6
@@ -1420,6 +1311,23 @@ Text Notes 10250 5150 0    50   ~ 0
 J-Link
 Text Notes 8700 5300 0    50   ~ 0
 ST-LINK
+$Comp
+L Device:R R17
+U 1 1 5D7C934D
+P 6800 4200
+F 0 "R17" H 6870 4246 50  0000 L CNN
+F 1 "0" H 6870 4155 50  0000 L CNN
+F 2 "" V 6730 4200 50  0001 C CNN
+F 3 "~" H 6800 4200 50  0001 C CNN
+	1    6800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4350 6800 4450
+Wire Wire Line
+	6800 4450 7050 4450
+NoConn ~ 7050 4250
+NoConn ~ 7050 4350
 Wire Bus Line
 	3650 2500 3650 2650
 Wire Bus Line
@@ -1432,4 +1340,15 @@ Wire Bus Line
 	1000 3200 1000 3500
 Wire Bus Line
 	800  4900 800  5650
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5D7DF46B
+P 6800 4050
+F 0 "#PWR05" H 6800 3900 50  0001 C CNN
+F 1 "+3.3V" H 6815 4223 50  0000 C CNN
+F 2 "" H 6800 4050 50  0001 C CNN
+F 3 "" H 6800 4050 50  0001 C CNN
+	1    6800 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
