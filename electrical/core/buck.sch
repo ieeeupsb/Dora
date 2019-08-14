@@ -33,7 +33,7 @@ U 1 1 5D541C10
 P 4750 4400
 F 0 "Q4" H 4956 4446 50  0000 L CNN
 F 1 "IRF540N" H 4956 4355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5000 4325 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 5000 4325 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 4750 4400 50  0001 L CNN
 	1    4750 4400
 	1    0    0    -1  
@@ -72,7 +72,7 @@ U 1 1 5D54261D
 P 3900 3900
 F 0 "Q3" H 4106 3946 50  0000 L CNN
 F 1 "IRF540N" H 4106 3855 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4150 3825 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 4150 3825 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 3900 3900 50  0001 L CNN
 	1    3900 3900
 	1    0    0    -1  
