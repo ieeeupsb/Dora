@@ -19,7 +19,7 @@ F http://www.ti.com/lit/ds/symlink/drv8873.pdf
 $ENDCMP
 #
 $CMP DRV8876
-D H-Bridge Motor Driver
+D H-Bridge Motor Driver With Integrated Current Sense and Regulation
 K Motor Driver
 F http://www.ti.com/lit/ds/symlink/drv8876.pdf
 $ENDCMP
