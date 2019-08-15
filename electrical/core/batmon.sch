@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:core-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -277,28 +277,6 @@ Wire Wire Line
 	4250 4900 4550 4900
 Connection ~ 4550 4900
 $Comp
-L Device:C CREF1
-U 1 1 5D9FCDA7
-P 8750 2850
-F 0 "CREF1" H 8865 2896 50  0000 L CNN
-F 1 "10u" H 8865 2805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8788 2700 50  0001 C CNN
-F 3 "~" H 8750 2850 50  0001 C CNN
-	1    8750 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR048
-U 1 1 5D9FCDAD
-P 8000 3500
-F 0 "#PWR048" H 8000 3250 50  0001 C CNN
-F 1 "GND" H 8005 3327 50  0000 C CNN
-F 2 "" H 8000 3500 50  0001 C CNN
-F 3 "" H 8000 3500 50  0001 C CNN
-	1    8000 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR046
 U 1 1 5D9FCDB3
 P 5000 5350
@@ -316,8 +294,6 @@ Wire Wire Line
 Wire Wire Line
 	5450 5200 5000 5200
 Connection ~ 5000 5200
-Text HLabel 9050 2700 2    50   Output ~ 0
-Battery_VREF
 Text HLabel 5700 4900 2    50   Output ~ 0
 Battery_CellVoltage
 Text HLabel 6150 3950 2    50   Input ~ 0
@@ -484,8 +460,6 @@ F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 4100 2000 50  
 $EndComp
 Wire Wire Line
 	3950 2000 3800 2000
-Text Label 6150 3550 0    50   ~ 0
-LDO_3.3V
 $Comp
 L power:GND #PWR047
 U 1 1 5D9FCE1B
@@ -514,81 +488,14 @@ Connection ~ 7250 5750
 Wire Wire Line
 	7250 5750 7250 5900
 $Comp
-L Device:R RTH1
-U 1 1 5D9FCE2B
-P 6900 3100
-F 0 "RTH1" V 6693 3100 50  0000 C CNN
-F 1 "10k" V 6784 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6830 3100 50  0001 C CNN
-F 3 "~" H 6900 3100 50  0001 C CNN
-	1    6900 3100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7050 3100 7300 3100
-Wire Wire Line
-	6500 3100 6750 3100
-$Comp
-L Device:C CTH1
-U 1 1 5D9FCE33
-P 7300 3350
-F 0 "CTH1" H 7415 3396 50  0000 L CNN
-F 1 "1u" H 7415 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 3200 50  0001 C CNN
-F 3 "~" H 7300 3350 50  0001 C CNN
-	1    7300 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 3100 7300 3200
-$Comp
-L Device:Thermistor_NTC TH1
-U 1 1 5D9FCE3A
-P 8000 3350
-F 0 "TH1" H 8098 3396 50  0000 L CNN
-F 1 "NCP21XV103J03RA" H 8098 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8000 3400 50  0001 C CNN
-F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/thermistor/ntc/r44e.ashx?la=en-us" H 8000 3400 50  0001 C CNN
-	1    8000 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 3200 8000 3100
-Wire Wire Line
-	8000 3100 7300 3100
-Connection ~ 7300 3100
-Wire Wire Line
-	8750 3000 8750 3500
-Wire Wire Line
-	8750 3500 8000 3500
-Connection ~ 8000 3500
-Wire Wire Line
-	7300 3500 8000 3500
-Wire Wire Line
-	6150 3250 6150 2700
-Wire Wire Line
-	9050 2700 8750 2700
-Connection ~ 8750 2700
-Wire Wire Line
-	8750 2700 6150 2700
-Wire Wire Line
-	6150 3350 6500 3350
-Wire Wire Line
-	6500 3350 6500 3100
-Text HLabel 8100 3100 2    50   Output ~ 0
-Battery_Temp
-Wire Wire Line
-	8100 3100 8000 3100
-Connection ~ 8000 3100
-$Comp
 L Device:R R19
 U 1 1 5D9FCE51
 P 7850 5400
 F 0 "R19" V 7643 5400 50  0000 C CNN
-F 1 "R" V 7734 5400 50  0000 C CNN
-F 2 "" V 7780 5400 50  0001 C CNN
-F 3 "~" H 7850 5400 50  0001 C CNN
-F 4 "WSL-2512 .002 1%" V 7850 5400 50  0001 C CNN "Notes"
+F 1 "2m" V 7734 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 7780 5400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C90.pdf" H 7850 5400 50  0001 C CNN
+F 4 "Current Sense resistor 2m 1% 1W(min)" V 7850 5400 50  0001 C CNN "Notes"
 	1    7850 5400
 	0    1    1    0   
 $EndComp
@@ -601,10 +508,10 @@ L Device:R R20
 U 1 1 5D9FCE5A
 P 7850 5750
 F 0 "R20" V 7643 5750 50  0000 C CNN
-F 1 "R" V 7734 5750 50  0000 C CNN
-F 2 "" V 7780 5750 50  0001 C CNN
-F 3 "~" H 7850 5750 50  0001 C CNN
-F 4 "WSL-2512 .002 1%" V 7850 5750 50  0001 C CNN "Notes"
+F 1 "2m" V 7734 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 7780 5750 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C90.pdf" H 7850 5750 50  0001 C CNN
+F 4 "Current Sense resistor 2m 1% 1W(min)" V 7850 5750 50  0001 C CNN "Notes"
 	1    7850 5750
 	0    1    1    0   
 $EndComp
@@ -612,4 +519,78 @@ Wire Wire Line
 	8000 5750 8550 5750
 Wire Wire Line
 	7250 5750 7700 5750
+Wire Wire Line
+	6500 3350 6500 3100
+Wire Wire Line
+	6150 3350 6500 3350
+Wire Wire Line
+	7300 3100 7300 3200
+$Comp
+L Device:C CTH1
+U 1 1 5D9FCE33
+P 7300 3350
+F 0 "CTH1" H 7415 3396 50  0000 L CNN
+F 1 "1u" H 7415 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 3200 50  0001 C CNN
+F 3 "~" H 7300 3350 50  0001 C CNN
+	1    7300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3100 6750 3100
+Wire Wire Line
+	7050 3100 7300 3100
+$Comp
+L Device:R RTH1
+U 1 1 5D9FCE2B
+P 6900 3100
+F 0 "RTH1" V 6693 3100 50  0000 C CNN
+F 1 "10k" V 6784 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6830 3100 50  0001 C CNN
+F 3 "~" H 6900 3100 50  0001 C CNN
+	1    6900 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 3500 8000 3500
+$Comp
+L power:GND #PWR048
+U 1 1 5D9FCDAD
+P 8000 3500
+F 0 "#PWR048" H 8000 3250 50  0001 C CNN
+F 1 "GND" H 8005 3327 50  0000 C CNN
+F 2 "" H 8000 3500 50  0001 C CNN
+F 3 "" H 8000 3500 50  0001 C CNN
+	1    8000 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6150 3250
+NoConn ~ 6150 3550
+$Comp
+L Connector:Conn_01x02_Male J14
+U 1 1 5D5860BC
+P 8950 3100
+F 0 "J14" H 8923 3073 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 8923 2982 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8950 3100 50  0001 C CNN
+F 3 "~" H 8950 3100 50  0001 C CNN
+	1    8950 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3200 8200 3500
+Wire Wire Line
+	8750 3200 8200 3200
+Wire Wire Line
+	7300 3100 8750 3100
+Connection ~ 7300 3100
+Wire Wire Line
+	8000 3500 8200 3500
+Connection ~ 8000 3500
+Text Notes 9000 3350 0    50   ~ 0
+NTC Header
+Text Notes 6150 3550 0    50   ~ 0
+LDO 3.3V\n
+Text Notes 6300 2700 0    50   ~ 0
+ADC Note: Vref is not connected to the MCU, minor errors may occur\n
 $EndSCHEMATC
