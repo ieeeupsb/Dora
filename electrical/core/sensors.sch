@@ -361,7 +361,21 @@ F 3 "" H 4850 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3450 3700 3450
+	2850 3450 3250 3450
 Wire Bus Line
 	5200 2150 5200 2550
+$Comp
+L rasbot:AO3400 Q5
+U 1 1 5D704B29
+P 3100 3650
+F 0 "Q5" H 3356 3696 50  0000 L CNN
+F 1 "AO3400" H 3356 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3925 3575 50  0001 C CNN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 3200 3650 50  0001 C CNN
+	1    3100 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 3450
+Wire Wire Line
+	3250 3450 3700 3450
 $EndSCHEMATC
