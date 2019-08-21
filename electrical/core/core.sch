@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -62,15 +62,24 @@ F9 "Ultra_EN" I R 9750 2000 50
 F10 "Ultra" O R 9750 2100 50 
 $EndSheet
 $Sheet
-S 1850 2650 900  1000
+S 1800 2700 1050 750 
 U 5D25A1F3
 F0 "Motors" 50
 F1 "motors.sch" 50
-F2 "SCLK" I R 2750 2750 50 
-F3 "SDI" I R 2750 2850 50 
-F4 "SDO" I R 2750 2950 50 
-F5 "nSCS_LEFT" I R 2750 3050 50 
-F6 "nSCS_RIGHT" I R 2750 3150 50 
+F2 "D1_IN1" I L 1800 2750 50 
+F3 "D1_IN2" I L 1800 2850 50 
+F4 "D1_nFAULT" O L 1800 3350 50 
+F5 "D2_IN1" I R 2850 2750 50 
+F6 "D2_IN2" I R 2850 2850 50 
+F7 "D2_nFAULT" O R 2850 3350 50 
+F8 "D1_SENSE" O L 1800 3250 50 
+F9 "D2_SENSE" O R 2850 3250 50 
+F10 "D1_nSLEEP" I L 1800 2950 50 
+F11 "D1_IMODE" I L 1800 3050 50 
+F12 "D1_PMODE" I L 1800 3150 50 
+F13 "D2_nSLEEP" I R 2850 2950 50 
+F14 "D2_IMODE" I R 2850 3050 50 
+F15 "D2_PMODE" I R 2850 3150 50 
 $EndSheet
 Text Label 6350 2750 0    50   ~ 0
 IR_SEL
@@ -135,10 +144,6 @@ Text Label 8700 4500 2    50   ~ 0
 LED_RGB2
 Text Label 8700 4650 2    50   ~ 0
 buzzer
-Text Label 4950 3500 2    50   ~ 0
-SPI2_SCLK
-Text Label 2750 2750 0    50   ~ 0
-SPI2_SCLK
 Text Label 8700 4800 2    50   ~ 0
 SCL
 Text Label 8700 4900 2    50   ~ 0
@@ -178,4 +183,32 @@ F0 "Power" 50
 F1 "power.sch" 50
 F2 "Battery_VREF" O R 3250 4900 50 
 $EndSheet
+Text Label 1800 2750 2    50   ~ 0
+D1_IN1
+Text Label 1800 2850 2    50   ~ 0
+D1_IN2
+Text Label 1800 3250 2    50   ~ 0
+D1_SENSE
+Text Label 1800 3350 2    50   ~ 0
+D1_nFAULT
+Text Label 2850 2850 0    50   ~ 0
+D2_IN2
+Text Label 2850 2750 0    50   ~ 0
+D2_IN1
+Text Label 2850 3250 0    50   ~ 0
+D2_SENSE
+Text Label 2850 3350 0    50   ~ 0
+D2_nFAULT
+Text Label 1800 2950 2    50   ~ 0
+D1_nSLEEP
+Text Label 1800 3050 2    50   ~ 0
+D1_IMODE
+Text Label 1800 3150 2    50   ~ 0
+D1_PMODE
+Text Label 2850 2950 0    50   ~ 0
+D2_nSLEEP
+Text Label 2850 3050 0    50   ~ 0
+D2_IMODE
+Text Label 2850 3150 0    50   ~ 0
+D2_PMODE
 $EndSCHEMATC
