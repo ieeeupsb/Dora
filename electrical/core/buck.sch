@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:core-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -16,7 +17,7 @@ $EndDescr
 Text Notes 2500 2800 0    100  ~ 20
 SEPIC
 $Comp
-L rasbot:LM5118 U6
+L core-rescue:LM5118-rasbot-core-rescue-core-rescue U6
 U 1 1 5D54082F
 P 2700 4100
 F 0 "U6" H 2700 4993 100 0000 C CNN

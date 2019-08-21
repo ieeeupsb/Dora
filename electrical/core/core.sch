@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:core-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -175,13 +176,6 @@ Text Label 4950 4050 2    50   ~ 0
 Rotary_DT
 Text Label 4950 4150 2    50   ~ 0
 Rotary_CLK
-$Sheet
-S 2000 4650 1250 1350
-U 5D48851F
-F0 "Power" 50
-F1 "power.sch" 50
-F2 "Battery_VREF" O R 3250 4900 50 
-$EndSheet
 Text Label 1800 2750 2    50   ~ 0
 D1_IN1
 Text Label 1800 2850 2    50   ~ 0
@@ -210,4 +204,11 @@ Text Label 2850 3050 0    50   ~ 0
 D2_IMODE
 Text Label 2850 3150 0    50   ~ 0
 D2_PMODE
+$Sheet
+S 2000 4650 1250 1350
+U 5D48851F
+F0 "Power" 50
+F1 "power.sch" 50
+F2 "Battery_VREF" O R 3250 4900 50 
+$EndSheet
 $EndSCHEMATC
