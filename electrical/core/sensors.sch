@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -14,9 +14,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 8350 2250 0    98   ~ 20
+Text Notes 5000 4550 0    98   ~ 20
 IR Matrix 7x7
-Text Notes 3600 1900 0    98   ~ 20
+Text Notes 3500 1400 0    98   ~ 20
 Ultrasonic
 $Comp
 L Connector:Conn_01x04_Male J7
@@ -152,15 +152,15 @@ Wire Wire Line
 Wire Wire Line
 	3650 3200 4200 3200
 Wire Wire Line
-	4200 2300 5100 2300
+	4200 2300 4300 2300
 Wire Wire Line
 	4200 2300 4200 3200
 Wire Wire Line
-	4250 2350 5100 2350
+	4250 2350 4750 2350
 Wire Wire Line
 	4250 2350 4250 3300
 Wire Wire Line
-	5100 2250 3400 2250
+	5100 2250 3850 2250
 Wire Wire Line
 	3400 2250 3400 3300
 Wire Wire Line
@@ -170,19 +170,17 @@ Wire Wire Line
 Wire Wire Line
 	3350 3200 3350 2200
 Wire Wire Line
-	3350 2200 5100 2200
+	3350 2200 3400 2200
 Wire Wire Line
 	1950 3200 2500 3200
 Wire Wire Line
 	2500 3200 2500 2100
 Wire Wire Line
-	2500 2100 5100 2100
-Wire Wire Line
 	1950 3300 2550 3300
 Wire Wire Line
 	2550 3300 2550 2150
 Wire Wire Line
-	2550 2150 5100 2150
+	2550 2150 2950 2150
 Text Label 3750 3200 0    50   ~ 0
 Ultra3_TRIG
 Text Label 3750 3300 0    50   ~ 0
@@ -200,98 +198,57 @@ Ultra1_ECHO
 Text HLabel 5200 2350 2    50   Output ~ 0
 Ultra
 Wire Wire Line
-	7300 3000 7200 3000
+	8200 3050 8100 3050
 Wire Wire Line
-	7300 3050 7300 3000
+	8200 3100 8200 3050
 $Comp
 L power:GND #PWR036
 U 1 1 5D3EA3C8
-P 7300 3050
-F 0 "#PWR036" H 7300 2800 50  0001 C CNN
-F 1 "GND" H 7305 2877 50  0000 C CNN
-F 2 "" H 7300 3050 50  0001 C CNN
-F 3 "" H 7300 3050 50  0001 C CNN
-	1    7300 3050
+P 8200 3100
+F 0 "#PWR036" H 8200 2850 50  0001 C CNN
+F 1 "GND" H 8205 2927 50  0000 C CNN
+F 2 "" H 8200 3100 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
 	1    0    0    -1  
 $EndComp
-Text HLabel 7200 2900 2    50   Output ~ 0
+Text HLabel 9150 2950 2    50   Output ~ 0
 RIGHT_ENC2
-Text HLabel 7200 2800 2    50   Output ~ 0
+Text HLabel 9150 2850 2    50   Output ~ 0
 RIGHT_ENC1
 Wire Wire Line
-	7500 2700 7200 2700
+	8400 2750 8100 2750
 Wire Wire Line
-	7500 2550 7500 2700
+	8400 2600 8400 2750
 $Comp
 L power:+3.3V #PWR037
 U 1 1 5D3EA3BE
-P 7500 2550
-F 0 "#PWR037" H 7500 2400 50  0001 C CNN
-F 1 "+3.3V" H 7515 2723 50  0000 C CNN
-F 2 "" H 7500 2550 50  0001 C CNN
-F 3 "" H 7500 2550 50  0001 C CNN
-	1    7500 2550
+P 8400 2600
+F 0 "#PWR037" H 8400 2450 50  0001 C CNN
+F 1 "+3.3V" H 8415 2773 50  0000 C CNN
+F 2 "" H 8400 2600 50  0001 C CNN
+F 3 "" H 8400 2600 50  0001 C CNN
+	1    8400 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 3000 6350 3000
-Wire Wire Line
-	6450 3050 6450 3000
-$Comp
-L power:GND #PWR034
-U 1 1 5D3E8D67
-P 6450 3050
-F 0 "#PWR034" H 6450 2800 50  0001 C CNN
-F 1 "GND" H 6455 2877 50  0000 C CNN
-F 2 "" H 6450 3050 50  0001 C CNN
-F 3 "" H 6450 3050 50  0001 C CNN
-	1    6450 3050
-	1    0    0    -1  
-$EndComp
-Text HLabel 6350 2900 2    50   Output ~ 0
+Text HLabel 7150 2950 2    50   Output ~ 0
 LEFT_ENC2
-Text HLabel 6350 2800 2    50   Output ~ 0
+Text HLabel 7150 2850 2    50   Output ~ 0
 LEFT_ENC1
-Wire Wire Line
-	6650 2700 6350 2700
-Wire Wire Line
-	6650 2550 6650 2700
-$Comp
-L power:+3.3V #PWR035
-U 1 1 5D3E88C2
-P 6650 2550
-F 0 "#PWR035" H 6650 2400 50  0001 C CNN
-F 1 "+3.3V" H 6665 2723 50  0000 C CNN
-F 2 "" H 6650 2550 50  0001 C CNN
-F 3 "" H 6650 2550 50  0001 C CNN
-	1    6650 2550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x04_Male J10
 U 1 1 5D3E6CE9
-P 7000 2800
-F 0 "J10" H 7108 3081 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 7108 2990 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7000 2800 50  0001 C CNN
-F 3 "~" H 7000 2800 50  0001 C CNN
-	1    7000 2800
+P 7900 2850
+F 0 "J10" H 8008 3131 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 8008 3040 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7900 2850 50  0001 C CNN
+F 3 "~" H 7900 2850 50  0001 C CNN
+	1    7900 2850
 	1    0    0    -1  
 $EndComp
-Text Notes 6350 2250 0    98   ~ 20
+Text Notes 7150 2200 0    98   ~ 20
 Motor Encoders
-$Comp
-L Connector:Conn_01x04_Male J9
-U 1 1 5D3E298F
-P 6150 2800
-F 0 "J9" H 6258 3081 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 6258 2990 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6150 2800 50  0001 C CNN
-F 3 "~" H 6150 2800 50  0001 C CNN
-	1    6150 2800
-	1    0    0    -1  
-$EndComp
-Text Notes 8100 2700 0    50   ~ 0
+Text Notes 4750 5000 0    50   ~ 0
 TODO: Connector to IR definetly a 1.27mm pitch IDC\nbut the pin count is yet to be known
 $Comp
 L Device:R R13
@@ -376,6 +333,204 @@ $EndComp
 Connection ~ 3250 3450
 Wire Wire Line
 	3250 3450 3700 3450
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5D6BA442
+P 8550 2700
+F 0 "TP9" H 8608 2818 50  0000 L CNN
+F 1 "TestPoint" H 8608 2727 50  0000 L CNN
+F 2 "" H 8750 2700 50  0001 C CNN
+F 3 "~" H 8750 2700 50  0001 C CNN
+	1    8550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5D6BAA24
+P 9000 2700
+F 0 "TP10" H 9058 2818 50  0000 L CNN
+F 1 "TestPoint" H 9058 2727 50  0000 L CNN
+F 2 "" H 9200 2700 50  0001 C CNN
+F 3 "~" H 9200 2700 50  0001 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 2950 9000 2950
+Wire Wire Line
+	8550 2700 8550 2850
+Connection ~ 8550 2850
+Wire Wire Line
+	8550 2850 9150 2850
+Wire Wire Line
+	9000 2700 9000 2950
+Connection ~ 9000 2950
+Wire Wire Line
+	9000 2950 8100 2950
+Wire Wire Line
+	8100 2850 8550 2850
+Wire Wire Line
+	6200 3050 6100 3050
+Wire Wire Line
+	6200 3100 6200 3050
+$Comp
+L power:GND #PWR034
+U 1 1 5D6C8279
+P 6200 3100
+F 0 "#PWR034" H 6200 2850 50  0001 C CNN
+F 1 "GND" H 6205 2927 50  0000 C CNN
+F 2 "" H 6200 3100 50  0001 C CNN
+F 3 "" H 6200 3100 50  0001 C CNN
+	1    6200 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2750 6100 2750
+Wire Wire Line
+	6400 2600 6400 2750
+$Comp
+L Connector:Conn_01x04_Male J9
+U 1 1 5D6C8283
+P 5900 2850
+F 0 "J9" H 6008 3131 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 6008 3040 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5900 2850 50  0001 C CNN
+F 3 "~" H 5900 2850 50  0001 C CNN
+	1    5900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5D6C8289
+P 6550 2700
+F 0 "TP7" H 6608 2818 50  0000 L CNN
+F 1 "TestPoint" H 6608 2727 50  0000 L CNN
+F 2 "" H 6750 2700 50  0001 C CNN
+F 3 "~" H 6750 2700 50  0001 C CNN
+	1    6550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5D6C828F
+P 7000 2700
+F 0 "TP8" H 7058 2818 50  0000 L CNN
+F 1 "TestPoint" H 7058 2727 50  0000 L CNN
+F 2 "" H 7200 2700 50  0001 C CNN
+F 3 "~" H 7200 2700 50  0001 C CNN
+	1    7000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2950 7000 2950
+Wire Wire Line
+	6550 2700 6550 2850
+Connection ~ 6550 2850
+Wire Wire Line
+	6550 2850 7150 2850
+Wire Wire Line
+	7000 2700 7000 2950
+Connection ~ 7000 2950
+Wire Wire Line
+	7000 2950 6100 2950
+Wire Wire Line
+	6100 2850 6550 2850
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5D6D0125
+P 2500 2000
+F 0 "TP1" H 2558 2118 50  0000 L CNN
+F 1 "TestPoint" H 2558 2027 50  0000 L CNN
+F 2 "" H 2700 2000 50  0001 C CNN
+F 3 "~" H 2700 2000 50  0001 C CNN
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2000 2500 2100
+Connection ~ 2500 2100
+Wire Wire Line
+	2500 2100 5100 2100
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D6D41F6
+P 2950 2000
+F 0 "TP2" H 3008 2118 50  0000 L CNN
+F 1 "TestPoint" H 3008 2027 50  0000 L CNN
+F 2 "" H 3150 2000 50  0001 C CNN
+F 3 "~" H 3150 2000 50  0001 C CNN
+	1    2950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2000 2950 2150
+Connection ~ 2950 2150
+Wire Wire Line
+	2950 2150 5100 2150
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5D6D5D39
+P 3400 2000
+F 0 "TP3" H 3458 2118 50  0000 L CNN
+F 1 "TestPoint" H 3458 2027 50  0000 L CNN
+F 2 "" H 3600 2000 50  0001 C CNN
+F 3 "~" H 3600 2000 50  0001 C CNN
+	1    3400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2000 3400 2200
+Connection ~ 3400 2200
+Wire Wire Line
+	3400 2200 5100 2200
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D6D78F5
+P 3850 2000
+F 0 "TP4" H 3908 2118 50  0000 L CNN
+F 1 "TestPoint" H 3908 2027 50  0000 L CNN
+F 2 "" H 4050 2000 50  0001 C CNN
+F 3 "~" H 4050 2000 50  0001 C CNN
+	1    3850 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2000 3850 2250
+Connection ~ 3850 2250
+Wire Wire Line
+	3850 2250 3400 2250
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D6D97B8
+P 4300 2000
+F 0 "TP5" H 4358 2118 50  0000 L CNN
+F 1 "TestPoint" H 4358 2027 50  0000 L CNN
+F 2 "" H 4500 2000 50  0001 C CNN
+F 3 "~" H 4500 2000 50  0001 C CNN
+	1    4300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2000 4300 2300
+Connection ~ 4300 2300
+Wire Wire Line
+	4300 2300 5100 2300
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5D6DB672
+P 4750 2000
+F 0 "TP6" H 4808 2118 50  0000 L CNN
+F 1 "TestPoint" H 4808 2027 50  0000 L CNN
+F 2 "" H 4950 2000 50  0001 C CNN
+F 3 "~" H 4950 2000 50  0001 C CNN
+	1    4750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2000 4750 2350
 Wire Bus Line
 	5200 2150 5200 2550
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2350 5100 2350
 $EndSCHEMATC
