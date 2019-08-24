@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -1218,8 +1218,6 @@ Wire Wire Line
 	8400 4000 8700 4000
 Wire Wire Line
 	8700 4300 8700 4550
-Wire Wire Line
-	8700 4550 8800 4550
 Connection ~ 8700 4550
 Wire Wire Line
 	8400 4300 8400 4450
@@ -1528,8 +1526,11 @@ Wire Wire Line
 	8550 4450 8800 4450
 Wire Wire Line
 	9000 4750 9000 4550
+Connection ~ 8800 4550
 Wire Wire Line
-	9000 4550 8800 4550
+	8800 4550 8700 4550
+Wire Wire Line
+	8700 4550 9000 4550
 Wire Bus Line
 	3650 2500 3650 2650
 Wire Bus Line
@@ -1542,7 +1543,4 @@ Wire Bus Line
 	1000 3200 1000 3500
 Wire Bus Line
 	800  4900 800  5650
-Connection ~ 8800 4550
-Wire Wire Line
-	8800 4550 8700 4550
 $EndSCHEMATC

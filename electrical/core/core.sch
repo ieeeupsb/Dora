@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -210,5 +210,15 @@ U 5D48851F
 F0 "Power" 50
 F1 "power.sch" 50
 F2 "Battery_VREF" O R 3250 4900 50 
+$EndSheet
+$Sheet
+S 5150 5000 900  800 
+U 5D86834E
+F0 "Communications" 50
+F1 "comms.sch" 50
+F2 "SCK" I L 5150 5100 50 
+F3 "MOSI" I L 5150 5200 50 
+F4 "MISO" I L 5150 5300 50 
+F5 "NSS" I L 5150 5400 50 
 $EndSheet
 $EndSCHEMATC
