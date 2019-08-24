@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -21,29 +21,14 @@ F1 "infrared_row.sch" 50
 F2 "SEL0" I L 5700 1250 50 
 F3 "SEL1" I L 5700 1350 50 
 F4 "SEL2" I L 5700 1450 50 
-F5 "v-" I L 5700 1600 50 
 F6 "OUT" I R 6250 1350 50 
 $EndSheet
-Text Label 5400 1250 0    50   ~ 0
+Text Label 5700 1250 2    50   ~ 0
 IR_SEL0
-Text Label 5400 1350 0    50   ~ 0
+Text Label 5700 1350 2    50   ~ 0
 IR_SEL1
-Text Label 5400 1450 0    50   ~ 0
+Text Label 5700 1450 2    50   ~ 0
 IR_SEL2
-Entry Wire Line
-	4950 1150 5050 1250
-Entry Wire Line
-	4950 1250 5050 1350
-Entry Wire Line
-	4950 1350 5050 1450
-Text HLabel 4950 1000 0    50   Input ~ 0
-IR_SEL
-Wire Wire Line
-	5050 1250 5700 1250
-Wire Wire Line
-	5050 1350 5700 1350
-Wire Wire Line
-	5050 1450 5700 1450
 $Sheet
 S 5700 2000 550  500 
 U 5D40D6FB
@@ -52,7 +37,6 @@ F1 "infrared_row.sch" 50
 F2 "SEL0" I L 5700 2050 50 
 F3 "SEL1" I L 5700 2150 50 
 F4 "SEL2" I L 5700 2250 50 
-F5 "v-" I L 5700 2400 50 
 F6 "OUT" I R 6250 2150 50 
 $EndSheet
 $Sheet
@@ -63,7 +47,6 @@ F1 "infrared_row.sch" 50
 F2 "SEL0" I L 5700 3650 50 
 F3 "SEL1" I L 5700 3750 50 
 F4 "SEL2" I L 5700 3850 50 
-F5 "v-" I L 5700 4000 50 
 F6 "OUT" I R 6250 3750 50 
 $EndSheet
 $Sheet
@@ -74,7 +57,6 @@ F1 "infrared_row.sch" 50
 F2 "SEL0" I L 5700 4450 50 
 F3 "SEL1" I L 5700 4550 50 
 F4 "SEL2" I L 5700 4650 50 
-F5 "v-" I L 5700 4800 50 
 F6 "OUT" I R 6250 4550 50 
 $EndSheet
 $Sheet
@@ -85,147 +67,44 @@ F1 "infrared_row.sch" 50
 F2 "SEL0" I L 5700 5250 50 
 F3 "SEL1" I L 5700 5350 50 
 F4 "SEL2" I L 5700 5450 50 
-F5 "v-" I L 5700 5600 50 
 F6 "OUT" I R 6250 5350 50 
 $EndSheet
-Entry Wire Line
-	6750 6150 6850 6050
-Wire Wire Line
-	6250 6150 6750 6150
-Entry Wire Line
-	6750 5350 6850 5250
-Entry Wire Line
-	6750 4550 6850 4450
-Entry Wire Line
-	6750 3750 6850 3650
-Entry Wire Line
-	6750 2950 6850 2850
-Entry Wire Line
-	6750 2150 6850 2050
-Entry Wire Line
-	6750 1350 6850 1250
-Wire Wire Line
-	6250 5350 6750 5350
-Wire Wire Line
-	6250 4550 6750 4550
-Wire Wire Line
-	6250 3750 6750 3750
-Wire Wire Line
-	6250 2950 6750 2950
-Wire Wire Line
-	6250 2150 6750 2150
-Wire Wire Line
-	6250 1350 6750 1350
-Text Label 5400 2050 0    50   ~ 0
+Text Label 5700 2050 2    50   ~ 0
 IR_SEL0
-Text Label 5400 2150 0    50   ~ 0
+Text Label 5700 2150 2    50   ~ 0
 IR_SEL1
-Text Label 5400 2250 0    50   ~ 0
+Text Label 5700 2250 2    50   ~ 0
 IR_SEL2
-Entry Wire Line
-	4950 1950 5050 2050
-Entry Wire Line
-	4950 2050 5050 2150
-Entry Wire Line
-	4950 2150 5050 2250
-Wire Wire Line
-	5050 2050 5700 2050
-Wire Wire Line
-	5050 2150 5700 2150
-Wire Wire Line
-	5050 2250 5700 2250
-Text Label 5400 2850 0    50   ~ 0
+Text Label 5700 2850 2    50   ~ 0
 IR_SEL0
-Text Label 5400 2950 0    50   ~ 0
+Text Label 5700 2950 2    50   ~ 0
 IR_SEL1
-Text Label 5400 3050 0    50   ~ 0
+Text Label 5700 3050 2    50   ~ 0
 IR_SEL2
-Entry Wire Line
-	4950 2750 5050 2850
-Entry Wire Line
-	4950 2850 5050 2950
-Entry Wire Line
-	4950 2950 5050 3050
-Wire Wire Line
-	5050 2850 5700 2850
-Wire Wire Line
-	5050 2950 5700 2950
-Wire Wire Line
-	5050 3050 5700 3050
-Text Label 5400 3650 0    50   ~ 0
+Text Label 5700 3650 2    50   ~ 0
 IR_SEL0
-Text Label 5400 3750 0    50   ~ 0
+Text Label 5700 3750 2    50   ~ 0
 IR_SEL1
-Text Label 5400 3850 0    50   ~ 0
+Text Label 5700 3850 2    50   ~ 0
 IR_SEL2
-Entry Wire Line
-	4950 3550 5050 3650
-Entry Wire Line
-	4950 3650 5050 3750
-Entry Wire Line
-	4950 3750 5050 3850
-Wire Wire Line
-	5050 3650 5700 3650
-Wire Wire Line
-	5050 3750 5700 3750
-Wire Wire Line
-	5050 3850 5700 3850
-Text Label 5400 4450 0    50   ~ 0
+Text Label 5700 4450 2    50   ~ 0
 IR_SEL0
-Text Label 5400 4550 0    50   ~ 0
+Text Label 5700 4550 2    50   ~ 0
 IR_SEL1
-Text Label 5400 4650 0    50   ~ 0
+Text Label 5700 4650 2    50   ~ 0
 IR_SEL2
-Entry Wire Line
-	4950 4350 5050 4450
-Entry Wire Line
-	4950 4450 5050 4550
-Entry Wire Line
-	4950 4550 5050 4650
-Wire Wire Line
-	5050 4450 5700 4450
-Wire Wire Line
-	5050 4550 5700 4550
-Wire Wire Line
-	5050 4650 5700 4650
-Text Label 5400 5250 0    50   ~ 0
+Text Label 5700 5250 2    50   ~ 0
 IR_SEL0
-Text Label 5400 5350 0    50   ~ 0
+Text Label 5700 5350 2    50   ~ 0
 IR_SEL1
-Text Label 5400 5450 0    50   ~ 0
+Text Label 5700 5450 2    50   ~ 0
 IR_SEL2
-Entry Wire Line
-	4950 5150 5050 5250
-Entry Wire Line
-	4950 5250 5050 5350
-Entry Wire Line
-	4950 5350 5050 5450
-Wire Wire Line
-	5050 5250 5700 5250
-Wire Wire Line
-	5050 5350 5700 5350
-Wire Wire Line
-	5050 5450 5700 5450
-Text Label 5400 6050 0    50   ~ 0
+Text Label 5700 6050 2    50   ~ 0
 IR_SEL0
-Text Label 5400 6150 0    50   ~ 0
+Text Label 5700 6150 2    50   ~ 0
 IR_SEL1
-Text Label 5400 6250 0    50   ~ 0
+Text Label 5700 6250 2    50   ~ 0
 IR_SEL2
-Entry Wire Line
-	4950 5950 5050 6050
-Entry Wire Line
-	4950 6050 5050 6150
-Entry Wire Line
-	4950 6150 5050 6250
-Wire Wire Line
-	5050 6050 5700 6050
-Wire Wire Line
-	5050 6150 5700 6150
-Wire Wire Line
-	5050 6250 5700 6250
-Text HLabel 6850 1000 2    50   Input ~ 0
-IR_OUT
 Text Label 6250 1350 0    50   ~ 0
 IR_OUT0
 Text Label 6250 2150 0    50   ~ 0
@@ -240,19 +119,6 @@ Text Label 6250 5350 0    50   ~ 0
 IR_OUT5
 Text Label 6250 6150 0    50   ~ 0
 IR_OUT6
-$Comp
-L power:GND #PWR?
-U 1 1 5D41F6C3
-P 5300 7250
-F 0 "#PWR?" H 5300 7000 50  0001 C CNN
-F 1 "GND" H 5305 7077 50  0000 C CNN
-F 2 "" H 5300 7250 50  0001 C CNN
-F 3 "" H 5300 7250 50  0001 C CNN
-	1    5300 7250
-	1    0    0    -1  
-$EndComp
-Text HLabel 5000 6950 0    50   Input ~ 0
-en
 $Sheet
 S 5700 2800 550  500 
 U 5D40DA1E
@@ -261,62 +127,8 @@ F1 "infrared_row.sch" 50
 F2 "SEL0" I L 5700 2850 50 
 F3 "SEL1" I L 5700 2950 50 
 F4 "SEL2" I L 5700 3050 50 
-F5 "v-" I L 5700 3200 50 
 F6 "OUT" I R 6250 2950 50 
 $EndSheet
-Wire Wire Line
-	5300 6750 5300 6700
-$Comp
-L Device:R R?
-U 1 1 5D3ABC64
-P 5850 6950
-F 0 "R?" H 5920 6996 50  0000 L CNN
-F 1 "0" H 5920 6905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5780 6950 50  0001 C CNN
-F 3 "~" H 5850 6950 50  0001 C CNN
-	1    5850 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 7250 5300 7200
-Wire Wire Line
-	5850 7100 5850 7200
-Wire Wire Line
-	5850 7200 5300 7200
-Connection ~ 5300 7200
-Wire Wire Line
-	5300 7200 5300 7150
-Wire Wire Line
-	5850 6800 5850 6700
-Wire Wire Line
-	5850 6700 5300 6700
-Connection ~ 5300 6700
-Wire Wire Line
-	5300 6400 5700 6400
-Wire Wire Line
-	5300 6400 5300 5600
-Wire Wire Line
-	5300 5600 5700 5600
-Connection ~ 5300 5600
-Wire Wire Line
-	5300 5600 5300 4800
-Wire Wire Line
-	5700 4800 5300 4800
-Connection ~ 5300 4800
-Wire Wire Line
-	5300 4800 5300 4000
-Wire Wire Line
-	5700 4000 5300 4000
-Connection ~ 5300 4000
-Wire Wire Line
-	5300 4000 5300 2400
-Wire Wire Line
-	5700 2400 5300 2400
-Wire Wire Line
-	5300 1600 5700 1600
-Connection ~ 5300 2400
-Wire Wire Line
-	5300 2400 5300 1600
 $Sheet
 S 5700 6000 550  500 
 U 5D40E002
@@ -325,25 +137,184 @@ F1 "infrared_row.sch" 50
 F2 "SEL0" I L 5700 6050 50 
 F3 "SEL1" I L 5700 6150 50 
 F4 "SEL2" I L 5700 6250 50 
-F5 "v-" I L 5700 6400 50 
 F6 "OUT" I R 6250 6150 50 
 $EndSheet
-Wire Wire Line
-	5300 6400 5300 6700
-Connection ~ 5300 6400
-Wire Bus Line
-	6850 1000 6850 6050
-Wire Bus Line
-	4950 1000 4950 6150
 $Comp
-L rasbot:AO3400 Q?
-U 1 1 5D3E0C2F
-P 5150 6950
-F 0 "Q?" H 5406 6996 50  0000 L CNN
-F 1 "AO3400" H 5406 6905 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5975 6875 50  0001 C CNN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 5250 6950 50  0001 C CNN
-	1    5150 6950
+L Regulator_Linear:LM1117-ADJ U1
+U 1 1 5D612DA4
+P 2000 3150
+F 0 "U1" H 2000 3392 50  0000 C CNN
+F 1 "LM1117-ADJ" H 2000 3301 50  0000 C CNN
+F 2 "" H 2000 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2000 3150 50  0001 C CNN
+	1    2000 3150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R1
+U 1 1 5D61FD73
+P 2000 3700
+F 0 "R1" H 2070 3746 50  0000 L CNN
+F 1 "10k" H 2070 3655 50  0000 L CNN
+F 2 "" V 1930 3700 50  0001 C CNN
+F 3 "~" H 2000 3700 50  0001 C CNN
+	1    2000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5D620248
+P 2000 3900
+F 0 "#PWR03" H 2000 3650 50  0001 C CNN
+F 1 "GND" H 2005 3727 50  0000 C CNN
+F 2 "" H 2000 3900 50  0001 C CNN
+F 3 "" H 2000 3900 50  0001 C CNN
+	1    2000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3900 2000 3850
+$Comp
+L power:GND #PWR04
+U 1 1 5D621529
+P 2650 3900
+F 0 "#PWR04" H 2650 3650 50  0001 C CNN
+F 1 "GND" H 2655 3727 50  0000 C CNN
+F 2 "" H 2650 3900 50  0001 C CNN
+F 3 "" H 2650 3900 50  0001 C CNN
+	1    2650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D6226A9
+P 2650 3300
+F 0 "R2" H 2720 3346 50  0000 L CNN
+F 1 "1.6k" H 2720 3255 50  0000 L CNN
+F 2 "" V 2580 3300 50  0001 C CNN
+F 3 "~" H 2650 3300 50  0001 C CNN
+	1    2650 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3150 2650 3150
+Wire Wire Line
+	2650 3450 2650 3500
+Wire Wire Line
+	2650 3500 2000 3500
+Wire Wire Line
+	2000 3500 2000 3550
+Wire Wire Line
+	2000 3500 2000 3450
+Connection ~ 2000 3500
+Connection ~ 2650 3500
+$Comp
+L rasbot:AO3400 Q1
+U 1 1 5D3E0C2F
+P 2800 3700
+F 0 "Q1" H 3056 3746 50  0000 L CNN
+F 1 "AO3400" H 3056 3655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3625 3625 50  0001 C CNN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 2900 3700 50  0001 C CNN
+	1    2800 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D627205
+P 3150 3700
+F 0 "R3" V 3357 3700 50  0000 C CNN
+F 1 "1k" V 3266 3700 50  0000 C CNN
+F 2 "" V 3080 3700 50  0001 C CNN
+F 3 "~" H 3150 3700 50  0001 C CNN
+	1    3150 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 3700 2950 3700
+Text Label 3300 3700 0    50   ~ 0
+IR_ON
+$Comp
+L Device:C C2
+U 1 1 5D627BA5
+P 3750 3500
+F 0 "C2" H 3865 3591 50  0000 L CNN
+F 1 "100u" H 3865 3500 50  0000 L CNN
+F 2 "" H 3788 3350 50  0001 C CNN
+F 3 "~" H 3750 3500 50  0001 C CNN
+F 4 "Tantalum" H 3865 3409 50  0000 L CNN "Notes"
+	1    3750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3350 3750 3150
+Wire Wire Line
+	3750 3150 2650 3150
+Connection ~ 2650 3150
+$Comp
+L power:GND #PWR06
+U 1 1 5D628377
+P 3750 3900
+F 0 "#PWR06" H 3750 3650 50  0001 C CNN
+F 1 "GND" H 3755 3727 50  0000 C CNN
+F 2 "" H 3750 3900 50  0001 C CNN
+F 3 "" H 3750 3900 50  0001 C CNN
+	1    3750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3900 3750 3650
+$Comp
+L Device:C C1
+U 1 1 5D629321
+P 1450 3500
+F 0 "C1" H 1565 3591 50  0000 L CNN
+F 1 "10u" H 1565 3500 50  0000 L CNN
+F 2 "" H 1488 3350 50  0001 C CNN
+F 3 "~" H 1450 3500 50  0001 C CNN
+F 4 "Tantalum" H 1565 3409 50  0000 L CNN "Notes"
+	1    1450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3350 1450 3150
+Wire Wire Line
+	1450 3150 1700 3150
+$Comp
+L power:GND #PWR02
+U 1 1 5D629BF5
+P 1450 3900
+F 0 "#PWR02" H 1450 3650 50  0001 C CNN
+F 1 "GND" H 1455 3727 50  0000 C CNN
+F 2 "" H 1450 3900 50  0001 C CNN
+F 3 "" H 1450 3900 50  0001 C CNN
+	1    1450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3900 1450 3650
+$Comp
+L power:+9V #PWR05
+U 1 1 5D62C356
+P 3750 3150
+F 0 "#PWR05" H 3750 3000 50  0001 C CNN
+F 1 "+9V" H 3765 3323 50  0000 C CNN
+F 2 "" H 3750 3150 50  0001 C CNN
+F 3 "" H 3750 3150 50  0001 C CNN
+	1    3750 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 3150
+$Comp
+L power:+12V #PWR01
+U 1 1 5D62CC5D
+P 1450 3150
+F 0 "#PWR01" H 1450 3000 50  0001 C CNN
+F 1 "+12V" H 1465 3323 50  0000 C CNN
+F 2 "" H 1450 3150 50  0001 C CNN
+F 3 "" H 1450 3150 50  0001 C CNN
+	1    1450 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 3150
 $EndSCHEMATC

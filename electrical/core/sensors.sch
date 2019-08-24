@@ -362,8 +362,6 @@ F 3 "" H 4850 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 3450 3250 3450
-Wire Bus Line
-	5200 2150 5200 2550
 $Comp
 L rasbot:AO3400 Q5
 U 1 1 5D704B29
@@ -378,4 +376,6 @@ $EndComp
 Connection ~ 3250 3450
 Wire Wire Line
 	3250 3450 3700 3450
+Wire Bus Line
+	5200 2150 5200 2550
 $EndSCHEMATC
