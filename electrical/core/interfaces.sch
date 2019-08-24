@@ -346,10 +346,6 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 5850 4900 50  0001 C CNN
 	1    5750 4900
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	4400 4050 4400 4800
-Wire Bus Line
-	4400 2950 4400 3850
 $Comp
 L Device:LED_RGBA D2
 U 1 1 5D5DDDFC
@@ -372,4 +368,8 @@ F 3 "~" H 3600 4350 50  0001 C CNN
 	1    3600 4400
 	-1   0    0    1   
 $EndComp
+Wire Bus Line
+	4400 4050 4400 4800
+Wire Bus Line
+	4400 2950 4400 3850
 $EndSCHEMATC

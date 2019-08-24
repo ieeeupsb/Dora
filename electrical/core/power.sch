@@ -1240,7 +1240,7 @@ Wire Wire Line
 	6500 6150 6500 6200
 Connection ~ 5750 6150
 Wire Wire Line
-	5750 6150 6150 6150
+	5750 6150 5900 6150
 Connection ~ 6150 6150
 Wire Wire Line
 	6150 6150 6500 6150
@@ -1266,4 +1266,32 @@ Wire Wire Line
 Connection ~ 5950 6600
 Text Notes 4200 5600 0    100  ~ 20
 Raspberry Pi Buck
+$Comp
+L power:+5VP #PWR083
+U 1 1 5D7A20C2
+P 6500 6150
+F 0 "#PWR083" H 6500 6000 50  0001 C CNN
+F 1 "+5VP" H 6515 6323 50  0000 C CNN
+F 2 "" H 6500 6150 50  0001 C CNN
+F 3 "" H 6500 6150 50  0001 C CNN
+	1    6500 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 6150
+$Comp
+L Connector:TestPoint TP19
+U 1 1 5D7A57CD
+P 5900 6050
+F 0 "TP19" H 5958 6168 50  0000 L CNN
+F 1 "TestPoint" H 5958 6077 50  0000 L CNN
+F 2 "" H 6100 6050 50  0001 C CNN
+F 3 "~" H 6100 6050 50  0001 C CNN
+	1    5900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 6050 5900 6150
+Connection ~ 5900 6150
+Wire Wire Line
+	5900 6150 6150 6150
 $EndSCHEMATC
