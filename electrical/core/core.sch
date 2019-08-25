@@ -107,6 +107,7 @@ F7 "Rotary_DT" O L 8700 5150 50
 F8 "Rotary_CLK" O L 8700 5250 50 
 F9 "SCL" I L 8700 4800 50 
 F10 "OLED_EN" I R 9650 4400 50 
+F11 "RPi" I R 9650 4500 50 
 $EndSheet
 Text Notes 4550 2750 0    50   ~ 0
 Normal IO
