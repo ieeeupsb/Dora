@@ -210,7 +210,12 @@ S 2000 4650 1250 1350
 U 5D48851F
 F0 "Power" 50
 F1 "power.sch" 50
-F2 "Battery_VREF" O R 3250 4900 50 
+F2 "Battery_CellVoltage" O R 3250 4850 50 
+F3 "SDA" I R 3250 5250 50 
+F4 "SCL" I R 3250 5150 50 
+F5 "Battery_OvercurrentAlert" O R 3250 4750 50 
+F6 "Battery_PackCurrent" O R 3250 4950 50 
+F7 "RPi_ON" I R 3250 5050 50 
 $EndSheet
 $Sheet
 S 5150 5000 900  800 
