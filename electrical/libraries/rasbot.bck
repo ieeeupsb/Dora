@@ -12,16 +12,26 @@ K lithium battery balance monitor protection
 F http://www.ti.com/lit/ds/symlink/bq76925.pdf
 $ENDCMP
 #
-$CMP DRV8873SPWPRQ1
+$CMP DRV8873
 D H-Bridge Motor Driver
 K Motor Driver
 F http://www.ti.com/lit/ds/symlink/drv8873.pdf
 $ENDCMP
 #
+$CMP DRV8876
+D H-Bridge Motor Driver With Integrated Current Sense and Regulation
+K Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8876.pdf
+$ENDCMP
+#
 $CMP LM5118
-D Wide VoltageRangeBuck-BoostController
+D Wide Voltage Range Buck-Boost Controller
 K SEPIC Boost Converter
 F http://www.ti.com/lit/ds/symlink/lm5118.pdf
+$ENDCMP
+#
+$CMP MBRD1035CTL
+F https://www.onsemi.com/pub/Collateral/MBRD1035CTL-D.PDF
 $ENDCMP
 #
 #End Doc Library
