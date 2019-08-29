@@ -228,7 +228,7 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5D650FA6
-P 6350 1850
+P 6350 1650
 AR Path="/5D48851F/5DA878D9/5D650FA6" Ref="#PWR?"  Part="1" 
 AR Path="/5D48851F/5D650FA6" Ref="#PWR0228"  Part="1" 
 F 0 "#PWR0228" H 6350 1600 50  0001 C CNN
@@ -239,13 +239,13 @@ F 3 "" H 6350 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 1400 6350 1450
+	6350 1200 6350 1250
 Wire Wire Line
-	6100 1400 6350 1400
+	6100 1200 6350 1200
 $Comp
 L Device:C CBAT?
 U 1 1 5D650FAF
-P 6350 1600
+P 6350 1400
 AR Path="/5D48851F/5DA878D9/5D650FAF" Ref="CBAT?"  Part="1" 
 AR Path="/5D48851F/5D650FAF" Ref="CBAT1"  Part="1" 
 F 0 "CBAT1" H 6465 1646 50  0000 L CNN
@@ -323,12 +323,12 @@ Text HLabel 7600 3350 2    50   Input ~ 0
 SDA
 Text HLabel 7600 3450 2    50   Input ~ 0
 SCL
-Text HLabel 7600 3250 2    50   Output ~ 0
+Text HLabel 10100 3250 2    50   Output ~ 0
 Battery_OvercurrentAlert
 $Comp
 L Device:C CSENSE?
 U 1 1 5D650FDA
-P 9300 4250
+P 8550 4250
 AR Path="/5D48851F/5DA878D9/5D650FDA" Ref="CSENSE?"  Part="1" 
 AR Path="/5D48851F/5D650FDA" Ref="CSENSE1"  Part="1" 
 F 0 "CSENSE1" V 9550 4200 50  0000 L CNN
@@ -341,7 +341,7 @@ $EndComp
 $Comp
 L Device:R RSENSEN?
 U 1 1 5D650FE0
-P 8700 4600
+P 7950 4600
 AR Path="/5D48851F/5DA878D9/5D650FE0" Ref="RSENSEN?"  Part="1" 
 AR Path="/5D48851F/5D650FE0" Ref="RSENSEN1"  Part="1" 
 F 0 "RSENSEN1" H 8450 4700 50  0000 C CNN
@@ -354,7 +354,7 @@ $EndComp
 $Comp
 L Device:R RSENSEP?
 U 1 1 5D650FE6
-P 10000 4600
+P 9250 4600
 AR Path="/5D48851F/5DA878D9/5D650FE6" Ref="RSENSEP?"  Part="1" 
 AR Path="/5D48851F/5D650FE6" Ref="RSENSEP1"  Part="1" 
 F 0 "RSENSEP1" H 9750 4700 50  0000 C CNN
@@ -365,17 +365,17 @@ F 3 "~" H 10000 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 4450 8700 4250
+	7950 4450 7950 4250
 Wire Wire Line
-	8700 4250 9150 4250
+	7950 4250 8400 4250
 Wire Wire Line
-	9450 4250 10000 4250
+	8700 4250 9250 4250
 Wire Wire Line
-	10000 4250 10000 4450
+	9250 4250 9250 4450
 $Comp
 L power:-BATT #PWR?
 U 1 1 5D650FF0
-P 10000 5300
+P 9250 5300
 AR Path="/5D48851F/5DA878D9/5D650FF0" Ref="#PWR?"  Part="1" 
 AR Path="/5D48851F/5D650FF0" Ref="#PWR0234"  Part="1" 
 F 0 "#PWR0234" H 10000 5150 50  0001 C CNN
@@ -386,15 +386,15 @@ F 3 "" H 10000 5300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	7600 3050 8700 3050
+	7600 3050 7950 3050
 Wire Wire Line
-	8700 3050 8700 4250
-Connection ~ 8700 4250
+	7950 3050 7950 4250
+Connection ~ 7950 4250
 Wire Wire Line
-	10000 3150 10000 4250
+	9250 3150 9250 4250
 Wire Wire Line
-	7600 3150 10000 3150
-Connection ~ 10000 4250
+	7600 3150 9250 3150
+Connection ~ 9250 4250
 Wire Wire Line
 	6800 3350 5850 3350
 Wire Wire Line
@@ -418,7 +418,7 @@ Battery_PackCurrent
 $Comp
 L power:+BATT #PWR?
 U 1 1 5D65100A
-P 5250 950
+P 5250 750
 AR Path="/5D48851F/5DA878D9/5D65100A" Ref="#PWR?"  Part="1" 
 AR Path="/5D48851F/5D65100A" Ref="#PWR0225"  Part="1" 
 F 0 "#PWR0225" H 5250 800 50  0001 C CNN
@@ -432,11 +432,11 @@ Wire Wire Line
 	6800 2550 6800 2350
 Wire Wire Line
 	6800 2350 7200 2350
-Connection ~ 6350 1400
+Connection ~ 6350 1200
 $Comp
 L Device:R RBAT?
 U 1 1 5D651013
-P 5950 1400
+P 5950 1200
 AR Path="/5D48851F/5DA878D9/5D651013" Ref="RBAT?"  Part="1" 
 AR Path="/5D48851F/5D651013" Ref="RBAT1"  Part="1" 
 F 0 "RBAT1" V 5743 1400 50  0000 C CNN
@@ -447,58 +447,54 @@ F 3 "~" H 5950 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5250 950  5250 1400
-Wire Wire Line
-	5700 1400 5800 1400
-Wire Wire Line
-	7200 1400 7200 2350
+	5700 1200 5800 1200
 Connection ~ 7200 2350
 $Comp
 L Diode:BZT52Bxx D?
 U 1 1 5D65101D
-P 7050 1650
+P 7050 1450
 AR Path="/5D48851F/5DA878D9/5D65101D" Ref="D?"  Part="1" 
 AR Path="/5D48851F/5D65101D" Ref="D5"  Part="1" 
-F 0 "D5" V 7050 1866 50  0000 C CNN
-F 1 "BZT52C30" V 7150 1850 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7050 1475 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 7050 1650 50  0001 C CNN
-	1    7050 1650
+F 0 "D5" V 7050 1666 50  0000 C CNN
+F 1 "BZT52C30" V 7150 1650 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7050 1275 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 7050 1450 50  0001 C CNN
+	1    7050 1450
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6350 1400 7050 1400
+	6350 1200 7050 1200
 Wire Wire Line
-	7050 1500 7050 1400
-Connection ~ 7050 1400
+	7050 1300 7050 1200
+Connection ~ 7050 1200
 Wire Wire Line
-	7050 1400 7200 1400
+	7050 1200 7200 1200
 Wire Wire Line
-	6350 1750 6350 1800
+	6350 1550 6350 1600
 Wire Wire Line
-	7050 1800 6350 1800
-Connection ~ 6350 1800
+	7050 1600 6350 1600
+Connection ~ 6350 1600
 Wire Wire Line
-	6350 1800 6350 1850
+	6350 1600 6350 1650
 $Comp
 L Diode:MBR0540 D?
 U 1 1 5D65102B
-P 5550 1400
+P 5550 1200
 AR Path="/5D48851F/5DA878D9/5D65102B" Ref="D?"  Part="1" 
 AR Path="/5D48851F/5D65102B" Ref="D4"  Part="1" 
-F 0 "D4" H 5550 1616 50  0000 C CNN
-F 1 "MBR0540" H 5550 1525 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 5550 1225 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 5550 1400 50  0001 C CNN
-	1    5550 1400
+F 0 "D4" H 5550 1416 50  0000 C CNN
+F 1 "MBR0540" H 5550 1325 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5550 1025 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 5550 1200 50  0001 C CNN
+	1    5550 1200
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 1400 5250 1400
+	5400 1200 5250 1200
 $Comp
 L power:GND #PWR?
 U 1 1 5D651032
-P 8700 5300
+P 7950 5300
 AR Path="/5D48851F/5DA878D9/5D651032" Ref="#PWR?"  Part="1" 
 AR Path="/5D48851F/5D651032" Ref="#PWR0232"  Part="1" 
 F 0 "#PWR0232" H 8700 5050 50  0001 C CNN
@@ -509,25 +505,25 @@ F 3 "" H 8700 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 4750 10000 4800
-Connection ~ 10000 4800
+	9250 4750 9250 4800
+Connection ~ 9250 4800
 Wire Wire Line
-	10000 4800 10000 5150
-Connection ~ 10000 5150
+	9250 4800 9250 5150
+Connection ~ 9250 5150
 Wire Wire Line
-	10000 5150 10000 5300
+	9250 5150 9250 5300
 Wire Wire Line
-	8700 4750 8700 4800
-Connection ~ 8700 4800
+	7950 4750 7950 4800
+Connection ~ 7950 4800
 Wire Wire Line
-	8700 4800 8700 5150
-Connection ~ 8700 5150
+	7950 4800 7950 5150
+Connection ~ 7950 5150
 Wire Wire Line
-	8700 5150 8700 5300
+	7950 5150 7950 5300
 $Comp
 L Device:R R?
 U 1 1 5D651043
-P 9300 4800
+P 8550 4800
 AR Path="/5D48851F/5DA878D9/5D651043" Ref="R?"  Part="1" 
 AR Path="/5D48851F/5D651043" Ref="R93"  Part="1" 
 F 0 "R93" V 9093 4800 50  0000 C CNN
@@ -539,13 +535,13 @@ F 4 "Current Sense resistor 2m 1% 1W(min)" V 9300 4800 50  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9450 4800 10000 4800
+	8700 4800 9250 4800
 Wire Wire Line
-	8700 4800 9150 4800
+	7950 4800 8400 4800
 $Comp
 L Device:R R?
 U 1 1 5D65104C
-P 9300 5150
+P 8550 5150
 AR Path="/5D48851F/5DA878D9/5D65104C" Ref="R?"  Part="1" 
 AR Path="/5D48851F/5D65104C" Ref="R94"  Part="1" 
 F 0 "R94" V 9093 5150 50  0000 C CNN
@@ -557,19 +553,17 @@ F 4 "Current Sense resistor 2m 1% 1W(min)" V 9300 5150 50  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9450 5150 10000 5150
+	8700 5150 9250 5150
 Wire Wire Line
-	8700 5150 9150 5150
-Wire Wire Line
-	7950 2750 7950 2500
+	7950 5150 8400 5150
 Wire Wire Line
 	7600 2750 7950 2750
 Wire Wire Line
-	8750 2500 8750 2600
+	8900 1350 8900 1450
 $Comp
 L Device:C CTH?
 U 1 1 5D651057
-P 8750 2750
+P 8900 1600
 AR Path="/5D48851F/5DA878D9/5D651057" Ref="CTH?"  Part="1" 
 AR Path="/5D48851F/5D651057" Ref="CTH1"  Part="1" 
 F 0 "CTH1" H 8865 2796 50  0000 L CNN
@@ -580,13 +574,11 @@ F 3 "~" H 8750 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 2500 8200 2500
-Wire Wire Line
-	8500 2500 8750 2500
+	8650 1350 8900 1350
 $Comp
 L Device:R RTH?
 U 1 1 5D65105F
-P 8350 2500
+P 8500 1350
 AR Path="/5D48851F/5DA878D9/5D65105F" Ref="RTH?"  Part="1" 
 AR Path="/5D48851F/5D65105F" Ref="RTH1"  Part="1" 
 F 0 "RTH1" V 8143 2500 50  0000 C CNN
@@ -597,11 +589,11 @@ F 3 "~" H 8350 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8750 2900 9450 2900
+	8900 1750 9600 1750
 $Comp
 L power:GND #PWR?
 U 1 1 5D651066
-P 9450 2900
+P 9600 1750
 AR Path="/5D48851F/5DA878D9/5D651066" Ref="#PWR?"  Part="1" 
 AR Path="/5D48851F/5D651066" Ref="#PWR0233"  Part="1" 
 F 0 "#PWR0233" H 9450 2650 50  0001 C CNN
@@ -616,7 +608,7 @@ NoConn ~ 7600 2950
 $Comp
 L Connector:Conn_01x02_Male J?
 U 1 1 5D65106E
-P 10400 2500
+P 10550 1350
 AR Path="/5D48851F/5DA878D9/5D65106E" Ref="J?"  Part="1" 
 AR Path="/5D48851F/5D65106E" Ref="J15"  Part="1" 
 F 0 "J15" H 10373 2473 50  0000 R CNN
@@ -627,22 +619,22 @@ F 3 "~" H 10400 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 2600 9650 2900
+	9800 1450 9800 1750
 Wire Wire Line
-	10200 2600 9650 2600
+	10350 1450 9800 1450
 Wire Wire Line
-	8750 2500 10200 2500
-Connection ~ 8750 2500
+	8900 1350 10350 1350
+Connection ~ 8900 1350
 Wire Wire Line
-	9450 2900 9650 2900
-Connection ~ 9450 2900
-Text Notes 10450 2750 0    50   ~ 0
+	9600 1750 9800 1750
+Connection ~ 9600 1750
+Text Notes 10600 1600 0    50   ~ 0
 NTC Header
 Text Notes 7600 2950 0    50   ~ 0
 LDO 3.3V\n
-Text Notes 7750 2100 0    50   ~ 0
+Text Notes 8250 800  0    50   ~ 0
 ADC Note: Vref is not connected to the MCU, minor errors may occur\n
-Text Notes 8200 1200 0    100  ~ 20
+Text Notes 8650 650  0    100  ~ 20
 Battery Monitor\n
 $Comp
 L Device:Battery BT1
@@ -775,7 +767,7 @@ F 3 "~" H 8950 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 2450 8750 2500
+	8900 1300 8900 1350
 $Comp
 L Regulator_Switching:TPS563200 U62
 U 1 1 5D6E7599
@@ -1251,7 +1243,7 @@ $Comp
 L Device:D_TVS D?
 U 1 1 5D68524E
 P 4000 3950
-F 0 "D?" V 3954 4029 50  0000 L CNN
+F 0 "D6" V 3954 4029 50  0000 L CNN
 F 1 "D_TVS" V 4045 4029 50  0000 L CNN
 F 2 "" H 4000 3950 50  0001 C CNN
 F 3 "~" H 4000 3950 50  0001 C CNN
@@ -1270,4 +1262,158 @@ Wire Wire Line
 Connection ~ 6000 4600
 Wire Wire Line
 	6000 4600 6900 4600
+Text Notes 2600 4000 0    50   ~ 0
+TVS Diode protecting overvoltage 
+Wire Notes Line
+	7800 3750 9450 3750
+Wire Notes Line
+	9450 3750 9450 5550
+Wire Notes Line
+	9450 5550 7800 5550
+Wire Notes Line
+	7800 5550 7800 3750
+Text Notes 8100 3850 0    50   ~ 0
+High current ground plate
+Text Notes 7750 5650 0    50   ~ 0
+High current ground
+Wire Wire Line
+	7200 1200 7200 2350
+Wire Notes Line
+	7300 1850 5050 1850
+Wire Notes Line
+	5050 1850 5050 500 
+Wire Notes Line
+	5050 500  7300 500 
+Wire Notes Line
+	7300 500  7300 1850
+Text Notes 5800 650  0    50   ~ 0
+High current ground plate
+$Comp
+L power:VCC #PWR092
+U 1 1 5D6E14CD
+P 7100 700
+F 0 "#PWR092" H 7100 550 50  0001 C CNN
+F 1 "VCC" H 7117 873 50  0000 C CNN
+F 2 "" H 7100 700 50  0001 C CNN
+F 3 "" H 7100 700 50  0001 C CNN
+	1    7100 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 750  7100 750 
+Wire Wire Line
+	7100 750  7100 700 
+Text Notes 9650 3400 0    50   ~ 0
+Open drain Pin -> Connect to interrupt
+$Comp
+L power:+3.3V #PWR094
+U 1 1 5D6F84D4
+P 9650 2250
+F 0 "#PWR094" H 9650 2100 50  0001 C CNN
+F 1 "+3.3V" H 9665 2423 50  0000 C CNN
+F 2 "" H 9650 2250 50  0001 C CNN
+F 3 "" H 9650 2250 50  0001 C CNN
+	1    9650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1350 7950 2750
+Wire Wire Line
+	7950 1350 8350 1350
+$Comp
+L Device:R RTH?
+U 1 1 5D7382DA
+P 9650 2900
+AR Path="/5D48851F/5DA878D9/5D7382DA" Ref="RTH?"  Part="1" 
+AR Path="/5D48851F/5D7382DA" Ref="R38"  Part="1" 
+F 0 "R38" V 9443 2900 50  0000 C CNN
+F 1 "10k" V 9534 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9580 2900 50  0001 C CNN
+F 3 "~" H 9650 2900 50  0001 C CNN
+	1    9650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3250 10100 3250
+Wire Wire Line
+	7600 3250 9650 3250
+Connection ~ 9650 3250
+Wire Wire Line
+	9650 3050 9650 3250
+$Comp
+L pspice:DIODE D8
+U 1 1 5D78B25D
+P 9650 2500
+F 0 "D8" V 9604 2628 50  0000 L CNN
+F 1 "DIODE" V 9695 2628 50  0000 L CNN
+F 2 "" H 9650 2500 50  0001 C CNN
+F 3 "~" H 9650 2500 50  0001 C CNN
+	1    9650 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 2700 9650 2750
+Wire Wire Line
+	9650 2250 9650 2300
+Text Notes 9650 2200 0    50   ~ 0
+Not sure what's the purpose of the diode
+Text Notes 9900 2700 0    50   ~ 0
+Rec: CD4148W
+$Comp
+L Device:D_TVS D7
+U 1 1 5D7A38A7
+P 7100 900
+F 0 "D7" V 7054 979 50  0000 L CNN
+F 1 "D_TVS" V 7145 979 50  0000 L CNN
+F 2 "" H 7100 900 50  0001 C CNN
+F 3 "~" H 7100 900 50  0001 C CNN
+	1    7100 900 
+	0    1    1    0   
+$EndComp
+Connection ~ 7100 750 
+$Comp
+L power:GND #PWR?
+U 1 1 5D7DA8C1
+P 7100 1100
+AR Path="/5D48851F/5DA878D9/5D7DA8C1" Ref="#PWR?"  Part="1" 
+AR Path="/5D48851F/5D7DA8C1" Ref="#PWR093"  Part="1" 
+F 0 "#PWR093" H 7100 850 50  0001 C CNN
+F 1 "GND" H 7105 927 50  0000 C CNN
+F 2 "" H 7100 1100 50  0001 C CNN
+F 3 "" H 7100 1100 50  0001 C CNN
+	1    7100 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 750 
+Wire Wire Line
+	5250 750  5250 1200
+$Comp
+L Connector:TestPoint TP27
+U 1 1 5D7FECF2
+P 7500 750
+F 0 "TP27" H 7558 868 50  0000 L CNN
+F 1 "TestPoint" H 7558 777 50  0000 L CNN
+F 2 "" H 7700 750 50  0001 C CNN
+F 3 "~" H 7700 750 50  0001 C CNN
+	1    7500 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP28
+U 1 1 5D804CA1
+P 7550 1050
+F 0 "TP28" H 7608 1168 50  0000 L CNN
+F 1 "TestPoint" H 7608 1077 50  0000 L CNN
+F 2 "" H 7750 1050 50  0001 C CNN
+F 3 "~" H 7750 1050 50  0001 C CNN
+	1    7550 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1050 7100 1100
+Wire Wire Line
+	7550 1050 7100 1050
+Connection ~ 7100 1050
+Wire Wire Line
+	7500 750  7100 750 
 $EndSCHEMATC
