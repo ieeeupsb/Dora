@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:core-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -286,7 +286,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 7100 4100 7100
 $Comp
-L Device:LED_RGBA D2
+L core-rescue:LED_RGBA-Device D2
 U 1 1 5DA39301
 P 1800 5400
 F 0 "D2" H 1800 4933 50  0000 C CNN
@@ -310,7 +310,7 @@ $EndComp
 Wire Wire Line
 	1450 6400 1600 6400
 $Comp
-L Device:LED_RGBA D3
+L core-rescue:LED_RGBA-Device D3
 U 1 1 5DA43A20
 P 1800 6400
 F 0 "D3" H 1800 5933 50  0000 C CNN

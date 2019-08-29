@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:core-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -188,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2100 4450 2700
 Wire Wire Line
-	4450 2700 3700 2700
+	4450 2700 4000 2700
 Wire Wire Line
 	4450 3000 4450 3600
 Wire Wire Line
@@ -305,7 +305,7 @@ Connection ~ 6000 4300
 $Comp
 L power:GND #PWR?
 U 1 1 5D650FCC
-P 6450 4750
+P 6000 4750
 AR Path="/5D48851F/5DA878D9/5D650FCC" Ref="#PWR?"  Part="1" 
 AR Path="/5D48851F/5D650FCC" Ref="#PWR0229"  Part="1" 
 F 0 "#PWR0229" H 6450 4500 50  0001 C CNN
@@ -316,12 +316,7 @@ F 3 "" H 6450 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 4600 6450 4600
-Wire Wire Line
-	6450 4600 6450 4750
-Wire Wire Line
-	6900 4600 6450 4600
-Connection ~ 6450 4600
+	6000 4600 6000 4750
 Text HLabel 7150 4300 2    50   Output ~ 0
 Battery_CellVoltage
 Text HLabel 7600 3350 2    50   Input ~ 0
@@ -1252,4 +1247,27 @@ $EndComp
 Connection ~ 1150 4250
 Text HLabel 3000 4800 2    50   Input ~ 0
 IR_ON
+$Comp
+L Device:D_TVS D?
+U 1 1 5D68524E
+P 4000 3950
+F 0 "D?" V 3954 4029 50  0000 L CNN
+F 1 "D_TVS" V 4045 4029 50  0000 L CNN
+F 2 "" H 4000 3950 50  0001 C CNN
+F 3 "~" H 4000 3950 50  0001 C CNN
+	1    4000 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3800 4000 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	4000 2700 3700 2700
+Wire Wire Line
+	4000 4100 4000 4600
+Wire Wire Line
+	4000 4600 6000 4600
+Connection ~ 6000 4600
+Wire Wire Line
+	6000 4600 6900 4600
 $EndSCHEMATC
