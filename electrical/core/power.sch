@@ -239,13 +239,13 @@ F 3 "" H 6350 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 1200 6350 1250
+	6350 1250 6350 1300
 Wire Wire Line
-	6100 1200 6350 1200
+	6100 1250 6350 1250
 $Comp
 L Device:C CBAT?
 U 1 1 5D650FAF
-P 6350 1400
+P 6350 1450
 AR Path="/5D48851F/5DA878D9/5D650FAF" Ref="CBAT?"  Part="1" 
 AR Path="/5D48851F/5D650FAF" Ref="CBAT1"  Part="1" 
 F 0 "CBAT1" H 6465 1646 50  0000 L CNN
@@ -432,11 +432,11 @@ Wire Wire Line
 	6800 2550 6800 2350
 Wire Wire Line
 	6800 2350 7200 2350
-Connection ~ 6350 1200
+Connection ~ 6350 1250
 $Comp
 L Device:R RBAT?
 U 1 1 5D651013
-P 5950 1200
+P 5950 1250
 AR Path="/5D48851F/5DA878D9/5D651013" Ref="RBAT?"  Part="1" 
 AR Path="/5D48851F/5D651013" Ref="RBAT1"  Part="1" 
 F 0 "RBAT1" V 5743 1400 50  0000 C CNN
@@ -447,7 +447,7 @@ F 3 "~" H 5950 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5700 1200 5800 1200
+	5700 1250 5800 1250
 Connection ~ 7200 2350
 $Comp
 L Diode:BZT52Bxx D?
@@ -463,34 +463,31 @@ F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 70
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6350 1200 7050 1200
+	6350 1250 7050 1250
 Wire Wire Line
-	7050 1300 7050 1200
-Connection ~ 7050 1200
+	7050 1300 7050 1250
 Wire Wire Line
-	7050 1200 7200 1200
+	7050 1250 7200 1250
 Wire Wire Line
-	6350 1550 6350 1600
+	6350 1600 6350 1650
 Wire Wire Line
 	7050 1600 6350 1600
 Connection ~ 6350 1600
-Wire Wire Line
-	6350 1600 6350 1650
 $Comp
 L Diode:MBR0540 D?
 U 1 1 5D65102B
-P 5550 1200
+P 5550 1250
 AR Path="/5D48851F/5DA878D9/5D65102B" Ref="D?"  Part="1" 
 AR Path="/5D48851F/5D65102B" Ref="D4"  Part="1" 
-F 0 "D4" H 5550 1416 50  0000 C CNN
-F 1 "MBR0540" H 5550 1325 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 5550 1025 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 5550 1200 50  0001 C CNN
-	1    5550 1200
+F 0 "D4" H 5550 1466 50  0000 C CNN
+F 1 "MBR0540" H 5550 1375 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5550 1075 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 5550 1250 50  0001 C CNN
+	1    5550 1250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 1200 5250 1200
+	5400 1250 5250 1250
 $Comp
 L power:GND #PWR?
 U 1 1 5D651032
@@ -1276,16 +1273,10 @@ Text Notes 8100 3850 0    50   ~ 0
 High current ground plate
 Text Notes 7750 5650 0    50   ~ 0
 High current ground
-Wire Wire Line
-	7200 1200 7200 2350
-Wire Notes Line
-	7300 1850 5050 1850
 Wire Notes Line
 	5050 1850 5050 500 
 Wire Notes Line
-	5050 500  7300 500 
-Wire Notes Line
-	7300 500  7300 1850
+	7450 500  7450 1850
 Text Notes 5800 650  0    50   ~ 0
 High current ground plate
 $Comp
@@ -1293,14 +1284,12 @@ L power:VCC #PWR092
 U 1 1 5D6E14CD
 P 7100 700
 F 0 "#PWR092" H 7100 550 50  0001 C CNN
-F 1 "VCC" H 7117 873 50  0000 C CNN
+F 1 "VCC" H 7117 857 50  0000 C CNN
 F 2 "" H 7100 700 50  0001 C CNN
-F 3 "" H 7100 700 50  0001 C CNN
+F 3 "" H 7100 621 50  0001 C CNN
 	1    7100 700 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 750  7100 750 
 Wire Wire Line
 	7100 750  7100 700 
 Text Notes 9650 3400 0    50   ~ 0
@@ -1378,15 +1367,13 @@ P 7100 1100
 AR Path="/5D48851F/5DA878D9/5D7DA8C1" Ref="#PWR?"  Part="1" 
 AR Path="/5D48851F/5D7DA8C1" Ref="#PWR093"  Part="1" 
 F 0 "#PWR093" H 7100 850 50  0001 C CNN
-F 1 "GND" H 7105 927 50  0000 C CNN
+F 1 "GND" H 7105 1013 50  0000 L TNN
 F 2 "" H 7100 1100 50  0001 C CNN
 F 3 "" H 7100 1100 50  0001 C CNN
 	1    7100 1100
 	1    0    0    -1  
 $EndComp
 Connection ~ 5250 750 
-Wire Wire Line
-	5250 750  5250 1200
 $Comp
 L Connector:TestPoint TP27
 U 1 1 5D7FECF2
@@ -1401,19 +1388,51 @@ $EndComp
 $Comp
 L Connector:TestPoint TP28
 U 1 1 5D804CA1
-P 7550 1050
-F 0 "TP28" H 7608 1168 50  0000 L CNN
-F 1 "TestPoint" H 7608 1077 50  0000 L CNN
-F 2 "" H 7750 1050 50  0001 C CNN
-F 3 "~" H 7750 1050 50  0001 C CNN
-	1    7550 1050
+P 7500 1050
+F 0 "TP28" H 7558 1168 50  0000 L CNN
+F 1 "TestPoint" H 7558 1077 50  0000 L CNN
+F 2 "" H 7700 1050 50  0001 C CNN
+F 3 "~" H 7700 1050 50  0001 C CNN
+	1    7500 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7100 1050 7100 1100
-Wire Wire Line
-	7550 1050 7100 1050
 Connection ~ 7100 1050
 Wire Wire Line
 	7500 750  7100 750 
+Wire Notes Line
+	5050 500  7450 500 
+Wire Notes Line
+	5050 1850 7450 1850
+$Comp
+L Device:C CTH?
+U 1 1 5D86F351
+P 6800 900
+AR Path="/5D48851F/5DA878D9/5D86F351" Ref="CTH?"  Part="1" 
+AR Path="/5D48851F/5D86F351" Ref="C37"  Part="1" 
+F 0 "C37" H 7000 950 50  0000 L CNN
+F 1 "0.33u" H 6915 855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6838 750 50  0001 C CNN
+F 3 "~" H 6800 900 50  0001 C CNN
+F 4 "50V" H 7050 750 50  0000 C CNN "Voltage"
+	1    6800 900 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1050 7100 1050
+Connection ~ 6800 750 
+Wire Wire Line
+	6800 750  7100 750 
+Wire Wire Line
+	5250 750  6800 750 
+Wire Wire Line
+	7500 1050 7100 1050
+Connection ~ 7050 1250
+Wire Wire Line
+	7200 2350 7200 2400
+Wire Wire Line
+	5250 750  5250 1250
+Wire Wire Line
+	7200 1250 7200 2350
 $EndSCHEMATC
