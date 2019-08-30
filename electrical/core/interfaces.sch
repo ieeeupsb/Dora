@@ -709,6 +709,14 @@ F 3 "" H 5350 1850 50  0001 C CNN
 	1    5350 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1500 1850 1100 1850
+Wire Wire Line
+	1500 1950 1100 1950
+Text HLabel 1100 1850 0    50   Input ~ 0
+RPi_UART_TX
+Text HLabel 1100 1950 0    50   Input ~ 0
+RPi_UART_RX
 Wire Bus Line
 	2600 6050 2600 6800
 Wire Bus Line

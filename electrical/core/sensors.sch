@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5000 4550 0    98   ~ 20
+Text Notes 2500 4700 0    98   ~ 20
 IR Matrix 7x7
 Text Notes 3500 1400 0    98   ~ 20
 Ultrasonic
@@ -248,7 +248,7 @@ F 3 "~" H 7900 2850 50  0001 C CNN
 $EndComp
 Text Notes 7150 2200 0    98   ~ 20
 Motor Encoders
-Text Notes 4750 5000 0    50   ~ 0
+Text Notes 2250 5150 0    50   ~ 0
 TODO: Connector to IR definetly a 1.27mm pitch IDC\nbut the pin count is yet to be known
 $Comp
 L Device:R R13
@@ -542,6 +542,148 @@ F 3 "" H 6400 2600 50  0001 C CNN
 	1    6400 2600
 	1    0    0    -1  
 $EndComp
+Text Notes 7450 3750 0    100  ~ 20
+Camera
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J?
+U 1 1 5D805BED
+P 7650 4600
+F 0 "J?" H 7700 5217 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 7700 5126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 7650 4600 50  0001 C CNN
+F 3 "~" H 7650 4600 50  0001 C CNN
+	1    7650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D806BAC
+P 7200 4050
+F 0 "#PWR?" H 7200 3900 50  0001 C CNN
+F 1 "+3.3V" H 7215 4223 50  0000 C CNN
+F 2 "" H 7200 4050 50  0001 C CNN
+F 3 "" H 7200 4050 50  0001 C CNN
+	1    7200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4050 7200 4200
+Wire Wire Line
+	7200 4200 7450 4200
+NoConn ~ 7450 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5D80B154
+P 8450 4250
+F 0 "#PWR?" H 8450 4000 50  0001 C CNN
+F 1 "GND" H 8455 4077 50  0000 C CNN
+F 2 "" H 8450 4250 50  0001 C CNN
+F 3 "" H 8450 4250 50  0001 C CNN
+	1    8450 4250
+	1    0    0    -1  
+$EndComp
+Text Label 7450 4300 2    50   ~ 0
+VSYNC
+Text Label 7450 4400 2    50   ~ 0
+HSYNC
+Text Label 7450 4500 2    50   ~ 0
+RST
+Text Label 7450 4600 2    50   ~ 0
+D1
+Text Label 7450 4700 2    50   ~ 0
+D3
+Text Label 7450 4800 2    50   ~ 0
+D5
+Text Label 7450 4900 2    50   ~ 0
+D7
+Text Label 7950 4300 0    50   ~ 0
+SCL
+Text Label 7950 4400 0    50   ~ 0
+SDA
+Text Label 7950 4500 0    50   ~ 0
+D0
+Text Label 7950 4600 0    50   ~ 0
+D2
+Text Label 7950 4700 0    50   ~ 0
+D4
+Text Label 7950 4800 0    50   ~ 0
+D6
+Text Label 7950 4900 0    50   ~ 0
+PCLK
+Text Label 7950 5000 0    50   ~ 0
+PWDN
+Entry Wire Line
+	7100 4200 7200 4300
+Entry Wire Line
+	7100 4300 7200 4400
+Entry Wire Line
+	7100 4400 7200 4500
+Entry Wire Line
+	7100 4500 7200 4600
+Entry Wire Line
+	7100 4600 7200 4700
+Entry Wire Line
+	7100 4700 7200 4800
+Entry Wire Line
+	7100 4800 7200 4900
+Wire Wire Line
+	7200 4300 7450 4300
+Wire Wire Line
+	7200 4400 7450 4400
+Wire Wire Line
+	7450 4500 7200 4500
+Wire Wire Line
+	7450 4600 7200 4600
+Wire Wire Line
+	7450 4700 7200 4700
+Wire Wire Line
+	7450 4800 7200 4800
+Wire Wire Line
+	7450 4900 7200 4900
+Entry Wire Line
+	8200 4300 8300 4400
+Entry Wire Line
+	8200 4400 8300 4500
+Entry Wire Line
+	8200 4500 8300 4600
+Entry Wire Line
+	8200 4600 8300 4700
+Entry Wire Line
+	8200 4700 8300 4800
+Entry Wire Line
+	8200 4800 8300 4900
+Entry Wire Line
+	8200 4900 8300 5000
+Entry Wire Line
+	8200 5000 8300 5100
+Wire Wire Line
+	8200 4900 7950 4900
+Wire Wire Line
+	8200 4700 7950 4700
+Wire Wire Line
+	8200 4500 7950 4500
+Text HLabel 8300 4650 2    50   Input ~ 0
+Camera
+Text HLabel 7100 4500 0    50   Input ~ 0
+Camera
+Wire Wire Line
+	7950 4400 8200 4400
+Wire Wire Line
+	7950 4600 8200 4600
+Wire Wire Line
+	7950 4800 8200 4800
+Wire Wire Line
+	7950 5000 8200 5000
+Wire Wire Line
+	7950 4300 8200 4300
+Wire Wire Line
+	8450 4250 8450 4200
+Wire Wire Line
+	8450 4200 7950 4200
+Wire Bus Line
+	7100 4200 7100 4850
+Wire Bus Line
+	8300 4350 8300 5100
 Wire Bus Line
 	5200 2150 5200 2550
 $EndSCHEMATC

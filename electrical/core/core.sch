@@ -38,13 +38,15 @@ F17 "Motor2+" O L 4950 3100 50
 F18 "Motor2-" O L 4950 3000 50 
 F19 "Motor1-" O L 4950 2750 50 
 F20 "Motor1+" O L 4950 2850 50 
-F21 "SCL1" O L 4950 3250 50 
-F22 "SDA1" B L 4950 3350 50 
-F23 "Ultrasonic" B R 6350 4200 50 
-F24 "Ultra_EN" O R 6350 4100 50 
-F25 "Rotary_DT" I L 4950 4050 50 
-F26 "Rotary_CLK" I L 4950 4150 50 
-F27 "Rotary_SW" I L 4950 3950 50 
+F21 "Ultrasonic" B R 6350 4200 50 
+F22 "Ultra_EN" O R 6350 4100 50 
+F23 "Rotary_DT" I L 4950 4050 50 
+F24 "Rotary_CLK" I L 4950 4150 50 
+F25 "Rotary_SW" I L 4950 3950 50 
+F26 "SCL2" O R 6350 4300 50 
+F27 "SDA2" B L 4950 4250 50 
+F28 "USART1_RX" I L 4950 3350 50 
+F29 "USART1_TX" I L 4950 3250 50 
 $EndSheet
 $Sheet
 S 8650 1900 1100 1100
@@ -107,16 +109,9 @@ F7 "Rotary_DT" O L 8700 5150 50
 F8 "Rotary_CLK" O L 8700 5250 50 
 F9 "SCL" I L 8700 4800 50 
 F10 "OLED_EN" I R 9650 4400 50 
-F11 "RPi" I R 9650 4500 50 
+F11 "RPi_UART_TX" I R 9650 4650 50 
+F12 "RPi_UART_RX" I R 9650 4750 50 
 $EndSheet
-Text Notes 4550 2750 0    50   ~ 0
-Normal IO
-Text Notes 4750 2850 0    50   ~ 0
-PWM
-Text Notes 4550 3000 0    50   ~ 0
-Normal IO
-Text Notes 4750 3100 0    50   ~ 0
-PWM
 Text Label 6350 3100 0    50   ~ 0
 LEFT_ENC1
 Text Label 6350 3400 0    50   ~ 0
@@ -148,10 +143,6 @@ buzzer
 Text Label 8700 4800 2    50   ~ 0
 SCL
 Text Label 8700 4900 2    50   ~ 0
-SDA
-Text Label 4950 3250 2    50   ~ 0
-SCL
-Text Label 4950 3350 2    50   ~ 0
 SDA
 Text Label 9650 4400 0    50   ~ 0
 OLED_EN
@@ -227,6 +218,20 @@ F3 "MOSI" I L 5150 5200 50
 F4 "MISO" I L 5150 5300 50 
 F5 "NSS" I L 5150 5400 50 
 $EndSheet
-Text Label 9650 4500 0    50   ~ 0
-RPi
+Text Label 9650 4750 0    50   ~ 0
+RPi_RX
+Text Label 4950 3250 2    50   ~ 0
+RPi_RX
+Text Label 9650 4650 0    50   ~ 0
+RPi_TX
+Text Label 4950 3350 2    50   ~ 0
+RPi_TX
+Text Label 4950 2750 2    50   ~ 0
+D1_IN1
+Text Label 4950 2850 2    50   ~ 0
+D1_IN2
+Text Label 4950 3000 2    50   ~ 0
+D2_IN1
+Text Label 4950 3100 2    50   ~ 0
+D2_IN2
 $EndSCHEMATC
