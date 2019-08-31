@@ -1279,7 +1279,7 @@ U 1 1 5D75443B
 P 5500 7400
 F 0 "D1" H 5493 7145 50  0000 C CNN
 F 1 "LED" H 5493 7236 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5500 7400 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5500 7400 50  0001 C CNN
 F 3 "~" H 5500 7400 50  0001 C CNN
 	1    5500 7400
 	-1   0    0    1   
@@ -1502,6 +1502,12 @@ Text HLabel 7000 5800 2    50   Input ~ 0
 I2C1_SDA
 Text HLabel 4050 3900 2    50   Output ~ 0
 SPI2_SCK
+Text HLabel 4050 4100 2    50   Output ~ 0
+SPI2_NSS
+Text HLabel 4050 4300 2    50   Input ~ 0
+SPI2_MISO
+Text HLabel 4050 4400 2    50   Output ~ 0
+SPI2_MOSI
 Wire Bus Line
 	4500 8350 4500 8500
 Wire Bus Line
@@ -1522,10 +1528,4 @@ Wire Bus Line
 	-950 2900 -950 3650
 Wire Bus Line
 	-1150 6850 -1150 7600
-Text HLabel 4050 4100 2    50   Output ~ 0
-SPI2_NSS
-Text HLabel 4050 4300 2    50   Input ~ 0
-SPI2_MISO
-Text HLabel 4050 4400 2    50   Output ~ 0
-SPI2_MOSI
 $EndSCHEMATC
