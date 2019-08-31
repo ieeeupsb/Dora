@@ -66,10 +66,9 @@ void HAL_DCMI_MspInit(DCMI_HandleTypeDef* dcmiHandle)
     __HAL_RCC_GPIOC_CLK_ENABLE();
     __HAL_RCC_GPIOD_CLK_ENABLE();
     __HAL_RCC_GPIOG_CLK_ENABLE();
+    __HAL_RCC_GPIOB_CLK_ENABLE();
     /**DCMI GPIO Configuration    
     PE4     ------> DCMI_D4
-    PE5     ------> DCMI_D6
-    PE6     ------> DCMI_D7
     PA4     ------> DCMI_HSYNC
     PA6     ------> DCMI_PIXCLK
     PC6     ------> DCMI_D0
@@ -77,9 +76,11 @@ void HAL_DCMI_MspInit(DCMI_HandleTypeDef* dcmiHandle)
     PC8     ------> DCMI_D2
     PC9     ------> DCMI_D3
     PD3     ------> DCMI_D5
-    PG9     ------> DCMI_VSYNC 
+    PG9     ------> DCMI_VSYNC
+    PB8     ------> DCMI_D6
+    PB9     ------> DCMI_D7 
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6;
+    GPIO_InitStruct.Pin = GPIO_PIN_4;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -114,6 +115,13 @@ void HAL_DCMI_MspInit(DCMI_HandleTypeDef* dcmiHandle)
     GPIO_InitStruct.Alternate = GPIO_AF13_DCMI;
     HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
 
+    GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    GPIO_InitStruct.Alternate = GPIO_AF13_DCMI;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
   /* USER CODE BEGIN DCMI_MspInit 1 */
 
   /* USER CODE END DCMI_MspInit 1 */
@@ -133,8 +141,6 @@ void HAL_DCMI_MspDeInit(DCMI_HandleTypeDef* dcmiHandle)
   
     /**DCMI GPIO Configuration    
     PE4     ------> DCMI_D4
-    PE5     ------> DCMI_D6
-    PE6     ------> DCMI_D7
     PA4     ------> DCMI_HSYNC
     PA6     ------> DCMI_PIXCLK
     PC6     ------> DCMI_D0
@@ -142,9 +148,11 @@ void HAL_DCMI_MspDeInit(DCMI_HandleTypeDef* dcmiHandle)
     PC8     ------> DCMI_D2
     PC9     ------> DCMI_D3
     PD3     ------> DCMI_D5
-    PG9     ------> DCMI_VSYNC 
+    PG9     ------> DCMI_VSYNC
+    PB8     ------> DCMI_D6
+    PB9     ------> DCMI_D7 
     */
-    HAL_GPIO_DeInit(GPIOE, GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6);
+    HAL_GPIO_DeInit(GPIOE, GPIO_PIN_4);
 
     HAL_GPIO_DeInit(GPIOA, GPIO_PIN_4|GPIO_PIN_6);
 
@@ -153,6 +161,8 @@ void HAL_DCMI_MspDeInit(DCMI_HandleTypeDef* dcmiHandle)
     HAL_GPIO_DeInit(GPIOD, GPIO_PIN_3);
 
     HAL_GPIO_DeInit(GPIOG, GPIO_PIN_9);
+
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_8|GPIO_PIN_9);
 
   /* USER CODE BEGIN DCMI_MspDeInit 1 */
 
