@@ -14,154 +14,154 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6000 750  0    100  ~ 20
+Text Notes 6250 750  0    100  ~ 20
 Decoupling
 $Comp
 L power:+3.3V #PWR011
 U 1 1 5D0BC77C
-P 5650 900
-F 0 "#PWR011" H 5650 750 50  0001 C CNN
-F 1 "+3.3V" H 5665 1073 50  0000 C CNN
-F 2 "" H 5650 900 50  0001 C CNN
-F 3 "" H 5650 900 50  0001 C CNN
-	1    5650 900 
+P 6000 900
+F 0 "#PWR011" H 6000 750 50  0001 C CNN
+F 1 "+3.3V" H 6015 1073 50  0000 C CNN
+F 2 "" H 6000 900 50  0001 C CNN
+F 3 "" H 6000 900 50  0001 C CNN
+	1    6000 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5D0BCC7C
-P 4650 1150
-F 0 "C2" H 4765 1196 50  0000 L CNN
-F 1 "100n" H 4765 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 1000 50  0001 C CNN
-F 3 "~" H 4650 1150 50  0001 C CNN
-	1    4650 1150
+P 5000 1150
+F 0 "C2" H 5115 1196 50  0000 L CNN
+F 1 "100n" H 5115 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5038 1000 50  0001 C CNN
+F 3 "~" H 5000 1150 50  0001 C CNN
+	1    5000 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 5D0BD12F
-P 5050 1150
-F 0 "C4" H 5165 1196 50  0000 L CNN
-F 1 "100n" H 5165 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 1000 50  0001 C CNN
-F 3 "~" H 5050 1150 50  0001 C CNN
-	1    5050 1150
+P 5400 1150
+F 0 "C4" H 5515 1196 50  0000 L CNN
+F 1 "100n" H 5515 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 1000 50  0001 C CNN
+F 3 "~" H 5400 1150 50  0001 C CNN
+	1    5400 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C7
 U 1 1 5D0BD74C
-P 5450 1150
-F 0 "C7" H 5565 1196 50  0000 L CNN
-F 1 "100n" H 5565 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 1000 50  0001 C CNN
-F 3 "~" H 5450 1150 50  0001 C CNN
-	1    5450 1150
+P 5800 1150
+F 0 "C7" H 5915 1196 50  0000 L CNN
+F 1 "100n" H 5915 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5838 1000 50  0001 C CNN
+F 3 "~" H 5800 1150 50  0001 C CNN
+	1    5800 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C10
 U 1 1 5D0C6E4D
-P 5850 1150
-F 0 "C10" H 5965 1196 50  0000 L CNN
-F 1 "100n" H 5965 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5888 1000 50  0001 C CNN
-F 3 "~" H 5850 1150 50  0001 C CNN
-	1    5850 1150
+P 6200 1150
+F 0 "C10" H 6315 1196 50  0000 L CNN
+F 1 "100n" H 6315 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 1000 50  0001 C CNN
+F 3 "~" H 6200 1150 50  0001 C CNN
+	1    6200 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C13
 U 1 1 5D0C8182
-P 6250 1150
-F 0 "C13" H 6365 1196 50  0000 L CNN
-F 1 "100n" H 6365 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6288 1000 50  0001 C CNN
-F 3 "~" H 6250 1150 50  0001 C CNN
-	1    6250 1150
+P 6600 1150
+F 0 "C13" H 6715 1196 50  0000 L CNN
+F 1 "100n" H 6715 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 1000 50  0001 C CNN
+F 3 "~" H 6600 1150 50  0001 C CNN
+	1    6600 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C14
 U 1 1 5D0C8C05
-P 6650 1150
-F 0 "C14" H 6765 1196 50  0000 L CNN
-F 1 "100n" H 6765 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 1000 50  0001 C CNN
-F 3 "~" H 6650 1150 50  0001 C CNN
-	1    6650 1150
+P 7000 1150
+F 0 "C14" H 7115 1196 50  0000 L CNN
+F 1 "100n" H 7115 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7038 1000 50  0001 C CNN
+F 3 "~" H 7000 1150 50  0001 C CNN
+	1    7000 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 1000 4650 900 
+	5000 1000 5000 900 
 Wire Wire Line
-	4650 900  5050 900 
+	5000 900  5400 900 
 Wire Wire Line
-	5050 1000 5050 900 
-Connection ~ 5050 900 
+	5400 1000 5400 900 
+Connection ~ 5400 900 
 Wire Wire Line
-	5050 900  5450 900 
+	5400 900  5800 900 
 Wire Wire Line
-	5450 1000 5450 900 
-Connection ~ 5450 900 
+	5800 1000 5800 900 
+Connection ~ 5800 900 
 Wire Wire Line
-	5450 900  5650 900 
+	5800 900  6000 900 
 Wire Wire Line
-	6650 1000 6650 900 
+	7000 1000 7000 900 
 Wire Wire Line
-	6650 900  6250 900 
-Connection ~ 5650 900 
+	7000 900  6600 900 
+Connection ~ 6000 900 
 Wire Wire Line
-	5850 1000 5850 900 
-Connection ~ 5850 900 
+	6200 1000 6200 900 
+Connection ~ 6200 900 
 Wire Wire Line
-	5850 900  5650 900 
+	6200 900  6000 900 
 Wire Wire Line
-	6250 1000 6250 900 
-Connection ~ 6250 900 
+	6600 1000 6600 900 
+Connection ~ 6600 900 
 Wire Wire Line
-	6250 900  5850 900 
+	6600 900  6200 900 
 $Comp
 L power:GND #PWR012
 U 1 1 5D0D37FC
-P 5650 1400
-F 0 "#PWR012" H 5650 1150 50  0001 C CNN
-F 1 "GND" H 5655 1227 50  0000 C CNN
-F 2 "" H 5650 1400 50  0001 C CNN
-F 3 "" H 5650 1400 50  0001 C CNN
-	1    5650 1400
+P 6000 1400
+F 0 "#PWR012" H 6000 1150 50  0001 C CNN
+F 1 "GND" H 6005 1227 50  0000 C CNN
+F 2 "" H 6000 1400 50  0001 C CNN
+F 3 "" H 6000 1400 50  0001 C CNN
+	1    6000 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 1400 5450 1400
+	6000 1400 5800 1400
 Wire Wire Line
-	4650 1400 4650 1300
+	5000 1400 5000 1300
 Wire Wire Line
-	5050 1300 5050 1400
-Connection ~ 5050 1400
+	5400 1300 5400 1400
+Connection ~ 5400 1400
 Wire Wire Line
-	5050 1400 4650 1400
+	5400 1400 5000 1400
 Wire Wire Line
-	5450 1300 5450 1400
-Connection ~ 5450 1400
+	5800 1300 5800 1400
+Connection ~ 5800 1400
 Wire Wire Line
-	5450 1400 5050 1400
+	5800 1400 5400 1400
 Wire Wire Line
-	5650 1400 5850 1400
+	6000 1400 6200 1400
 Wire Wire Line
-	6650 1400 6650 1300
-Connection ~ 5650 1400
+	7000 1400 7000 1300
+Connection ~ 6000 1400
 Wire Wire Line
-	6250 1300 6250 1400
-Connection ~ 6250 1400
+	6600 1300 6600 1400
+Connection ~ 6600 1400
 Wire Wire Line
-	6250 1400 6650 1400
+	6600 1400 7000 1400
 Wire Wire Line
-	5850 1300 5850 1400
-Connection ~ 5850 1400
+	6200 1300 6200 1400
+Connection ~ 6200 1400
 Wire Wire Line
-	5850 1400 6250 1400
+	6200 1400 6600 1400
 Text Notes 5750 3200 0    100  ~ 20
 Clock
 $Comp
@@ -377,24 +377,24 @@ Programming / Debugging
 $Comp
 L Device:C C18
 U 1 1 5D42234B
-P 7050 1150
-F 0 "C18" H 7165 1196 50  0000 L CNN
-F 1 "4.7u" H 7165 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 1000 50  0001 C CNN
-F 3 "~" H 7050 1150 50  0001 C CNN
-	1    7050 1150
+P 7400 1150
+F 0 "C18" H 7515 1196 50  0000 L CNN
+F 1 "4.7u" H 7515 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 1000 50  0001 C CNN
+F 3 "~" H 7400 1150 50  0001 C CNN
+	1    7400 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 900  7050 900 
+	7000 900  7400 900 
 Wire Wire Line
-	7050 900  7050 1000
-Connection ~ 6650 900 
+	7400 900  7400 1000
+Connection ~ 7000 900 
 Wire Wire Line
-	7050 1300 7050 1400
+	7400 1300 7400 1400
 Wire Wire Line
-	7050 1400 6650 1400
-Connection ~ 6650 1400
+	7400 1400 7000 1400
+Connection ~ 7000 1400
 $Comp
 L Device:C C3
 U 1 1 5D4273DD
@@ -690,13 +690,13 @@ Entry Wire Line
 	-2300 7000 -2200 6900
 Text Label -2600 7100 0    50   ~ 0
 IR_OUT4
-Text HLabel -550 6100 0    50   Output ~ 0
+Text HLabel 4050 8900 2    50   Output ~ 0
 Motor1-
-Text HLabel -550 6200 0    50   Output ~ 0
+Text HLabel 4050 9100 2    50   Output ~ 0
 Motor1+
-Text HLabel -550 6300 0    50   Output ~ 0
+Text HLabel 4050 9300 2    50   Output ~ 0
 Motor2-
-Text HLabel -550 6400 0    50   Output ~ 0
+Text HLabel 4050 9400 2    50   Output ~ 0
 Motor2+
 Text HLabel -550 6500 0    50   Input ~ 0
 LEFT_ENC1
@@ -707,13 +707,13 @@ RIGHT_ENC1
 Text HLabel -550 6800 0    50   Input ~ 0
 RIGHT_ENC2
 Entry Wire Line
-	-900 8500 -1000 8400
-Text HLabel -1000 8450 0    50   Output ~ 0
-LED_RGB1
-Text Label -550 8500 2    50   ~ 0
+	4350 1500 4450 1600
+Text HLabel 4450 1550 2    50   Output ~ 0
+LED_RGB2
+Text Label 4050 1500 0    50   ~ 0
 R
 Wire Wire Line
-	-550 8500 -900 8500
+	4050 1500 4350 1500
 Wire Wire Line
 	-2600 7100 -2300 7100
 Wire Wire Line
@@ -735,25 +735,25 @@ SPI2_MISO
 Text HLabel -2600 6800 2    50   Input ~ 0
 SPI2_MOSI
 Entry Wire Line
-	-900 8200 -1000 8100
+	4400 1300 4300 1200
 Entry Wire Line
-	-900 8400 -1000 8300
+	4400 1400 4300 1300
 Entry Wire Line
-	-900 8300 -1000 8200
-Text HLabel -1000 8200 0    50   Output ~ 0
-LED_RGB2
-Text Label -550 8200 2    50   ~ 0
+	4300 1400 4400 1500
+Text HLabel 4400 1400 2    50   Output ~ 0
+LED_RGB1
+Text Label 4050 1200 0    50   ~ 0
 R
-Text Label -550 8300 2    50   ~ 0
+Text Label 4050 1300 0    50   ~ 0
 G
-Text Label -550 8400 2    50   ~ 0
+Text Label 4050 1400 0    50   ~ 0
 B
 Wire Wire Line
-	-550 8200 -900 8200
+	4050 1200 4300 1200
 Wire Wire Line
-	-550 8300 -900 8300
+	4050 1300 4300 1300
 Wire Wire Line
-	-550 8400 -900 8400
+	4050 1400 4300 1400
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5D4C40AE
@@ -880,22 +880,8 @@ Text Label -550 7100 2    50   ~ 0
 Ultra1_ECHO
 Text HLabel -550 5700 0    50   Output ~ 0
 Ultra_EN
-Entry Wire Line
-	-2250 4700 -2150 4600
-Entry Wire Line
-	-2250 4600 -2150 4500
-Text Label -2600 4600 0    50   ~ 0
-G
-Text Label -2600 4700 0    50   ~ 0
-B
-Wire Wire Line
-	-2600 4600 -2250 4600
-Wire Wire Line
-	-2600 4700 -2250 4700
-Text HLabel -2150 4550 2    50   Output ~ 0
-LED_RGB1
 Wire Bus Line
-	-1000 8450 -1000 8400
+	4450 1500 4450 1600
 Text HLabel -550 5800 0    50   Input ~ 0
 Rotary_DT
 Text HLabel -550 5900 0    50   Input ~ 0
@@ -1354,15 +1340,15 @@ Text Label -1300 2850 0    50   ~ 0
 SCL
 Text Label -1300 2950 0    50   ~ 0
 SDA
-Text Label -1300 3050 0    50   ~ 0
+Text Label 4050 5200 0    50   ~ 0
 D0
-Text Label -1300 3150 0    50   ~ 0
+Text Label 4050 5400 0    50   ~ 0
 D2
-Text Label -1300 3250 0    50   ~ 0
+Text Label 4050 8400 0    50   ~ 0
 D4
-Text Label -1300 3350 0    50   ~ 0
+Text Label 4050 3700 0    50   ~ 0
 D6
-Text Label -1300 3450 0    50   ~ 0
+Text Label 4050 1800 0    50   ~ 0
 PCLK
 Text Label -1300 3550 0    50   ~ 0
 PWDN
@@ -1400,19 +1386,19 @@ Wire Wire Line
 	-1300 3550 -1050 3550
 Wire Wire Line
 	-1300 2850 -1050 2850
-Text Label -1650 2900 2    50   ~ 0
+Text Label 950  7200 2    50   ~ 0
 VSYNC
-Text Label -1650 3000 2    50   ~ 0
+Text Label 4050 1600 0    50   ~ 0
 HSYNC
 Text Label -1650 3100 2    50   ~ 0
 RST
-Text Label -1650 3200 2    50   ~ 0
+Text Label 4050 5300 0    50   ~ 0
 D1
-Text Label -1650 3300 2    50   ~ 0
+Text Label 4050 5500 0    50   ~ 0
 D3
-Text Label -1650 3400 2    50   ~ 0
+Text Label 4050 6600 0    50   ~ 0
 D5
-Text Label -1650 3500 2    50   ~ 0
+Text Label 4050 3800 0    50   ~ 0
 D7
 Entry Wire Line
 	-2000 2800 -1900 2900
@@ -1444,20 +1430,94 @@ Wire Wire Line
 	-1650 3500 -1900 3500
 Text HLabel -2000 3100 0    50   Input ~ 0
 Camera
+Text HLabel 4250 8300 2    50   Input ~ 0
+Camera
+Entry Wire Line
+	4150 3800 4250 3900
+Entry Wire Line
+	4150 3700 4250 3800
+Entry Wire Line
+	4150 8400 4250 8300
+Wire Wire Line
+	4150 3800 4050 3800
+Wire Wire Line
+	4050 3700 4150 3700
+Wire Wire Line
+	4150 8400 4050 8400
+Text HLabel 4250 6600 2    50   Input ~ 0
+Camera
+Entry Wire Line
+	4150 6600 4250 6700
+Wire Wire Line
+	4150 6600 4050 6600
 Wire Bus Line
-	-2150 4450 -2150 4600
+	4250 6600 4250 6700
+Text HLabel 4250 5250 2    50   Input ~ 0
+Camera
+Entry Wire Line
+	4150 5500 4250 5600
+Entry Wire Line
+	4150 5300 4250 5400
+Entry Wire Line
+	4150 5200 4250 5300
+Entry Wire Line
+	4150 5400 4250 5500
+Wire Wire Line
+	4150 5200 4050 5200
+Wire Wire Line
+	4150 5300 4050 5300
+Wire Wire Line
+	4150 5400 4050 5400
+Wire Wire Line
+	4150 5500 4050 5500
+Text HLabel 4400 1650 2    50   Input ~ 0
+Camera
+Entry Wire Line
+	4300 1800 4400 1900
+Entry Wire Line
+	4300 1600 4400 1700
+Wire Wire Line
+	4300 1600 4050 1600
+Wire Wire Line
+	4300 1800 4050 1800
+Text HLabel 4500 8450 2    50   Output ~ 0
+LED_RGB2
+Wire Wire Line
+	4050 8600 4400 8600
+Wire Wire Line
+	4050 8500 4400 8500
+Text Label 4050 8600 0    50   ~ 0
+B
+Text Label 4050 8500 0    50   ~ 0
+G
+Entry Wire Line
+	4400 8500 4500 8400
+Entry Wire Line
+	4400 8600 4500 8500
 Wire Bus Line
-	-1000 8100 -1000 8300
+	4250 8350 4250 8300
+Wire Bus Line
+	4250 3750 4250 3900
+Wire Bus Line
+	4400 1600 4400 1900
+Wire Bus Line
+	4400 1300 4400 1500
 Wire Bus Line
 	-500 4450 -500 4650
 Wire Bus Line
+	4500 8350 4500 8500
+Wire Bus Line
 	-2200 6900 -2200 7200
+Wire Bus Line
+	4250 5200 4250 5600
 Wire Bus Line
 	-950 5150 -950 5450
 Wire Bus Line
 	-2000 2800 -2000 3450
 Wire Bus Line
-	-1150 6850 -1150 7600
-Wire Bus Line
 	-950 2900 -950 3650
+Wire Bus Line
+	-1150 6850 -1150 7600
+Text HLabel 4250 3800 2    50   Input ~ 0
+Camera
 $EndSCHEMATC
