@@ -233,9 +233,9 @@ Text Label 4950 3250 2    50   ~ 0
 D2_IN1
 Text Label 4950 3350 2    50   ~ 0
 D2_IN2
-Text Label 6150 4050 0    50   ~ 0
+Text Label 6850 4050 0    50   ~ 0
 OLED_SCL
-Text Label 6150 4150 0    50   ~ 0
+Text Label 6850 4150 0    50   ~ 0
 OLED_SDA
 Text Label 8700 4800 2    50   ~ 0
 OLED_SCL
@@ -257,4 +257,30 @@ Text Label 5150 5300 2    50   ~ 0
 LoRa_SPI_MOSI
 Text Label 5150 5400 2    50   ~ 0
 LoRa_SPI_NSS
+Wire Wire Line
+	6150 4050 6650 4050
+Wire Wire Line
+	6150 4150 6700 4150
+Wire Wire Line
+	6700 4150 6700 4300
+Wire Wire Line
+	6700 4300 6850 4300
+Connection ~ 6700 4150
+Wire Wire Line
+	6700 4150 6850 4150
+Wire Wire Line
+	6650 4050 6650 4400
+Wire Wire Line
+	6650 4400 6850 4400
+Connection ~ 6650 4050
+Wire Wire Line
+	6650 4050 6850 4050
+Text Label 6850 4300 0    50   ~ 0
+BMS_SCL
+Text Label 6850 4400 0    50   ~ 0
+BMS_SDA
+Text Label 3250 5150 0    50   ~ 0
+BMS_SCL
+Text Label 3250 5250 0    50   ~ 0
+BMS_SDA
 $EndSCHEMATC
