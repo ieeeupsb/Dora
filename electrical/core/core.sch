@@ -259,23 +259,9 @@ LoRa_SPI_MOSI
 Text Label 5150 5400 2    50   ~ 0
 LoRa_SPI_NSS
 Wire Wire Line
-	6150 4050 6650 4050
-Wire Wire Line
-	6150 4150 6700 4150
-Wire Wire Line
-	6700 4150 6700 4300
-Wire Wire Line
 	6700 4300 6850 4300
-Connection ~ 6700 4150
-Wire Wire Line
-	6700 4150 6850 4150
-Wire Wire Line
-	6650 4050 6650 4400
 Wire Wire Line
 	6650 4400 6850 4400
-Connection ~ 6650 4050
-Wire Wire Line
-	6650 4050 6850 4050
 Text Label 6850 4300 0    50   ~ 0
 BMS_SCL
 Text Label 6850 4400 0    50   ~ 0
@@ -284,4 +270,46 @@ Text Label 3250 5150 0    50   ~ 0
 BMS_SCL
 Text Label 3250 5250 0    50   ~ 0
 BMS_SDA
+Wire Wire Line
+	6150 4150 6550 4150
+Wire Wire Line
+	6150 4050 6600 4050
+Wire Wire Line
+	6700 4300 6700 4050
+Connection ~ 6700 4050
+Wire Wire Line
+	6700 4050 6850 4050
+Wire Wire Line
+	6650 4400 6650 4150
+Connection ~ 6650 4150
+Wire Wire Line
+	6650 4150 6850 4150
+Text Label 6850 4550 0    50   ~ 0
+SCL
+Text Label 6850 4650 0    50   ~ 0
+SDA
+Wire Wire Line
+	6600 4550 6600 4050
+Connection ~ 6600 4050
+Wire Wire Line
+	6600 4050 6700 4050
+Wire Wire Line
+	6550 4650 6550 4150
+Connection ~ 6550 4150
+Wire Wire Line
+	6550 4150 6650 4150
+Text Label 9750 2250 0    50   ~ 0
+Camera
+Entry Wire Line
+	7200 4650 7300 4750
+Entry Wire Line
+	7200 4550 7300 4650
+Text Label 7300 4700 0    50   ~ 0
+Camera
+Wire Wire Line
+	6600 4550 7200 4550
+Wire Wire Line
+	6550 4650 7200 4650
+Wire Bus Line
+	7300 4550 7300 4800
 $EndSCHEMATC
