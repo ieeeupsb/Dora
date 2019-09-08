@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 9
+Sheet 2 17
 Title ""
 Date ""
 Rev ""
@@ -1508,6 +1508,8 @@ Text HLabel 4050 3000 2    50   Input ~ 0
 Motor2_Sense
 Wire Wire Line
 	4050 1800 4650 1800
+Text HLabel 4050 1900 2    50   Input ~ 0
+Motor1_Sense
 Wire Bus Line
 	4750 1600 4750 1900
 Wire Bus Line
@@ -1530,6 +1532,4 @@ Wire Bus Line
 	-950 2900 -950 3650
 Wire Bus Line
 	-1150 6850 -1150 7600
-Text HLabel 4050 1900 2    50   Input ~ 0
-Motor1_Sense
 $EndSCHEMATC

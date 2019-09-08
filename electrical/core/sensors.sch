@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 17
 Title ""
 Date ""
 Rev ""
@@ -248,8 +248,6 @@ F 3 "~" H 7900 2850 50  0001 C CNN
 $EndComp
 Text Notes 7150 2200 0    98   ~ 20
 Motor Encoders
-Text Notes 2250 5150 0    50   ~ 0
-TODO: Connector to IR definetly a 1.27mm pitch IDC\nbut the pin count is yet to be known
 $Comp
 L Device:R R13
 U 1 1 5DA4B43B
@@ -680,10 +678,22 @@ Wire Wire Line
 	8450 4250 8450 4200
 Wire Wire Line
 	8450 4200 7950 4200
+$Sheet
+S 2850 5350 750  550 
+U 5D7E35AC
+F0 "IR" 50
+F1 "ir.sch" 50
+F2 "IR_OUT" O R 3600 5550 50 
+F3 "IR_SEL" I L 2850 5550 50 
+$EndSheet
+Text HLabel 3600 5550 2    50   Output ~ 0
+IR_OUT
 Wire Bus Line
 	7100 4200 7100 4850
 Wire Bus Line
 	8300 4350 8300 5100
 Wire Bus Line
 	5200 2150 5200 2550
+Text HLabel 2850 5550 0    50   Input ~ 0
+IR_SEL
 $EndSCHEMATC

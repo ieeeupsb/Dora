@@ -1,0 +1,263 @@
+EESchema Schematic File Version 4
+LIBS:core-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5700 1200 550  500 
+U 5D254F86
+F0 "IR_Row0" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 5700 1250 50 
+F3 "SEL1" I L 5700 1350 50 
+F4 "SEL2" I L 5700 1450 50 
+F5 "OUT" I R 6250 1350 50 
+$EndSheet
+$Sheet
+S 5700 2000 550  500 
+U 5D40D6FB
+F0 "IR_Row1" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 5700 2050 50 
+F3 "SEL1" I L 5700 2150 50 
+F4 "SEL2" I L 5700 2250 50 
+F5 "OUT" I R 6250 2150 50 
+$EndSheet
+$Sheet
+S 5700 3600 550  500 
+U 5D40DB29
+F0 "IR_Row3" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 5700 3650 50 
+F3 "SEL1" I L 5700 3750 50 
+F4 "SEL2" I L 5700 3850 50 
+F5 "OUT" I R 6250 3750 50 
+$EndSheet
+$Sheet
+S 5700 4400 550  500 
+U 5D40DC5E
+F0 "IR_Row4" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 5700 4450 50 
+F3 "SEL1" I L 5700 4550 50 
+F4 "SEL2" I L 5700 4650 50 
+F5 "OUT" I R 6250 4550 50 
+$EndSheet
+$Sheet
+S 5700 5200 550  500 
+U 5D40DD62
+F0 "IR_Row5" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 5700 5250 50 
+F3 "SEL1" I L 5700 5350 50 
+F4 "SEL2" I L 5700 5450 50 
+F5 "OUT" I R 6250 5350 50 
+$EndSheet
+$Sheet
+S 5700 2800 550  500 
+U 5D40DA1E
+F0 "IR_Row2" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 5700 2850 50 
+F3 "SEL1" I L 5700 2950 50 
+F4 "SEL2" I L 5700 3050 50 
+F5 "OUT" I R 6250 2950 50 
+$EndSheet
+$Sheet
+S 5700 6000 550  500 
+U 5D40E002
+F0 "IR_Row6" 50
+F1 "infrared_row.sch" 50
+F2 "SEL0" I L 5700 6050 50 
+F3 "SEL1" I L 5700 6150 50 
+F4 "SEL2" I L 5700 6250 50 
+F5 "OUT" I R 6250 6150 50 
+$EndSheet
+Text Label 6250 1350 0    50   ~ 0
+IR_OUT0
+Text Label 6250 3750 0    50   ~ 0
+IR_OUT3
+Text Label 6250 2950 0    50   ~ 0
+IR_OUT2
+Text Label 6250 2150 0    50   ~ 0
+IR_OUT1
+Text Label 6250 5350 0    50   ~ 0
+IR_OUT5
+Text Label 6250 4550 0    50   ~ 0
+IR_OUT4
+Text Label 6250 6150 0    50   ~ 0
+IR_OUT6
+Text HLabel 6850 3950 2    50   Output ~ 0
+IR_OUT
+Entry Wire Line
+	6750 1350 6850 1450
+Entry Wire Line
+	6750 2150 6850 2250
+Entry Wire Line
+	6750 2950 6850 3050
+Entry Wire Line
+	6750 3750 6850 3850
+Entry Wire Line
+	6750 4550 6850 4650
+Entry Wire Line
+	6750 5350 6850 5450
+Entry Wire Line
+	6750 6150 6850 6250
+Wire Wire Line
+	6750 6150 6250 6150
+Wire Wire Line
+	6750 5350 6250 5350
+Wire Wire Line
+	6750 4550 6250 4550
+Wire Wire Line
+	6750 3750 6250 3750
+Wire Wire Line
+	6750 2950 6250 2950
+Wire Wire Line
+	6750 2150 6250 2150
+Wire Wire Line
+	6750 1350 6250 1350
+Text HLabel 5100 4050 0    50   Input ~ 0
+IR_SEL
+Wire Wire Line
+	5200 6250 5700 6250
+Wire Wire Line
+	5200 5450 5700 5450
+Wire Wire Line
+	5200 4650 5700 4650
+Wire Wire Line
+	5200 3850 5700 3850
+Wire Wire Line
+	5200 3050 5700 3050
+Wire Wire Line
+	5200 2250 5700 2250
+Wire Wire Line
+	5200 1450 5700 1450
+Entry Wire Line
+	5100 1350 5200 1450
+Entry Wire Line
+	5100 2150 5200 2250
+Entry Wire Line
+	5100 2050 5200 2150
+Entry Wire Line
+	5100 1950 5200 2050
+Entry Wire Line
+	5100 1250 5200 1350
+Entry Wire Line
+	5100 1150 5200 1250
+Entry Wire Line
+	5100 2950 5200 3050
+Entry Wire Line
+	5100 2850 5200 2950
+Entry Wire Line
+	5100 2750 5200 2850
+Entry Wire Line
+	5100 3750 5200 3850
+Entry Wire Line
+	5100 3650 5200 3750
+Entry Wire Line
+	5100 3550 5200 3650
+Entry Wire Line
+	5100 4550 5200 4650
+Entry Wire Line
+	5100 4450 5200 4550
+Entry Wire Line
+	5100 4350 5200 4450
+Entry Wire Line
+	5100 5350 5200 5450
+Entry Wire Line
+	5100 5250 5200 5350
+Entry Wire Line
+	5100 5150 5200 5250
+Entry Wire Line
+	5100 6150 5200 6250
+Entry Wire Line
+	5100 6050 5200 6150
+Entry Wire Line
+	5100 5950 5200 6050
+Wire Wire Line
+	5200 6050 5700 6050
+Wire Wire Line
+	5200 6150 5700 6150
+Wire Wire Line
+	5700 5350 5200 5350
+Wire Wire Line
+	5200 5250 5700 5250
+Wire Wire Line
+	5200 4550 5700 4550
+Wire Wire Line
+	5700 4450 5200 4450
+Wire Wire Line
+	5200 3750 5700 3750
+Wire Wire Line
+	5700 3650 5200 3650
+Wire Wire Line
+	5200 2950 5700 2950
+Wire Wire Line
+	5700 2850 5200 2850
+Wire Wire Line
+	5200 2150 5700 2150
+Wire Wire Line
+	5700 2050 5200 2050
+Wire Wire Line
+	5200 1350 5700 1350
+Wire Wire Line
+	5700 1250 5200 1250
+Text Label 5700 1250 2    50   ~ 0
+IR_SEL0
+Text Label 5700 1350 2    50   ~ 0
+IR_SEL1
+Text Label 5700 1450 2    50   ~ 0
+IR_SEL2
+Text Label 5700 2050 2    50   ~ 0
+IR_SEL0
+Text Label 5700 2150 2    50   ~ 0
+IR_SEL1
+Text Label 5700 2250 2    50   ~ 0
+IR_SEL2
+Text Label 5700 2850 2    50   ~ 0
+IR_SEL0
+Text Label 5700 2950 2    50   ~ 0
+IR_SEL1
+Text Label 5700 3050 2    50   ~ 0
+IR_SEL2
+Text Label 5700 3650 2    50   ~ 0
+IR_SEL0
+Text Label 5700 3750 2    50   ~ 0
+IR_SEL1
+Text Label 5700 3850 2    50   ~ 0
+IR_SEL2
+Text Label 5700 4450 2    50   ~ 0
+IR_SEL0
+Text Label 5700 4550 2    50   ~ 0
+IR_SEL1
+Text Label 5700 4650 2    50   ~ 0
+IR_SEL2
+Text Label 5700 5250 2    50   ~ 0
+IR_SEL0
+Text Label 5700 5350 2    50   ~ 0
+IR_SEL1
+Text Label 5700 5450 2    50   ~ 0
+IR_SEL2
+Text Label 5700 6050 2    50   ~ 0
+IR_SEL0
+Text Label 5700 6150 2    50   ~ 0
+IR_SEL1
+Text Label 5700 6250 2    50   ~ 0
+IR_SEL2
+Wire Bus Line
+	6850 1150 6850 6500
+Wire Bus Line
+	5100 1150 5100 6600
+$EndSCHEMATC

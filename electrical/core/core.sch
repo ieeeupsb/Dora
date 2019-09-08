@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 17
 Title ""
 Date ""
 Rev ""
@@ -58,13 +58,13 @@ F0 "Sensors" 50
 F1 "sensors.sch" 50
 F2 "IR_SEL" I L 8650 2000 50 
 F3 "IR_OUT" I L 8650 2100 50 
-F4 "en" I L 8650 2200 50 
 F5 "LEFT_ENC1" I L 8650 2350 50 
 F6 "LEFT_ENC2" I L 8650 2450 50 
 F7 "RIGHT_ENC1" I L 8650 2550 50 
 F8 "RIGHT_ENC2" I L 8650 2650 50 
 F9 "Ultra_EN" I R 9750 2000 50 
 F10 "Ultra" O R 9750 2100 50 
+F11 "Camera" I R 9750 2250 50 
 $EndSheet
 $Sheet
 S 1800 2700 1050 750 
@@ -94,7 +94,7 @@ Text Label 8650 2100 2    50   ~ 0
 IR_OUT
 Text Label 6150 2850 0    50   ~ 0
 IR_OUT
-Text Label 8650 2200 2    50   ~ 0
+Text Label 3250 5400 0    50   ~ 0
 IR_EN
 Text Label 6150 2950 0    50   ~ 0
 IR_EN
@@ -206,6 +206,7 @@ F4 "SCL" I R 3250 5150 50
 F5 "Battery_OvercurrentAlert" O R 3250 4750 50 
 F6 "Battery_PackCurrent" O R 3250 4950 50 
 F7 "RPi_ON" I R 3250 5050 50 
+F8 "IR_ON" I R 3250 5400 50 
 $EndSheet
 $Sheet
 S 5150 5000 900  800 

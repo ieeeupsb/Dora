@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 16 17
 Title ""
 Date ""
 Rev ""
@@ -1048,4 +1048,208 @@ Wire Wire Line
 Connection ~ 5900 6150
 Wire Wire Line
 	5900 6150 6150 6150
+$Comp
+L Regulator_Linear:LM1117-ADJ U?
+U 1 1 5D7EE692
+P 1700 4250
+AR Path="/5D1373A3/5D7E35AC/5D7EE692" Ref="U?"  Part="1" 
+AR Path="/5D48851F/5D7EE692" Ref="U?"  Part="1" 
+F 0 "U?" H 1700 4492 50  0000 C CNN
+F 1 "LM1117-ADJ" H 1700 4401 50  0000 C CNN
+F 2 "" H 1700 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D7EE698
+P 1700 4800
+AR Path="/5D1373A3/5D7E35AC/5D7EE698" Ref="R?"  Part="1" 
+AR Path="/5D48851F/5D7EE698" Ref="R?"  Part="1" 
+F 0 "R?" H 1770 4846 50  0000 L CNN
+F 1 "10k" H 1770 4755 50  0000 L CNN
+F 2 "" V 1630 4800 50  0001 C CNN
+F 3 "~" H 1700 4800 50  0001 C CNN
+	1    1700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7EE69E
+P 1700 5000
+AR Path="/5D1373A3/5D7E35AC/5D7EE69E" Ref="#PWR?"  Part="1" 
+AR Path="/5D48851F/5D7EE69E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1700 4750 50  0001 C CNN
+F 1 "GND" H 1705 4827 50  0000 C CNN
+F 2 "" H 1700 5000 50  0001 C CNN
+F 3 "" H 1700 5000 50  0001 C CNN
+	1    1700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5000 1700 4950
+$Comp
+L power:GND #PWR?
+U 1 1 5D7EE6A5
+P 2350 5000
+AR Path="/5D1373A3/5D7E35AC/5D7EE6A5" Ref="#PWR?"  Part="1" 
+AR Path="/5D48851F/5D7EE6A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 4750 50  0001 C CNN
+F 1 "GND" H 2355 4827 50  0000 C CNN
+F 2 "" H 2350 5000 50  0001 C CNN
+F 3 "" H 2350 5000 50  0001 C CNN
+	1    2350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D7EE6AB
+P 2350 4400
+AR Path="/5D1373A3/5D7E35AC/5D7EE6AB" Ref="R?"  Part="1" 
+AR Path="/5D48851F/5D7EE6AB" Ref="R?"  Part="1" 
+F 0 "R?" H 2420 4446 50  0000 L CNN
+F 1 "1.6k" H 2420 4355 50  0000 L CNN
+F 2 "" V 2280 4400 50  0001 C CNN
+F 3 "~" H 2350 4400 50  0001 C CNN
+	1    2350 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4250 2350 4250
+Wire Wire Line
+	2350 4550 2350 4600
+Wire Wire Line
+	2350 4600 1700 4600
+Wire Wire Line
+	1700 4600 1700 4650
+Wire Wire Line
+	1700 4600 1700 4550
+Connection ~ 1700 4600
+Connection ~ 2350 4600
+$Comp
+L rasbot:AO3400 Q?
+U 1 1 5D7EE6B8
+P 2500 4800
+AR Path="/5D1373A3/5D7E35AC/5D7EE6B8" Ref="Q?"  Part="1" 
+AR Path="/5D48851F/5D7EE6B8" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2756 4846 50  0000 L CNN
+F 1 "AO3400" H 2756 4755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3325 4725 50  0001 C CNN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 2600 4800 50  0001 C CNN
+	1    2500 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D7EE6BE
+P 2850 4800
+AR Path="/5D1373A3/5D7E35AC/5D7EE6BE" Ref="R?"  Part="1" 
+AR Path="/5D48851F/5D7EE6BE" Ref="R?"  Part="1" 
+F 0 "R?" V 3057 4800 50  0000 C CNN
+F 1 "1k" V 2966 4800 50  0000 C CNN
+F 2 "" V 2780 4800 50  0001 C CNN
+F 3 "~" H 2850 4800 50  0001 C CNN
+	1    2850 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 4800 2650 4800
+$Comp
+L Device:C C?
+U 1 1 5D7EE6C7
+P 3450 4600
+AR Path="/5D1373A3/5D7E35AC/5D7EE6C7" Ref="C?"  Part="1" 
+AR Path="/5D48851F/5D7EE6C7" Ref="C?"  Part="1" 
+F 0 "C?" H 3565 4691 50  0000 L CNN
+F 1 "100u" H 3565 4600 50  0000 L CNN
+F 2 "" H 3488 4450 50  0001 C CNN
+F 3 "~" H 3450 4600 50  0001 C CNN
+F 4 "Tantalum" H 3565 4509 50  0000 L CNN "Notes"
+	1    3450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4450 3450 4250
+Wire Wire Line
+	3450 4250 2350 4250
+Connection ~ 2350 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5D7EE6D0
+P 3450 5000
+AR Path="/5D1373A3/5D7E35AC/5D7EE6D0" Ref="#PWR?"  Part="1" 
+AR Path="/5D48851F/5D7EE6D0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3450 4750 50  0001 C CNN
+F 1 "GND" H 3455 4827 50  0000 C CNN
+F 2 "" H 3450 5000 50  0001 C CNN
+F 3 "" H 3450 5000 50  0001 C CNN
+	1    3450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5000 3450 4750
+$Comp
+L Device:C C?
+U 1 1 5D7EE6D8
+P 1150 4600
+AR Path="/5D1373A3/5D7E35AC/5D7EE6D8" Ref="C?"  Part="1" 
+AR Path="/5D48851F/5D7EE6D8" Ref="C?"  Part="1" 
+F 0 "C?" H 1265 4691 50  0000 L CNN
+F 1 "10u" H 1265 4600 50  0000 L CNN
+F 2 "" H 1188 4450 50  0001 C CNN
+F 3 "~" H 1150 4600 50  0001 C CNN
+F 4 "Tantalum" H 1265 4509 50  0000 L CNN "Notes"
+	1    1150 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4450 1150 4250
+Wire Wire Line
+	1150 4250 1400 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5D7EE6E0
+P 1150 5000
+AR Path="/5D1373A3/5D7E35AC/5D7EE6E0" Ref="#PWR?"  Part="1" 
+AR Path="/5D48851F/5D7EE6E0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1150 4750 50  0001 C CNN
+F 1 "GND" H 1155 4827 50  0000 C CNN
+F 2 "" H 1150 5000 50  0001 C CNN
+F 3 "" H 1150 5000 50  0001 C CNN
+	1    1150 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5000 1150 4750
+$Comp
+L power:+9V #PWR?
+U 1 1 5D7EE6E7
+P 3450 4250
+AR Path="/5D1373A3/5D7E35AC/5D7EE6E7" Ref="#PWR?"  Part="1" 
+AR Path="/5D48851F/5D7EE6E7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3450 4100 50  0001 C CNN
+F 1 "+9V" H 3465 4423 50  0000 C CNN
+F 2 "" H 3450 4250 50  0001 C CNN
+F 3 "" H 3450 4250 50  0001 C CNN
+	1    3450 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 4250
+$Comp
+L power:+12V #PWR?
+U 1 1 5D7EE6EE
+P 1150 4250
+AR Path="/5D1373A3/5D7E35AC/5D7EE6EE" Ref="#PWR?"  Part="1" 
+AR Path="/5D48851F/5D7EE6EE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1150 4100 50  0001 C CNN
+F 1 "+12V" H 1165 4423 50  0000 C CNN
+F 2 "" H 1150 4250 50  0001 C CNN
+F 3 "" H 1150 4250 50  0001 C CNN
+	1    1150 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 4250
+Text HLabel 3000 4800 2    50   Input ~ 0
+IR_ON
 $EndSCHEMATC
