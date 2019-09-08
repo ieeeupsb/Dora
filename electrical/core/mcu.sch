@@ -1446,16 +1446,12 @@ Wire Wire Line
 	4150 5400 4050 5400
 Wire Wire Line
 	4150 5500 4050 5500
-Text HLabel 4400 1650 2    50   Input ~ 0
+Text HLabel 4750 1650 2    50   Input ~ 0
 Camera
 Entry Wire Line
-	4300 1800 4400 1900
+	4650 1800 4750 1900
 Entry Wire Line
-	4300 1600 4400 1700
-Wire Wire Line
-	4300 1600 4050 1600
-Wire Wire Line
-	4300 1800 4050 1800
+	4650 1600 4750 1700
 Text HLabel 4500 8450 2    50   Output ~ 0
 LED_RGB2
 Wire Wire Line
@@ -1508,16 +1504,22 @@ Text HLabel 4050 4300 2    50   Input ~ 0
 SPI2_MISO
 Text HLabel 4050 4400 2    50   Output ~ 0
 SPI2_MOSI
+Text HLabel 4050 3000 2    50   Input ~ 0
+Motor2_Sense
+Wire Wire Line
+	4050 1800 4650 1800
+Wire Bus Line
+	4750 1600 4750 1900
 Wire Bus Line
 	4500 8350 4500 8500
-Wire Bus Line
-	4400 1600 4400 1900
 Wire Bus Line
 	4550 3750 4550 3900
 Wire Bus Line
 	4400 1300 4400 1500
 Wire Bus Line
 	-500 4450 -500 4650
+Wire Wire Line
+	4050 1600 4650 1600
 Wire Bus Line
 	4250 5200 4250 5600
 Wire Bus Line
@@ -1528,4 +1530,6 @@ Wire Bus Line
 	-950 2900 -950 3650
 Wire Bus Line
 	-1150 6850 -1150 7600
+Text HLabel 4050 1900 2    50   Input ~ 0
+Motor1_Sense
 $EndSCHEMATC

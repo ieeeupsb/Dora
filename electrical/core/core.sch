@@ -27,27 +27,29 @@ F6 "LEFT_ENC2" I R 6150 3200 50
 F7 "RIGHT_ENC1" I R 6150 3300 50 
 F8 "RIGHT_ENC2" I R 6150 3400 50 
 F9 "LED_RGB1" I R 6150 3550 50 
-F10 "SPI2_SCK" I L 4950 3500 50 
-F11 "SPI2_NSS" I L 4950 3800 50 
-F12 "SPI2_MISO" I L 4950 3600 50 
-F13 "SPI2_MOSI" I L 4950 3700 50 
+F10 "SPI2_SCK" I L 4950 3750 50 
+F11 "SPI2_NSS" I L 4950 4050 50 
+F12 "SPI2_MISO" I L 4950 3850 50 
+F13 "SPI2_MOSI" I L 4950 3950 50 
 F14 "LED_RGB2" I R 6150 3650 50 
 F15 "buzzer" I R 6150 3800 50 
 F16 "OLED_EN" I R 6150 3950 50 
-F17 "Motor2+" O L 4950 3100 50 
-F18 "Motor2-" O L 4950 3000 50 
-F19 "Motor1-" O L 4950 2750 50 
-F20 "Motor1+" O L 4950 2850 50 
+F17 "Motor2+" O L 4950 3350 50 
+F18 "Motor2-" O L 4950 3250 50 
+F19 "Motor1-" O L 4950 2850 50 
+F20 "Motor1+" O L 4950 2950 50 
 F21 "Ultrasonic" B R 6150 4400 50 
 F22 "Ultra_EN" O R 6150 4300 50 
-F23 "Rotary_DT" I L 4950 4050 50 
-F24 "Rotary_CLK" I L 4950 4150 50 
-F25 "Rotary_SW" I L 4950 3950 50 
-F26 "USART1_RX" I L 4950 3350 50 
-F27 "USART1_TX" I L 4950 3250 50 
-F28 "Camera" I L 4950 4300 50 
+F23 "Rotary_DT" I L 4950 4300 50 
+F24 "Rotary_CLK" I L 4950 4400 50 
+F25 "Rotary_SW" I L 4950 4200 50 
+F26 "USART1_RX" I L 4950 3600 50 
+F27 "USART1_TX" I L 4950 3500 50 
+F28 "Camera" I L 4950 4550 50 
 F29 "I2C1_SCL" I R 6150 4050 50 
 F30 "I2C1_SDA" I R 6150 4150 50 
+F31 "Motor2_Sense" I L 4950 3150 50 
+F32 "Motor1_Sense" I L 4950 2750 50 
 $EndSheet
 $Sheet
 S 8650 1900 1100 1100
@@ -159,11 +161,11 @@ Text Label 8700 5150 2    50   ~ 0
 Rotary_DT
 Text Label 8700 5250 2    50   ~ 0
 Rotary_CLK
-Text Label 4950 3950 2    50   ~ 0
+Text Label 4950 4200 2    50   ~ 0
 Rotary_SW
-Text Label 4950 4050 2    50   ~ 0
+Text Label 4950 4300 2    50   ~ 0
 Rotary_DT
-Text Label 4950 4150 2    50   ~ 0
+Text Label 4950 4400 2    50   ~ 0
 Rotary_CLK
 Text Label 1800 2750 2    50   ~ 0
 D1_IN1
@@ -217,19 +219,19 @@ F5 "NSS" I L 5150 5400 50
 $EndSheet
 Text Label 9650 4750 0    50   ~ 0
 RPi_RX
-Text Label 4950 3250 2    50   ~ 0
+Text Label 4950 3500 2    50   ~ 0
 RPi_RX
 Text Label 9650 4650 0    50   ~ 0
 RPi_TX
-Text Label 4950 3350 2    50   ~ 0
+Text Label 4950 3600 2    50   ~ 0
 RPi_TX
-Text Label 4950 2750 2    50   ~ 0
-D1_IN1
 Text Label 4950 2850 2    50   ~ 0
+D1_IN1
+Text Label 4950 2950 2    50   ~ 0
 D1_IN2
-Text Label 4950 3000 2    50   ~ 0
+Text Label 4950 3250 2    50   ~ 0
 D2_IN1
-Text Label 4950 3100 2    50   ~ 0
+Text Label 4950 3350 2    50   ~ 0
 D2_IN2
 Text Label 6150 4050 0    50   ~ 0
 OLED_SCL
@@ -239,13 +241,13 @@ Text Label 8700 4800 2    50   ~ 0
 OLED_SCL
 Text Label 8700 4900 2    50   ~ 0
 OLED_SDA
-Text Label 4950 3500 2    50   ~ 0
+Text Label 4950 3750 2    50   ~ 0
 LoRa_SPI_SCK
-Text Label 4950 3600 2    50   ~ 0
+Text Label 4950 3850 2    50   ~ 0
 LoRa_SPI_MISO
-Text Label 4950 3700 2    50   ~ 0
+Text Label 4950 3950 2    50   ~ 0
 LoRa_SPI_MOSI
-Text Label 4950 3800 2    50   ~ 0
+Text Label 4950 4050 2    50   ~ 0
 LoRa_SPI_NSS
 Text Label 5150 5100 2    50   ~ 0
 LoRa_SPI_SCK
