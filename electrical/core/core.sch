@@ -59,6 +59,8 @@ F38 "Camera_EN" O R 6250 4800 50
 F39 "Battery_Overcurrent" I L 4950 5000 50 
 F40 "LoRa_IO" B L 4950 5150 50 
 F41 "LoRa_EN" O L 4950 5250 50 
+F42 "Driver_Current_Limit_CS1" O L 4950 5400 50 
+F43 "Driver_Current_Limit_CS2" O L 4950 5500 50 
 $EndSheet
 $Sheet
 S 9200 1600 1100 1100
@@ -385,8 +387,6 @@ Text Label 2700 5300 0    50   ~ 0
 Battery_Overcurrent
 Text Label 4950 5000 2    50   ~ 0
 Battery_Overcurrent
-Wire Bus Line
-	7800 4550 7800 4800
 Text Label 4950 5150 2    50   ~ 0
 LoRa_IO
 Text Label 5250 6750 2    50   ~ 0
@@ -395,4 +395,6 @@ Text Label 5250 6650 2    50   ~ 0
 LoRa_EN
 Text Label 4950 5250 2    50   ~ 0
 LoRa_EN
+Wire Bus Line
+	7800 4550 7800 4800
 $EndSCHEMATC

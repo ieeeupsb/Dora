@@ -1492,6 +1492,12 @@ Wire Wire Line
 	1800 8600 1350 8600
 Text HLabel 1250 8950 0    50   BiDi ~ 0
 LoRa_IO
+Text HLabel 1800 6500 0    50   Output ~ 0
+LoRa_EN
+Text HLabel 1800 9300 0    50   Output ~ 0
+Driver_Current_Limit_CS1
+Text HLabel 1800 9400 0    50   Output ~ 0
+Driver_Current_Limit_CS2
 Wire Bus Line
 	1350 7600 1350 7800
 Wire Bus Line
@@ -1508,10 +1514,4 @@ Wire Bus Line
 	1250 8500 1250 9150
 Wire Bus Line
 	1200 4450 1200 5200
-Text HLabel 1800 6500 0    50   Output ~ 0
-LoRa_EN
-Text HLabel 1800 9300 0    50   Output ~ 0
-Driver_Current_Limit_CS1
-Text HLabel 1800 9400 0    50   Output ~ 0
-Driver_Current_Limit_CS2
 $EndSCHEMATC
