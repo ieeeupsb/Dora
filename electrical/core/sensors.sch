@@ -553,21 +553,6 @@ F 3 "~" H 7650 4600 50  0001 C CNN
 	1    7650 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5D806BAC
-P 7200 4050
-F 0 "#PWR?" H 7200 3900 50  0001 C CNN
-F 1 "+3.3V" H 7215 4223 50  0000 C CNN
-F 2 "" H 7200 4050 50  0001 C CNN
-F 3 "" H 7200 4050 50  0001 C CNN
-	1    7200 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 4050 7200 4200
-Wire Wire Line
-	7200 4200 7450 4200
 NoConn ~ 7450 5000
 $Comp
 L power:GND #PWR?
@@ -688,12 +673,42 @@ F3 "IR_SEL" I L 2850 5550 50
 $EndSheet
 Text HLabel 3600 5550 2    50   Output ~ 0
 IR_OUT
+Text HLabel 2850 5550 0    50   Input ~ 0
+IR_SEL
+$Comp
+L rasbot:AO3400 Q?
+U 1 1 5D93B6A5
+P 7050 3900
+F 0 "Q?" H 7306 3946 50  0000 L CNN
+F 1 "AO3400" H 7306 3855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7875 3825 50  0001 C CNN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 7150 3900 50  0001 C CNN
+	1    7050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3650 7200 3700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D806BAC
+P 7200 3650
+F 0 "#PWR?" H 7200 3500 50  0001 C CNN
+F 1 "+3.3V" H 7215 3823 50  0000 C CNN
+F 2 "" H 7200 3650 50  0001 C CNN
+F 3 "" H 7200 3650 50  0001 C CNN
+	1    7200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4200 7200 4200
+Wire Wire Line
+	7200 4200 7200 4100
 Wire Bus Line
 	7100 4200 7100 4850
 Wire Bus Line
 	8300 4350 8300 5100
 Wire Bus Line
 	5200 2150 5200 2550
-Text HLabel 2850 5550 0    50   Input ~ 0
-IR_SEL
+Text HLabel 6900 3900 0    50   Input ~ 0
+Camera_EN
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 17
+Sheet 17 17
 Title ""
 Date ""
 Rev ""
@@ -86,16 +86,32 @@ Wire Wire Line
 Text HLabel 4850 3950 0    50   Input ~ 0
 LoRa_ON
 NoConn ~ 6400 3450
-Text HLabel 6400 4050 2    50   Input ~ 0
-IO1
-Text HLabel 6400 4150 2    50   Input ~ 0
-IO0
-Text HLabel 6400 3950 2    50   Input ~ 0
-IO2
-Text HLabel 6400 3850 2    50   Input ~ 0
-IO3
-Text HLabel 6400 3750 2    50   Input ~ 0
-IO4
-Text HLabel 6400 3650 2    50   Input ~ 0
-IO5
+Entry Wire Line
+	6950 4150 6850 4050
+Entry Wire Line
+	6950 4250 6850 4150
+Entry Wire Line
+	6950 4050 6850 3950
+Entry Wire Line
+	6950 3950 6850 3850
+Entry Wire Line
+	6950 3850 6850 3750
+Entry Wire Line
+	6950 3750 6850 3650
+Wire Wire Line
+	6850 3950 6400 3950
+Wire Wire Line
+	6400 3850 6850 3850
+Wire Wire Line
+	6850 3750 6400 3750
+Wire Wire Line
+	6400 3650 6850 3650
+Wire Wire Line
+	6850 4150 6400 4150
+Wire Wire Line
+	6400 4050 6850 4050
+Text HLabel 6950 3950 2    50   BiDi ~ 0
+LoRa_IO
+Wire Bus Line
+	6950 3700 6950 4250
 $EndSCHEMATC
