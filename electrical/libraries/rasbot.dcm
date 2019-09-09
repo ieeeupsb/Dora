@@ -46,4 +46,10 @@ $CMP MBRD1035CTL
 F https://www.onsemi.com/pub/Collateral/MBRD1035CTL-D.PDF
 $ENDCMP
 #
+$CMP MCP41HV51
+D 7/8-Bit Single, Digital POT with SPI Serial Interface and Volatile Memory
+K Digital potenciometer
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005207B.pdf
+$ENDCMP
+#
 #End Doc Library
