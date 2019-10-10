@@ -411,10 +411,20 @@ Text Label 5450 1700 2    50   ~ 0
 D1_IMODE
 Text Label 5450 1800 2    50   ~ 0
 D1_PMODE
-Wire Bus Line
-	8300 3200 8300 3450
 Text Label 5450 3200 2    50   ~ 0
 MCU_RESET
 Text Label 10100 5150 0    50   ~ 0
 MCU_RESET
+Text Label 3000 2350 0    50   ~ 0
+D2_SENSE
+Text Label 3000 2450 0    50   ~ 0
+D2_nFAULT
+Text Label 3000 2050 0    50   ~ 0
+D2_nSLEEP
+Text Label 3000 2150 0    50   ~ 0
+D2_IMODE
+Text Label 3000 2250 0    50   ~ 0
+D2_PMODE
+Wire Bus Line
+	8300 3200 8300 3450
 $EndSCHEMATC

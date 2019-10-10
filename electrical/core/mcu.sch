@@ -1514,6 +1514,8 @@ Text HLabel 1800 9900 0    50   Output ~ 0
 Motor1_PMODE
 Text HLabel 4900 9100 2    50   Input ~ 0
 Motor1_nFAULT
+Text HLabel 4900 9200 2    50   Output ~ 0
+Motor1_IMODE
 Wire Bus Line
 	1350 7600 1350 7800
 Wire Bus Line
@@ -1530,6 +1532,4 @@ Wire Bus Line
 	1250 8500 1250 9150
 Wire Bus Line
 	1200 4450 1200 5200
-Text HLabel 4900 9200 2    50   Output ~ 0
-Motor1_IMODE
 $EndSCHEMATC

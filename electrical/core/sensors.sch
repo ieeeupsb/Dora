@@ -725,13 +725,13 @@ Wire Wire Line
 	8700 4600 8700 4750
 Wire Wire Line
 	8700 4750 9250 4750
+Connection ~ 9250 4750
+Wire Wire Line
+	9250 4750 9250 4800
 Wire Bus Line
 	7100 4200 7100 4850
 Wire Bus Line
 	8300 4350 8300 5100
 Wire Bus Line
 	5200 2150 5200 2550
-Connection ~ 9250 4750
-Wire Wire Line
-	9250 4750 9250 4800
 $EndSCHEMATC

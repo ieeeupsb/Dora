@@ -699,10 +699,6 @@ Text HLabel 1100 2150 0    50   Output ~ 0
 MCU_RESET
 Wire Wire Line
 	1100 2150 1500 2150
-Wire Bus Line
-	2600 6050 2600 6800
-Wire Bus Line
-	2600 4950 2600 5850
 $Comp
 L Device:LED_RGBA D2
 U 1 1 5D9D1EA8
@@ -725,4 +721,8 @@ F 3 "~" H 1800 6350 50  0001 C CNN
 	1    1800 6400
 	-1   0    0    1   
 $EndComp
+Wire Bus Line
+	2600 6050 2600 6800
+Wire Bus Line
+	2600 4950 2600 5850
 $EndSCHEMATC
