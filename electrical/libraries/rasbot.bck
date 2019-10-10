@@ -46,4 +46,16 @@ $CMP MBRD1035CTL
 F https://www.onsemi.com/pub/Collateral/MBRD1035CTL-D.PDF
 $ENDCMP
 #
+$CMP MCP41HV51
+D 7/8-Bit Single, Digital POT with SPI Serial Interface and Volatile Memory
+K Digital potenciometer
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005207B.pdf
+$ENDCMP
+#
+$CMP TPS62120
+D 15-V, 75-mA Highly Efficient Buck Converter
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62170.pdf
+$ENDCMP
+#
 #End Doc Library
