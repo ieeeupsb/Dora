@@ -54,11 +54,18 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOD_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOF, Driver_Current_Limit_CS1_Pin|Driver_Current_Limit_CS2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOF, Driver_Current_Limit_CS1_Pin|Driver_Current_Limit_CS2_Pin|Motor2_nSLEEP_Pin|Motor2_PMODE_Pin 
+                          |Motor1_nSLEEP_Pin|Motor1_PMODE_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOH, OLED_EN_Pin|Ultra_EN_Pin|IR_EN_Pin|RPi_EN_Pin 
                           |Camera_EN_Pin|LoRa_EN_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(Motor2_IMODE_GPIO_Port, Motor2_IMODE_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(Motor1_IMODE_GPIO_Port, Motor1_IMODE_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOI, Ultra1_TRIG_Pin|Ultra2_TRIG_Pin|Ultra3_TRIG_Pin|Ultra4_TRIG_Pin, GPIO_PIN_RESET);
@@ -73,15 +80,17 @@ void MX_GPIO_Init(void)
   HAL_GPIO_Init(GPIOI, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PF2 PF3 PF4 PF5 
-                           PF7 PF8 */
+                           PF7 PF8 PFPin */
   GPIO_InitStruct.Pin = GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5 
-                          |GPIO_PIN_7|GPIO_PIN_8;
+                          |GPIO_PIN_7|GPIO_PIN_8|Motor2_nFAULT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PFPin PFPin */
-  GPIO_InitStruct.Pin = Driver_Current_Limit_CS1_Pin|Driver_Current_Limit_CS2_Pin;
+  /*Configure GPIO pins : PFPin PFPin PFPin PFPin 
+                           PFPin PFPin */
+  GPIO_InitStruct.Pin = Driver_Current_Limit_CS1_Pin|Driver_Current_Limit_CS2_Pin|Motor2_nSLEEP_Pin|Motor2_PMODE_Pin 
+                          |Motor1_nSLEEP_Pin|Motor1_PMODE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -96,6 +105,13 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOH, &GPIO_InitStruct);
 
+  /*Configure GPIO pin : PtPin */
+  GPIO_InitStruct.Pin = Motor2_IMODE_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(Motor2_IMODE_GPIO_Port, &GPIO_InitStruct);
+
   /*Configure GPIO pins : PGPin PGPin PGPin PGPin 
                            PGPin PGPin PGPin PGPin */
   GPIO_InitStruct.Pin = Rotary_SW_Pin|Rotary_CLK_Pin|Rotary_DT_Pin|LEFT_ENC1_Pin 
@@ -103,6 +119,19 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PtPin */
+  GPIO_InitStruct.Pin = Motor1_nFAULT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(Motor1_nFAULT_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PtPin */
+  GPIO_InitStruct.Pin = Motor1_IMODE_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(Motor1_IMODE_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PIPin PIPin PIPin PIPin */
   GPIO_InitStruct.Pin = Ultra1_TRIG_Pin|Ultra2_TRIG_Pin|Ultra3_TRIG_Pin|Ultra4_TRIG_Pin;

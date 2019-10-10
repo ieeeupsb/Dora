@@ -713,10 +713,14 @@ Wire Wire Line
 	1500 1850 1100 1850
 Wire Wire Line
 	1500 1950 1100 1950
-Text HLabel 1100 1850 0    50   Input ~ 0
+Text HLabel 1100 1850 0    50   Output ~ 0
 RPi_UART_TX
 Text HLabel 1100 1950 0    50   Input ~ 0
 RPi_UART_RX
+Text HLabel 1100 2150 0    50   Output ~ 0
+MCU_RESET
+Wire Wire Line
+	1100 2150 1500 2150
 Wire Bus Line
 	2600 6050 2600 6800
 Wire Bus Line

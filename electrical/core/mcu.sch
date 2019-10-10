@@ -1351,8 +1351,6 @@ F 3 "" H 14350 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15100 4600 15250 4600
-Wire Wire Line
 	14750 4600 15100 4600
 Connection ~ 15100 4600
 Wire Wire Line
@@ -1498,6 +1496,24 @@ Text HLabel 1800 9300 0    50   Output ~ 0
 Driver_Current_Limit_CS1
 Text HLabel 1800 9400 0    50   Output ~ 0
 Driver_Current_Limit_CS2
+Text HLabel 1800 9500 0    50   Output ~ 0
+Motor2_nSLEEP
+Text HLabel 4900 3500 2    50   Output ~ 0
+Motor2_IMODE
+Text HLabel 1800 9600 0    50   Output ~ 0
+Motor2_PMODE
+Text HLabel 1800 9700 0    50   Input ~ 0
+Motor2_nFAULT
+Text HLabel 15500 4600 2    50   Input ~ 0
+MCU_RESET
+Wire Wire Line
+	15100 4600 15500 4600
+Text HLabel 1800 9800 0    50   Output ~ 0
+Motor1_nSLEEP
+Text HLabel 1800 9900 0    50   Output ~ 0
+Motor1_PMODE
+Text HLabel 4900 9100 2    50   Input ~ 0
+Motor1_nFAULT
 Wire Bus Line
 	1350 7600 1350 7800
 Wire Bus Line
@@ -1514,4 +1530,6 @@ Wire Bus Line
 	1250 8500 1250 9150
 Wire Bus Line
 	1200 4450 1200 5200
+Text HLabel 4900 9200 2    50   Output ~ 0
+Motor1_IMODE
 $EndSCHEMATC
