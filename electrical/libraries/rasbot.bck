@@ -52,6 +52,12 @@ K Digital potenciometer
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005207B.pdf
 $ENDCMP
 #
+$CMP TPS561201
+D 15-V, 75-mA Highly Efficient Buck Converter
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62170.pdf
+$ENDCMP
+#
 $CMP TPS62120
 D 15-V, 75-mA Highly Efficient Buck Converter
 K step-down dc-dc buck regulator
