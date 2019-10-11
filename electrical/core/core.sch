@@ -88,24 +88,36 @@ F10 "Camera" I R 10300 1950 50
 F11 "Camera_EN" I R 10300 2050 50 
 $EndSheet
 $Sheet
-S 1950 1800 1050 750 
+S 1550 1450 1500 1350
 U 5D25A1F3
 F0 "Motors" 50
 F1 "motors.sch" 50
-F2 "D1_IN1" I L 1950 1850 50 
-F3 "D1_IN2" I L 1950 1950 50 
-F4 "D1_nFAULT" O L 1950 2450 50 
-F5 "D2_IN1" I R 3000 1850 50 
-F6 "D2_IN2" I R 3000 1950 50 
-F7 "D2_nFAULT" O R 3000 2450 50 
-F8 "D1_SENSE" O L 1950 2350 50 
-F9 "D2_SENSE" O R 3000 2350 50 
-F10 "D1_nSLEEP" I L 1950 2050 50 
-F11 "D1_IMODE" I L 1950 2150 50 
-F12 "D1_PMODE" I L 1950 2250 50 
-F13 "D2_nSLEEP" I R 3000 2050 50 
-F14 "D2_IMODE" I R 3000 2150 50 
-F15 "D2_PMODE" I R 3000 2250 50 
+F2 "D1_IN1" I L 1550 1500 50 
+F3 "D1_IN2" I L 1550 1600 50 
+F4 "D1_nFAULT" O L 1550 2100 50 
+F5 "D2_IN1" I R 3050 1500 50 
+F6 "D2_IN2" I R 3050 1600 50 
+F7 "D2_nFAULT" O R 3050 2100 50 
+F8 "D1_SENSE" O L 1550 2000 50 
+F9 "D2_SENSE" O R 3050 2000 50 
+F10 "D1_nSLEEP" I L 1550 1700 50 
+F11 "D1_IMODE" I L 1550 1800 50 
+F12 "D1_PMODE" I L 1550 1900 50 
+F13 "D2_nSLEEP" I R 3050 1700 50 
+F14 "D2_IMODE" I R 3050 1800 50 
+F15 "D2_PMODE" I R 3050 1900 50 
+F16 "D1_DigiPot_SCK" I L 1550 2200 50 
+F17 "D1_DigiPot_SDI" I L 1550 2300 50 
+F18 "D1_DigiPot_SDO" I L 1550 2400 50 
+F19 "D1_DigiPot_CS" I L 1550 2500 50 
+F20 "D1_DigiPot_WLAT" I L 1550 2600 50 
+F21 "D1_DigiPot_SHDN" I L 1550 2700 50 
+F22 "D2_DigiPot_SCK" I R 3050 2200 50 
+F23 "D2_DigiPot_SDI" I R 3050 2300 50 
+F24 "D2_DigiPot_SDO" I R 3050 2400 50 
+F25 "D2_DigiPot_CS" I R 3050 2500 50 
+F26 "D2_DigiPot_WLAT" I R 3050 2600 50 
+F27 "D2_DigiPot_SHDN" I R 3050 2700 50 
 $EndSheet
 Text Label 6750 1400 0    50   ~ 0
 IR_SEL
@@ -189,27 +201,27 @@ Text Label 5450 3800 2    50   ~ 0
 Rotary_DT
 Text Label 5450 3900 2    50   ~ 0
 Rotary_CLK
-Text Label 1950 1850 2    50   ~ 0
+Text Label 1550 1500 2    50   ~ 0
 D1_IN1
-Text Label 1950 1950 2    50   ~ 0
+Text Label 1550 1600 2    50   ~ 0
 D1_IN2
-Text Label 1950 2350 2    50   ~ 0
+Text Label 1550 2000 2    50   ~ 0
 D1_SENSE
-Text Label 1950 2450 2    50   ~ 0
+Text Label 1550 2100 2    50   ~ 0
 D1_nFAULT
-Text Label 3000 1950 0    50   ~ 0
+Text Label 3050 1600 0    50   ~ 0
 D2_IN2
-Text Label 3000 1850 0    50   ~ 0
+Text Label 3050 1500 0    50   ~ 0
 D2_IN1
 Text Label 5450 2650 2    50   ~ 0
 D2_SENSE
 Text Label 5450 2750 2    50   ~ 0
 D2_nFAULT
-Text Label 1950 2050 2    50   ~ 0
+Text Label 1550 1700 2    50   ~ 0
 D1_nSLEEP
-Text Label 1950 2150 2    50   ~ 0
+Text Label 1550 1800 2    50   ~ 0
 D1_IMODE
-Text Label 1950 2250 2    50   ~ 0
+Text Label 1550 1900 2    50   ~ 0
 D1_PMODE
 Text Label 5450 2350 2    50   ~ 0
 D2_nSLEEP
@@ -415,16 +427,36 @@ Text Label 5450 3200 2    50   ~ 0
 MCU_RESET
 Text Label 10100 5150 0    50   ~ 0
 MCU_RESET
-Text Label 3000 2350 0    50   ~ 0
+Text Label 3050 2000 0    50   ~ 0
 D2_SENSE
-Text Label 3000 2450 0    50   ~ 0
+Text Label 3050 2100 0    50   ~ 0
 D2_nFAULT
-Text Label 3000 2050 0    50   ~ 0
+Text Label 3050 1700 0    50   ~ 0
 D2_nSLEEP
-Text Label 3000 2150 0    50   ~ 0
+Text Label 3050 1800 0    50   ~ 0
 D2_IMODE
-Text Label 3000 2250 0    50   ~ 0
+Text Label 3050 1900 0    50   ~ 0
 D2_PMODE
 Wire Bus Line
 	8300 3200 8300 3450
+Text Label 3050 2200 0    50   ~ 0
+Driver_Current_Limit_SCK
+Text Label 1550 2200 2    50   ~ 0
+Driver_Current_Limit_SCK
+Text Label 3050 2400 0    50   ~ 0
+Driver_Current_Limit_MISO
+Text Label 1550 2400 2    50   ~ 0
+Driver_Current_Limit_MISO
+Text Label 3050 2300 0    50   ~ 0
+Driver_Curent_Limit_MOSI
+Text Label 1550 2300 2    50   ~ 0
+Driver_Curent_Limit_MOSI
+Text Label 5450 4800 2    50   ~ 0
+Driver_Current_Limit_CS1
+Text Label 1550 2500 2    50   ~ 0
+Driver_Current_Limit_CS1
+Text Label 5450 4900 2    50   ~ 0
+Driver_Current_Limit_CS2
+Text Label 3050 2500 0    50   ~ 0
+Driver_Current_Limit_CS2
 $EndSCHEMATC
