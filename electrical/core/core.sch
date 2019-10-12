@@ -437,8 +437,6 @@ Text Label 3050 1800 0    50   ~ 0
 D2_IMODE
 Text Label 3050 1900 0    50   ~ 0
 D2_PMODE
-Wire Bus Line
-	8300 3200 8300 3450
 Text Label 3050 2200 0    50   ~ 0
 Driver_Current_Limit_SCK
 Text Label 1550 2200 2    50   ~ 0
@@ -459,4 +457,6 @@ Text Label 5450 4900 2    50   ~ 0
 Driver_Current_Limit_CS2
 Text Label 3050 2500 0    50   ~ 0
 Driver_Current_Limit_CS2
+Wire Bus Line
+	8300 3200 8300 3450
 $EndSCHEMATC
