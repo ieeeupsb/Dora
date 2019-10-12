@@ -473,14 +473,14 @@ $EndComp
 $Comp
 L Device:R R100
 U 1 1 5DA4C45A
-P 5850 4350
+P 6800 4350
 AR Path="/5D25A1F3/5D541DD1/5DA4C45A" Ref="R100"  Part="1" 
 AR Path="/5D25A1F3/5D71CCFF/5DA4C45A" Ref="R102"  Part="1" 
-F 0 "R102" V 5643 4350 50  0000 C CNN
-F 1 "0" V 5734 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 4350 50  0001 C CNN
-F 3 "~" H 5850 4350 50  0001 C CNN
-	1    5850 4350
+F 0 "R102" V 6593 4350 50  0000 C CNN
+F 1 "0" V 6684 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 4350 50  0001 C CNN
+F 3 "~" H 6800 4350 50  0001 C CNN
+	1    6800 4350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -501,9 +501,7 @@ $EndComp
 Wire Wire Line
 	7100 4350 7100 3850
 Wire Wire Line
-	4900 4050 6150 4050
-Wire Wire Line
-	4900 4150 6650 4150
+	4900 4050 6100 4050
 NoConn ~ 7500 3750
 Wire Wire Line
 	5100 4250 5000 4250
@@ -526,7 +524,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 3950 7500 3950
 Wire Wire Line
-	6000 4350 7100 4350
+	6950 4350 7100 4350
 Wire Wire Line
 	7100 3850 7500 3850
 Wire Wire Line
@@ -537,7 +535,7 @@ Wire Wire Line
 	5000 4250 5000 4350
 Connection ~ 5000 4350
 Wire Wire Line
-	5000 4350 5700 4350
+	5000 4350 6650 4350
 Wire Wire Line
 	5000 4450 5000 4350
 $Comp
@@ -565,10 +563,6 @@ Wire Wire Line
 Connection ~ 7850 3400
 Wire Wire Line
 	7850 3400 7800 3400
-Wire Wire Line
-	6150 3800 6150 4050
-Wire Wire Line
-	6650 3800 6650 4150
 $Comp
 L Device:C C?
 U 1 1 5DA717D4
@@ -612,12 +606,18 @@ Connection ~ 7850 3200
 $Comp
 L Motor:Motor_DC M?
 U 1 1 5DFE0061
-P 6450 3800
-F 0 "M?" V 6155 3750 50  0000 C CNN
-F 1 "Motor_DC" V 6246 3750 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6450 3710 50  0001 C CNN
-F 3 "~" H 6450 3710 50  0001 C CNN
-	1    6450 3800
-	0    1    1    0   
+P 6300 3850
+F 0 "M?" H 6458 3846 50  0000 L CNN
+F 1 "Motor_DC" H 6458 3755 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6300 3760 50  0001 C CNN
+F 3 "~" H 6300 3760 50  0001 C CNN
+	1    6300 3850
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4900 4150 6300 4150
+Wire Wire Line
+	6100 3650 6300 3650
+Wire Wire Line
+	6100 3650 6100 4050
 $EndSCHEMATC
