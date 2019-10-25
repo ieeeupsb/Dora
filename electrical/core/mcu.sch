@@ -1516,6 +1516,14 @@ Wire Wire Line
 	4900 5900 5850 5900
 Wire Wire Line
 	4900 7000 5700 7000
+Text HLabel 4900 7500 2    50   Output ~ 0
+D1_DigiPot_WLAT
+Text HLabel 4900 7600 2    50   Output ~ 0
+D1_DigiPot_SHDN
+Text HLabel 4900 7700 2    50   Output ~ 0
+D2_DigiPot_WLAT
+Text HLabel 4900 7800 2    50   Output ~ 0
+D2_DigiPot_SHDN
 Wire Bus Line
 	1350 7600 1350 7800
 Wire Bus Line
@@ -1532,12 +1540,4 @@ Wire Bus Line
 	1250 8500 1250 9150
 Wire Bus Line
 	1200 4450 1200 5200
-Text HLabel 4900 7500 2    50   Output ~ 0
-D1_DigiPot_WLAT
-Text HLabel 4900 7600 2    50   Output ~ 0
-D1_DigiPot_SHDN
-Text HLabel 4900 7700 2    50   Output ~ 0
-D2_DigiPot_WLAT
-Text HLabel 4900 7800 2    50   Output ~ 0
-D2_DigiPot_SHDN
 $EndSCHEMATC
