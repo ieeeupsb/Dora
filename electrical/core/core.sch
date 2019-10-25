@@ -477,6 +477,10 @@ Text Label 5450 5050 2    50   ~ 0
 D1_DigiPot_SHDN
 Text Label 5450 5150 2    50   ~ 0
 D1_DigiPot_WLAT
+Text Label 10300 2200 0    50   ~ 0
+IMU_SCL
+Text Label 10300 2300 0    50   ~ 0
+IMU_SDA
 Wire Bus Line
 	8300 3200 8300 3450
 $EndSCHEMATC
