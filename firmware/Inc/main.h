@@ -97,6 +97,14 @@ void Error_Handler(void);
 #define Camera_EN_GPIO_Port GPIOH
 #define LoRa_EN_Pin GPIO_PIN_7
 #define LoRa_EN_GPIO_Port GPIOH
+#define D1_DigiPot_WLAT_Pin GPIO_PIN_8
+#define D1_DigiPot_WLAT_GPIO_Port GPIOD
+#define D1_DigiPot_SHDN_Pin GPIO_PIN_9
+#define D1_DigiPot_SHDN_GPIO_Port GPIOD
+#define D2_DigiPot_WLAT_Pin GPIO_PIN_10
+#define D2_DigiPot_WLAT_GPIO_Port GPIOD
+#define D2_DigiPot_SHDN_Pin GPIO_PIN_11
+#define D2_DigiPot_SHDN_GPIO_Port GPIOD
 #define Rotary_DT_Pin GPIO_PIN_2
 #define Rotary_DT_GPIO_Port GPIOG
 #define LEFT_ENC1_Pin GPIO_PIN_3

@@ -143,7 +143,7 @@ F 3 "" H 6000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0201
+L power:+3.3V #PWR0185
 U 1 1 5D6841EE
 P 3800 3450
 AR Path="/5D25A1F3/5D541DD1/5D6841EE" Ref="#PWR0185"  Part="1" 
@@ -173,7 +173,7 @@ F 3 "~" H 2950 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rasbot:AO3400 Q11
+L rasbot:AO3400 Q3
 U 1 1 5D6A0612
 P 2300 3950
 AR Path="/5D25A1F3/5D541DD1/5D6A0612" Ref="Q3"  Part="1" 
@@ -260,7 +260,7 @@ F 4 "Only solder if not using DigiPot" H 5000 4600 50  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R87
+L Device:R R71
 U 1 1 5D5F2B80
 P 3400 3750
 AR Path="/5D25A1F3/5D541DD1/5D5F2B80" Ref="R71"  Part="1" 
@@ -275,7 +275,7 @@ $EndComp
 Wire Wire Line
 	3550 3750 3900 3750
 $Comp
-L Device:R R89
+L Device:R R73
 U 1 1 5D5F5530
 P 3550 4250
 AR Path="/5D25A1F3/5D541DD1/5D5F5530" Ref="R73"  Part="1" 
@@ -324,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3750 5550 3750
 $Comp
-L power:+3.3V #PWR0200
+L power:+3.3V #PWR0184
 U 1 1 5D690E78
 P 5550 3400
 AR Path="/5D25A1F3/5D541DD1/5D690E78" Ref="#PWR0184"  Part="1" 

@@ -1126,9 +1126,9 @@ Text HLabel 4900 2600 2    50   Input ~ 0
 USART1_RX
 Text HLabel 4900 2500 2    50   Output ~ 0
 USART1_TX
-Text Label 4900 5600 0    50   ~ 0
+Text Label 5750 5600 0    50   ~ 0
 D0
-Text Label 4900 5800 0    50   ~ 0
+Text Label 5750 5800 0    50   ~ 0
 D2
 Text Label 4900 8800 0    50   ~ 0
 D4
@@ -1146,11 +1146,11 @@ Text Label 4900 2000 0    50   ~ 0
 HSYNC
 Text Label 1800 7400 2    50   ~ 0
 RST
-Text Label 4900 5700 0    50   ~ 0
+Text Label 5750 5700 0    50   ~ 0
 D1
-Text Label 4900 5900 0    50   ~ 0
+Text Label 5750 5900 0    50   ~ 0
 D3
-Text Label 4900 7000 0    50   ~ 0
+Text Label 5600 7000 0    50   ~ 0
 D5
 Text Label 4900 4200 0    50   ~ 0
 D7
@@ -1164,32 +1164,22 @@ Entry Wire Line
 	5000 8800 5100 8700
 Wire Wire Line
 	5000 8800 4900 8800
-Text HLabel 5100 7000 2    50   Input ~ 0
+Text HLabel 5800 7000 2    50   Input ~ 0
 Camera
 Entry Wire Line
-	5000 7000 5100 7100
-Wire Wire Line
-	5000 7000 4900 7000
+	5700 7000 5800 7100
 Wire Bus Line
-	5100 7000 5100 7100
-Text HLabel 5100 5650 2    50   Input ~ 0
+	5800 7000 5800 7100
+Text HLabel 5950 5650 2    50   Input ~ 0
 Camera
 Entry Wire Line
-	5000 5900 5100 6000
+	5850 5900 5950 6000
 Entry Wire Line
-	5000 5700 5100 5800
+	5850 5700 5950 5800
 Entry Wire Line
-	5000 5600 5100 5700
+	5850 5600 5950 5700
 Entry Wire Line
-	5000 5800 5100 5900
-Wire Wire Line
-	5000 5600 4900 5600
-Wire Wire Line
-	5000 5700 4900 5700
-Wire Wire Line
-	5000 5800 4900 5800
-Wire Wire Line
-	5000 5900 4900 5900
+	5850 5800 5950 5900
 Text HLabel 5600 2050 2    50   Input ~ 0
 Camera
 Entry Wire Line
@@ -1516,6 +1506,16 @@ Text HLabel 4900 9100 2    50   Input ~ 0
 Motor1_nFAULT
 Text HLabel 4900 9200 2    50   Output ~ 0
 Motor1_IMODE
+Wire Wire Line
+	4900 5600 5850 5600
+Wire Wire Line
+	4900 5700 5850 5700
+Wire Wire Line
+	4900 5800 5850 5800
+Wire Wire Line
+	4900 5900 5850 5900
+Wire Wire Line
+	4900 7000 5700 7000
 Wire Bus Line
 	1350 7600 1350 7800
 Wire Bus Line
@@ -1525,11 +1525,19 @@ Wire Bus Line
 Wire Bus Line
 	5550 4150 5550 4300
 Wire Bus Line
-	5100 5600 5100 6000
+	5950 5600 5950 6000
 Wire Bus Line
 	5300 4850 5300 5400
 Wire Bus Line
 	1250 8500 1250 9150
 Wire Bus Line
 	1200 4450 1200 5200
+Text HLabel 4900 7500 2    50   Output ~ 0
+D1_DigiPot_WLAT
+Text HLabel 4900 7600 2    50   Output ~ 0
+D1_DigiPot_SHDN
+Text HLabel 4900 7700 2    50   Output ~ 0
+D2_DigiPot_WLAT
+Text HLabel 4900 7800 2    50   Output ~ 0
+D2_DigiPot_SHDN
 $EndSCHEMATC

@@ -70,6 +70,10 @@ F49 "Motor1_nSLEEP" O L 5450 1600 50
 F50 "Motor1_PMODE" O L 5450 1800 50 
 F51 "Motor1_nFAULT" I L 5450 2000 50 
 F52 "Motor1_IMODE" O L 5450 1700 50 
+F53 "D1_DigiPot_WLAT" O L 5450 5050 50 
+F54 "D1_DigiPot_SHDN" O L 5450 5150 50 
+F55 "D2_DigiPot_WLAT" O L 5450 5250 50 
+F56 "D2_DigiPot_SHDN" O L 5450 5350 50 
 $EndSheet
 $Sheet
 S 9200 1600 1100 1100
@@ -457,6 +461,22 @@ Text Label 5450 4900 2    50   ~ 0
 Driver_Current_Limit_CS2
 Text Label 3050 2500 0    50   ~ 0
 Driver_Current_Limit_CS2
+Text Label 3050 2700 0    50   ~ 0
+D2_DigiPot_SHDN
+Text Label 1550 2700 2    50   ~ 0
+D1_DigiPot_SHDN
+Text Label 3050 2600 0    50   ~ 0
+D2_DigiPot_WLAT
+Text Label 1550 2600 2    50   ~ 0
+D1_DigiPot_WLAT
+Text Label 5450 5350 2    50   ~ 0
+D2_DigiPot_SHDN
+Text Label 5450 5250 2    50   ~ 0
+D2_DigiPot_WLAT
+Text Label 5450 5050 2    50   ~ 0
+D1_DigiPot_SHDN
+Text Label 5450 5150 2    50   ~ 0
+D1_DigiPot_WLAT
 Wire Bus Line
 	8300 3200 8300 3450
 $EndSCHEMATC
