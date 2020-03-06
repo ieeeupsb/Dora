@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 21
+Sheet 2 21
 Title ""
 Date "2019-10-11"
 Rev "1.0"
@@ -83,7 +83,7 @@ Text HLabel 4850 3750 2    50   Input ~ 0
 D1_DigiPot_SCK
 Text HLabel 4850 3850 2    50   Input ~ 0
 D1_DigiPot_SDI
-Text HLabel 4850 3950 2    50   Input ~ 0
+Text HLabel 4850 3950 2    50   Output ~ 0
 D1_DigiPot_SDO
 Text HLabel 4850 4050 2    50   Input ~ 0
 D1_DigiPot_CS
@@ -95,7 +95,7 @@ Text HLabel 6450 3750 2    50   Input ~ 0
 D2_DigiPot_SCK
 Text HLabel 6450 3850 2    50   Input ~ 0
 D2_DigiPot_SDI
-Text HLabel 6450 3950 2    50   Input ~ 0
+Text HLabel 6450 3950 2    50   Output ~ 0
 D2_DigiPot_SDO
 Text HLabel 6450 4050 2    50   Input ~ 0
 D2_DigiPot_CS
