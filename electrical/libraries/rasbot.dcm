@@ -18,6 +18,12 @@ K lithium battery balance monitor protection
 F http://www.ti.com/lit/ds/symlink/bq76925.pdf
 $ENDCMP
 #
+$CMP CAT4103V
+D 3-Channel Constant-Current RGB LED Driver
+K LED, Driver, Constant-Current
+F https://www.onsemi.com/pub/Collateral/CAT4103-D.PDF
+$ENDCMP
+#
 $CMP DRV8873
 D H-Bridge Motor Driver
 K Motor Driver
