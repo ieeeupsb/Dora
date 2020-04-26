@@ -563,8 +563,6 @@ Entry Wire Line
 	5650 3300 5750 3200
 Text Label 5350 3300 0    50   ~ 0
 IR_OUT6
-Text HLabel 2250 6200 0    50   Output ~ 0
-IR_EN
 $Comp
 L Device:C C61
 U 1 1 5D0DF7DE
@@ -966,7 +964,7 @@ Text HLabel 6500 4000 2    50   BiDi ~ 0
 I2C1_SDA
 Text HLabel 11800 3500 2    50   Input ~ 0
 I2C1_SCL
-Text HLabel 11800 3400 2    50   Input ~ 0
+Text HLabel 11800 3400 2    50   BiDi ~ 0
 I2C1_SDA
 Text HLabel 5350 4600 2    50   Output ~ 0
 SPI2_SCK
