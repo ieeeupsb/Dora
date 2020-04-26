@@ -73,7 +73,7 @@ Text Notes 7300 4450 0    100  ~ 20
 OLED Display
 Text HLabel 7250 5100 2    50   Input ~ 0
 SCL
-Text HLabel 7250 5000 2    50   Input ~ 0
+Text HLabel 7250 5000 2    50   BiDi ~ 0
 SDA
 $Comp
 L power:GND #PWR050
