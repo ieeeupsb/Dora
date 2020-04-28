@@ -1246,8 +1246,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 3500 9750 3500
 Wire Wire Line
-	950  8500 1250 8500
-Wire Wire Line
 	1250 8500 1250 8350
 Connection ~ 1250 8500
 $Comp
@@ -1368,6 +1366,8 @@ Wire Wire Line
 Connection ~ 11100 3400
 Wire Wire Line
 	11100 3400 11800 3400
+Wire Wire Line
+	900  8500 1250 8500
 Wire Wire Line
 	1250 8500 2250 8500
 Wire Bus Line
