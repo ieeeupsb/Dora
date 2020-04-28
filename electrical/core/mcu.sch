@@ -940,28 +940,8 @@ Text HLabel 5350 1800 2    50   Input ~ 0
 Battery_Current
 Text HLabel 5350 1900 2    50   Input ~ 0
 Battery_Cell_Voltage
-Entry Wire Line
-	1800 7600 1900 7700
-Text Label 2200 7800 2    50   ~ 0
-IR_SEL1
-Wire Wire Line
-	2250 7800 1900 7800
-Entry Wire Line
-	1800 7700 1900 7800
-Text Label 2200 7700 2    50   ~ 0
-IR_SEL0
-Wire Wire Line
-	1900 7700 2250 7700
-Entry Wire Line
-	1800 7800 1900 7900
-Text Label 2200 7900 2    50   ~ 0
-IR_SEL2
-Wire Wire Line
-	1900 7900 2250 7900
 Text HLabel 2250 6000 0    50   Output ~ 0
 OLED_EN
-Text HLabel 1800 7700 0    50   Output ~ 0
-IR_SEL
 Wire Wire Line
 	14350 4600 14450 4600
 Wire Wire Line
@@ -1388,8 +1368,6 @@ Wire Wire Line
 Connection ~ 11100 3400
 Wire Wire Line
 	11100 3400 11800 3400
-Wire Bus Line
-	1800 7600 1800 7800
 Wire Wire Line
 	1250 8500 2250 8500
 Wire Bus Line
