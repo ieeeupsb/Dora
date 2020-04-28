@@ -559,10 +559,6 @@ Text Label 5350 3100 0    50   ~ 0
 TDI
 Text Label 5350 2900 0    50   ~ 0
 TMS_SWDIO
-Entry Wire Line
-	5650 3300 5750 3200
-Text Label 5350 3300 0    50   ~ 0
-IR_OUT6
 $Comp
 L Device:C C61
 U 1 1 5D0DF7DE
@@ -574,10 +570,6 @@ F 3 "~" H 13350 3600 50  0001 C CNN
 	1    13350 3600
 	1    0    0    -1  
 $EndComp
-Text HLabel 5750 3200 2    50   Input ~ 0
-IR_OUT
-Text Label 5350 5300 0    50   ~ 0
-IR_OUT3
 Text HLabel 5350 9300 2    50   Output ~ 0
 Motor1-
 Text HLabel 5350 9500 2    50   Output ~ 0
@@ -594,8 +586,6 @@ Text HLabel 2250 7200 0    50   Input ~ 0
 RIGHT_ENC1
 Text HLabel 2250 7300 0    50   Input ~ 0
 RIGHT_ENC2
-Wire Wire Line
-	5350 3300 5650 3300
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J13
 U 1 1 5D4C40AE
@@ -650,24 +640,6 @@ Wire Wire Line
 	13200 6650 13300 6650
 Text HLabel 2250 9000 0    50   Output ~ 0
 buzzer
-Entry Wire Line
-	5750 4900 5650 5000
-Entry Wire Line
-	5750 5000 5650 5100
-Entry Wire Line
-	5750 5100 5650 5200
-Text Label 5350 5000 0    50   ~ 0
-IR_OUT0
-Wire Wire Line
-	5650 5000 5350 5000
-Wire Wire Line
-	5650 5100 5350 5100
-Wire Wire Line
-	5650 5200 5350 5200
-Text Label 5350 5100 0    50   ~ 0
-IR_OUT1
-Text Label 5350 5200 0    50   ~ 0
-IR_OUT2
 Text Label 2250 5200 2    50   ~ 0
 Ultra4_TRIG
 Text Label 2250 5300 2    50   ~ 0
@@ -940,24 +912,6 @@ Text HLabel 5350 2500 2    50   Output ~ 0
 USART1_TX
 Text Label 2250 7600 2    50   ~ 0
 VSYNC
-Wire Wire Line
-	5350 5300 5650 5300
-Entry Wire Line
-	5750 5200 5650 5300
-Text Label 5350 5500 0    50   ~ 0
-IR_OUT5
-Entry Wire Line
-	5750 5300 5650 5400
-Wire Wire Line
-	5650 5400 5350 5400
-Text Label 5350 5400 0    50   ~ 0
-IR_OUT4
-Wire Wire Line
-	5350 5500 5650 5500
-Entry Wire Line
-	5750 5400 5650 5500
-Wire Bus Line
-	5750 3150 5750 3200
 Text HLabel 6500 3900 2    50   Output ~ 0
 I2C1_SCL
 Text HLabel 6500 4000 2    50   BiDi ~ 0
@@ -988,8 +942,6 @@ Text HLabel 5350 1900 2    50   Input ~ 0
 Battery_Cell_Voltage
 Entry Wire Line
 	1800 7600 1900 7700
-Text HLabel 5750 5150 2    50   Input ~ 0
-IR_OUT
 Text Label 2200 7800 2    50   ~ 0
 IR_SEL1
 Wire Wire Line
@@ -1081,7 +1033,7 @@ U 1 1 5D0DD37B
 P 15100 4850
 F 0 "SW1" V 15054 4998 50  0000 L CNN
 F 1 "SW_Push" V 15145 4998 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 15100 5050 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 15100 5050 50  0001 C CNN
 F 3 "~" H 15100 5050 50  0001 C CNN
 	1    15100 4850
 	0    1    1    0   
@@ -1440,8 +1392,6 @@ Wire Bus Line
 	1800 7600 1800 7800
 Wire Wire Line
 	1250 8500 2250 8500
-Wire Bus Line
-	5750 4850 5750 5400
 Wire Bus Line
 	1700 8500 1700 9150
 Wire Bus Line

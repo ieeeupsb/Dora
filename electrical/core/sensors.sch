@@ -184,11 +184,8 @@ S 5850 4200 750  550
 U 5D7E35AC
 F0 "IR" 50
 F1 "ir.sch" 50
-F2 "IR_OUT" O R 6600 4400 50 
-F3 "IR_SEL" I L 5850 4400 50 
+F2 "IR_SEL" I L 5850 4400 50 
 $EndSheet
-Text HLabel 6600 4400 2    50   Output ~ 0
-IR_OUT
 Text HLabel 5850 4400 0    50   Input ~ 0
 IR_SEL
 Wire Wire Line
