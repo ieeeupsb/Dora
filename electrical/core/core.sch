@@ -211,13 +211,13 @@ Text Label 2500 5300 0    50   ~ 0
 Battery_Overcurrent
 Text Label 5450 4500 2    50   ~ 0
 Battery_Overcurrent
-Text Label 6750 3700 0    50   ~ 0
+Text Label 6750 3750 0    50   ~ 0
 LoRa_IO
 Text Label 5250 6750 2    50   ~ 0
 LoRa_IO
 Text Label 5250 6650 2    50   ~ 0
 LoRa_EN
-Text Label 6750 3600 0    50   ~ 0
+Text Label 6750 3650 0    50   ~ 0
 LoRa_EN
 Text Label 5450 1900 2    50   ~ 0
 D1_SENSE
@@ -340,8 +340,8 @@ F28 "Battery_Current" I L 5450 4300 50
 F29 "Battery_Cell_Voltage" I L 5450 4400 50 
 F30 "RPi_EN" O L 5450 3100 50 
 F31 "Battery_Overcurrent" I L 5450 4500 50 
-F32 "LoRa_IO" B R 6750 3700 50 
-F33 "LoRa_EN" O R 6750 3600 50 
+F32 "LoRa_IO" B R 6750 3750 50 
+F33 "LoRa_EN" O R 6750 3650 50 
 F34 "Driver_Current_Limit_CS1" O L 5450 4800 50 
 F35 "Driver_Current_Limit_CS2" O L 5450 4900 50 
 F36 "Motor2_nSLEEP" O L 5450 2350 50 
@@ -357,5 +357,8 @@ F45 "D1_DigiPot_WLAT" O L 5450 5050 50
 F46 "D1_DigiPot_SHDN" O L 5450 5150 50 
 F47 "D2_DigiPot_WLAT" O L 5450 5250 50 
 F48 "D2_DigiPot_SHDN" O L 5450 5350 50 
+F49 "Ultra_EN" O R 6750 3450 50 
 $EndSheet
+Text Label 6750 3450 0    50   ~ 0
+Ultra_EN
 $EndSCHEMATC
