@@ -2224,22 +2224,11 @@ F 3 "" H 7150 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0142
-U 1 1 5EC1F1DC
-P 5200 5100
-F 0 "#PWR0142" H 5200 4950 50  0001 C CNN
-F 1 "+3.3V" H 5215 5273 50  0000 C CNN
-F 2 "" H 5200 5100 50  0001 C CNN
-F 3 "" H 5200 5100 50  0001 C CNN
-	1    5200 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x05_Male J12
 U 1 1 5EC23211
 P 7450 5550
-F 0 "J12" H 7400 5100 50  0000 R CNN
-F 1 "Programming" H 7550 5200 50  0000 R CNN
+F 0 "J12" H 7450 5250 50  0000 R CNN
+F 1 "Programming" V 7400 5800 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 7450 5550 50  0001 C CNN
 F 3 "~" H 7450 5550 50  0001 C CNN
 	1    7450 5550
@@ -2588,59 +2577,14 @@ Wire Wire Line
 Wire Wire Line
 	6400 4000 6450 4000
 $Comp
-L Switch:SW_SPDT_MSM SW3
-U 1 1 5EC6E8C7
-P 4950 5050
-F 0 "SW3" H 4950 4725 50  0000 C CNN
-F 1 "Power Switch" H 4950 4816 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 4950 5050 50  0001 C CNN
-F 3 "~" H 4950 5050 50  0001 C CNN
-	1    4950 5050
-	-1   0    0    1   
-$EndComp
-Text Label 7250 5350 2    50   ~ 0
-3.3V_prog_in
-Text Label 4750 4950 2    50   ~ 0
-3.3V_prog_in
-$Comp
-L Jumper:SolderJumper_3_Open JP19
-U 1 1 5EC88B68
-P 5400 5050
-F 0 "JP19" V 5446 5118 50  0000 L CNN
-F 1 "Power Jumper" V 5355 5118 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5400 5050 50  0001 C CNN
-F 3 "~" H 5400 5050 50  0001 C CNN
-	1    5400 5050
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	5400 4850 4750 4850
-Wire Wire Line
-	4750 4850 4750 4950
-Wire Wire Line
-	5400 5250 4750 5250
-Wire Wire Line
-	4750 5250 4750 5150
-Wire Wire Line
-	5150 5050 5150 5100
-Wire Wire Line
-	5150 5100 5200 5100
-Wire Wire Line
-	5250 5050 5250 5100
-Wire Wire Line
-	5250 5100 5200 5100
-Connection ~ 5200 5100
-Text Notes 4650 4650 0    50   ~ 0
-Power Input Selection
-$Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5ECAD9CD
-P 7250 5350
-F 0 "#FLG01" H 7250 5425 50  0001 C CNN
-F 1 "PWR_FLAG" H 7150 5550 50  0000 C CNN
-F 2 "" H 7250 5350 50  0001 C CNN
-F 3 "~" H 7250 5350 50  0001 C CNN
-	1    7250 5350
+P 7150 5350
+F 0 "#FLG01" H 7150 5425 50  0001 C CNN
+F 1 "PWR_FLAG" H 7150 5500 50  0000 C CNN
+F 2 "" H 7150 5350 50  0001 C CNN
+F 3 "~" H 7150 5350 50  0001 C CNN
+	1    7150 5350
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10750 5300
@@ -2650,4 +2594,22 @@ Text Label 8800 5350 0    50   ~ 0
 SWCLK
 Text Label 8300 5350 2    50   ~ 0
 RESET
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EAD3EDC
+P 6900 5250
+F 0 "#PWR?" H 6900 5100 50  0001 C CNN
+F 1 "+3.3V" H 6915 5423 50  0000 C CNN
+F 2 "" H 6900 5250 50  0001 C CNN
+F 3 "" H 6900 5250 50  0001 C CNN
+	1    6900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5350 6900 5250
+Wire Wire Line
+	6900 5350 7150 5350
+Wire Wire Line
+	7250 5350 7150 5350
+Connection ~ 7150 5350
 $EndSCHEMATC
