@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 21
+Sheet 8 13
 Title ""
 Date "2019-10-11"
 Rev "1.0"
@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5700 4050 0    98   ~ 20
-IR Matrix 7x7
 Wire Wire Line
 	8150 2250 8050 2250
 Wire Wire Line
@@ -179,12 +177,6 @@ F 3 "" H 6350 1800 50  0001 C CNN
 	1    6350 1800
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5850 4200 750  550 
-U 5D7E35AC
-F0 "IR" 50
-F1 "ir.sch" 50
-$EndSheet
 Wire Wire Line
 	1500 3600 1500 3550
 Connection ~ 1500 3600
