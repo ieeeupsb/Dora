@@ -101,9 +101,6 @@ Wire Wire Line
 	9750 3950 9750 4000
 Connection ~ 6650 3150
 Wire Wire Line
-	7850 3250 7850 3350
-Connection ~ 7850 3350
-Wire Wire Line
 	7850 3350 7850 3450
 Connection ~ 7850 3450
 Wire Wire Line
@@ -1549,12 +1546,7 @@ Wire Wire Line
 Connection ~ 6950 3650
 Wire Wire Line
 	6950 3150 7400 3150
-Wire Wire Line
-	7400 3150 7400 3550
-Wire Wire Line
-	7400 3550 7850 3550
 Connection ~ 6950 3150
-Connection ~ 7850 3550
 Wire Wire Line
 	6950 4150 7400 4150
 Wire Wire Line
@@ -1813,4 +1805,12 @@ Wire Wire Line
 Connection ~ 10550 2100
 Wire Wire Line
 	10550 2100 10550 2150
+Wire Wire Line
+	7850 3250 7400 3250
+Wire Wire Line
+	7400 3250 7400 3150
+Wire Wire Line
+	7850 3550 7850 3650
+Connection ~ 7850 3550
+Connection ~ 7850 3650
 $EndSCHEMATC
