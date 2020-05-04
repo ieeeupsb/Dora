@@ -57,7 +57,7 @@ U 1 1 5D3E6CE9
 P 7850 2050
 F 0 "J7" H 7958 2331 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 7958 2240 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 2050 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 7850 2050 50  0001 C CNN
 F 3 "~" H 7850 2050 50  0001 C CNN
 	1    7850 2050
 	1    0    0    -1  
@@ -125,7 +125,7 @@ U 1 1 5D6C8283
 P 5850 2050
 F 0 "J6" H 5958 2331 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5958 2240 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5850 2050 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 5850 2050 50  0001 C CNN
 F 3 "~" H 5850 2050 50  0001 C CNN
 	1    5850 2050
 	1    0    0    -1  
