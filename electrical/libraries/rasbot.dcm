@@ -76,4 +76,8 @@ K step-down dc-dc buck regulator
 F http://www.ti.com/lit/ds/symlink/tps62170.pdf
 $ENDCMP
 #
+$CMP TPS566235RJNx
+F http://www.ti.com/lit/ds/symlink/tps566235.pdf
+$ENDCMP
+#
 #End Doc Library
