@@ -1865,9 +1865,6 @@ Wire Wire Line
 	4400 7350 4250 7350
 Text Label 4250 7000 2    50   ~ 0
 VCC_5VP
-Connection ~ 4950 7000
-Wire Wire Line
-	4600 7000 4950 7000
 Wire Wire Line
 	4600 7050 4600 7000
 $Comp
@@ -1923,7 +1920,7 @@ F 1 "AO3400" V 5000 7050 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5425 7125 50  0001 C CNN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 4700 7200 50  0001 C CNN
 	1    4600 7200
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3950 6350 4350 6350
@@ -1943,4 +1940,6 @@ Wire Wire Line
 Connection ~ 4750 6050
 Wire Wire Line
 	4750 6050 5150 6050
+Wire Wire Line
+	4600 7000 4250 7000
 $EndSCHEMATC
