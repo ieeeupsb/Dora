@@ -132,18 +132,19 @@ D2_IMODE
 Text Label 1850 2550 2    50   ~ 0
 D2_PMODE
 $Sheet
-S 5700 3900 1050 850 
+S 5700 3900 1050 1000
 U 5D48851F
 F0 "Power" 50
 F1 "power.sch" 50
 F2 "Battery_CellVoltage" O R 6750 4100 50 
-F3 "SDA" B R 6750 4500 50 
-F4 "SCL" I R 6750 4400 50 
+F3 "SDA" B R 6750 4600 50 
+F4 "SCL" I R 6750 4500 50 
 F5 "Battery_OvercurrentAlert" O R 6750 4000 50 
 F6 "Battery_PackCurrent" O R 6750 4200 50 
 F7 "RPi_ON" I R 6750 4300 50 
-F8 "VRef_opt" O R 6750 4600 50 
-F9 "TH_out" O R 6750 4700 50 
+F8 "VRef_opt" O R 6750 4700 50 
+F9 "TH_out" O R 6750 4800 50 
+F10 "RPi_PG" O R 6750 4400 50 
 $EndSheet
 $Sheet
 S 4100 6450 900  800 
@@ -265,9 +266,9 @@ Text Label 1850 5350 2    50   ~ 0
 D2_DigiPot_SHDN
 Text Label 1850 5250 2    50   ~ 0
 D2_DigiPot_WLAT
-Text Label 1850 5050 2    50   ~ 0
-D1_DigiPot_SHDN
 Text Label 1850 5150 2    50   ~ 0
+D1_DigiPot_SHDN
+Text Label 1850 5050 2    50   ~ 0
 D1_DigiPot_WLAT
 Text Label 10100 2050 0    50   ~ 0
 I2C2_SCL
@@ -303,9 +304,9 @@ Text Label 9200 4350 2    50   ~ 0
 I2C1_SCL
 Text Label 9200 4450 2    50   ~ 0
 I2C1_SDA
-Text Label 6750 4400 0    50   ~ 0
-I2C1_SCL
 Text Label 6750 4500 0    50   ~ 0
+I2C1_SCL
+Text Label 6750 4600 0    50   ~ 0
 I2C1_SDA
 $Sheet
 S 1850 1300 1300 4400
