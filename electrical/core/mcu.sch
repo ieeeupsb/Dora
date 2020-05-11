@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 13 13
+Sheet 12 12
 Title ""
 Date "2019-10-11"
 Rev "1.0"
@@ -808,12 +808,6 @@ Text HLabel 11800 3500 2    50   Input ~ 0
 I2C1_SCL
 Text HLabel 11800 3400 2    50   BiDi ~ 0
 I2C1_SDA
-Text HLabel 5850 3850 2    50   Output ~ 0
-SPI2_SCK
-Text HLabel 5850 3950 2    50   Input ~ 0
-SPI2_MISO
-Text HLabel 5850 4050 2    50   Output ~ 0
-SPI2_MOSI
 Text HLabel 5850 2650 2    50   Input ~ 0
 Motor2_Sense
 Text HLabel 5850 1550 2    50   Input ~ 0
@@ -970,44 +964,6 @@ Text Label 2550 10650 2    50   ~ 0
 WP
 Text HLabel 2550 10750 0    50   Input ~ 0
 Battery_Overcurrent
-Text Label 5850 9550 0    50   ~ 0
-LoRa_IO0
-Text Label 5850 9650 0    50   ~ 0
-LoRa_IO1
-Text Label 5850 9750 0    50   ~ 0
-LoRa_IO2
-Text Label 5850 9850 0    50   ~ 0
-LoRa_IO3
-Text Label 5850 10050 0    50   ~ 0
-LoRa_IO4
-Text Label 5850 10150 0    50   ~ 0
-LoRa_IO5
-Entry Wire Line
-	6300 9550 6400 9450
-Entry Wire Line
-	6300 9650 6400 9550
-Entry Wire Line
-	6300 9750 6400 9650
-Entry Wire Line
-	6300 9850 6400 9750
-Entry Wire Line
-	6300 10050 6400 9950
-Entry Wire Line
-	6300 10150 6400 10050
-Wire Wire Line
-	5850 10050 6300 10050
-Wire Wire Line
-	6300 10150 5850 10150
-Wire Wire Line
-	5850 9850 6300 9850
-Wire Wire Line
-	6300 9750 5850 9750
-Wire Wire Line
-	5850 9650 6300 9650
-Wire Wire Line
-	6300 9550 5850 9550
-Text HLabel 2550 8350 0    50   Output ~ 0
-LoRa_EN
 Text HLabel 5850 10250 2    50   Output ~ 0
 D1_DigiPot_CS
 Text HLabel 5850 10350 2    50   Output ~ 0
@@ -1399,16 +1355,6 @@ Wire Wire Line
 Connection ~ 6600 9350
 Wire Wire Line
 	7000 9450 6900 9450
-Wire Wire Line
-	5850 9450 6350 9450
-Wire Wire Line
-	6350 9450 6350 9400
-Wire Wire Line
-	6350 9400 6450 9400
-Wire Wire Line
-	6450 9400 6450 9450
-Wire Wire Line
-	6450 9450 6900 9450
 Connection ~ 6900 9450
 $Comp
 L power:GND #PWR0137
@@ -1546,8 +1492,6 @@ Wire Wire Line
 Connection ~ 5350 550 
 Wire Wire Line
 	5350 550  5250 550 
-Text GLabel 6400 9900 2    50   BiDi ~ 0
-LoRa_IO[0..5]
 Text GLabel 1650 5700 0    50   Input ~ 0
 Ultrassonic_ECHO_[0..3]
 Text GLabel 1450 5800 0    50   Output ~ 0
@@ -1707,18 +1651,31 @@ Connection ~ 11400 1350
 Wire Wire Line
 	11400 1350 11600 1350
 NoConn ~ 2550 10250
+NoConn ~ 5850 9550
+NoConn ~ 5850 9650
+NoConn ~ 5850 9750
+NoConn ~ 5850 9850
+NoConn ~ 5850 10050
+NoConn ~ 5850 10150
+Wire Wire Line
+	5850 9450 6900 9450
+NoConn ~ 2550 8350
+Wire Bus Line
+	1450 5800 1450 6550
 Wire Wire Line
 	1550 6550 2550 6550
 Wire Wire Line
 	1550 6350 2550 6350
 Wire Wire Line
 	1550 6150 2550 6150
-Wire Wire Line
-	1550 5950 2550 5950
-Wire Bus Line
-	1450 5800 1450 6550
 Wire Bus Line
 	1650 5700 1650 6550
-Wire Bus Line
-	6400 9450 6400 10100
+Wire Wire Line
+	1550 5950 2550 5950
+Text HLabel 5850 4050 2    50   Output ~ 0
+SPI2_MOSI
+Text HLabel 5850 3950 2    50   Input ~ 0
+SPI2_MISO
+Text HLabel 5850 3850 2    50   Output ~ 0
+SPI2_SCK
 $EndSCHEMATC
