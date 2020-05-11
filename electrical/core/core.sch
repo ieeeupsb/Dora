@@ -61,47 +61,35 @@ F9 "MCU_RESET" O R 10150 4400 50
 F10 "RPi_UART_TX" O R 10150 4200 50 
 F11 "SDA" B L 9200 4450 50 
 $EndSheet
-Text Label 3150 1750 0    50   ~ 0
-LEFT_ENC1
-Text Label 3150 2050 0    50   ~ 0
-RIGHT_ENC2
-Text Label 3150 1850 0    50   ~ 0
-LEFT_ENC2
-Text Label 3150 1950 0    50   ~ 0
-RIGHT_ENC1
 Text Label 9150 1900 2    50   ~ 0
-LEFT_ENC1
+Motor1_ENC1
 Text Label 9150 2200 2    50   ~ 0
-RIGHT_ENC2
+Motor2_ENC2
 Text Label 9150 2000 2    50   ~ 0
-LEFT_ENC2
+Motor1_ENC2
 Text Label 9150 2100 2    50   ~ 0
-RIGHT_ENC1
-Text Label 3150 2450 0    50   ~ 0
+Motor2_ENC1
+Text Label 3350 4350 0    50   ~ 0
 buzzer
 Text Label 9200 4200 2    50   ~ 0
 buzzer
 Text Label 10150 3950 0    50   ~ 0
 OLED_EN
-Text Label 3150 2600 0    50   ~ 0
+Text Label 3350 4150 0    50   ~ 0
 OLED_EN
-Text Label 10100 1650 0    50   ~ 0
-Ultra
 Text Label 10100 1550 0    50   ~ 0
 Ultra_EN
-Text Label 3150 3350 0    50   ~ 0
-Ultra
 Text Label 9200 4600 2    50   ~ 0
 Rotary_SW
 Text Label 9200 4700 2    50   ~ 0
 Rotary_DT
 Text Label 9200 4800 2    50   ~ 0
 Rotary_CLK
-Text Label 1850 3700 2    50   ~ 0
+Text Label 1850 3300 2    50   ~ 0
 Rotary_SW
-Text Label 1850 3800 2    50   ~ 0
+Text Label 1850 3400 2    50   ~ 0
 Rotary_DT
-Text Label 1850 3900 2    50   ~ 0
+Text Label 1850 3500 2    50   ~ 0
 Rotary_CLK
 Text Label 5550 1450 2    50   ~ 0
 D1_IN1
@@ -115,9 +103,9 @@ Text Label 7050 1550 0    50   ~ 0
 D2_IN2
 Text Label 7050 1450 0    50   ~ 0
 D2_IN1
-Text Label 1850 2650 2    50   ~ 0
+Text Label 3350 1900 0    50   ~ 0
 D2_SENSE
-Text Label 1850 2750 2    50   ~ 0
+Text Label 3350 2000 0    50   ~ 0
 D2_nFAULT
 Text Label 5550 1650 2    50   ~ 0
 D1_nSLEEP
@@ -125,11 +113,11 @@ Text Label 5550 1750 2    50   ~ 0
 D1_IMODE
 Text Label 5550 1850 2    50   ~ 0
 D1_PMODE
-Text Label 1850 2350 2    50   ~ 0
+Text Label 3350 1600 0    50   ~ 0
 D2_nSLEEP
-Text Label 1850 2450 2    50   ~ 0
+Text Label 3350 1700 0    50   ~ 0
 D2_IMODE
-Text Label 1850 2550 2    50   ~ 0
+Text Label 3350 1800 0    50   ~ 0
 D2_PMODE
 $Sheet
 S 5700 3900 1050 1000
@@ -147,80 +135,73 @@ F9 "TH_out" O R 6750 4800 50
 F10 "RPi_PG" O R 6750 4400 50 
 $EndSheet
 $Sheet
-S 4100 6450 900  800 
+S 2150 6050 900  800 
 U 5D86834E
 F0 "Communications" 50
 F1 "comms.sch" 50
-F2 "SCK" I L 4100 6550 50 
-F3 "MOSI" I L 4100 6750 50 
-F4 "MISO" O L 4100 6650 50 
-F5 "NSS" I L 4100 6850 50 
-F6 "LoRa_ON" I L 4100 7000 50 
-F7 "LoRa_IO" B L 4100 7100 50 
+F2 "SCK" I L 2150 6150 50 
+F3 "MOSI" I L 2150 6350 50 
+F4 "MISO" O L 2150 6250 50 
+F5 "NSS" I L 2150 6450 50 
+F6 "LoRa_ON" I L 2150 6600 50 
 $EndSheet
 Text Label 10150 4300 0    50   ~ 0
 RPi_RX
-Text Label 1850 2900 2    50   ~ 0
+Text Label 1850 2800 2    50   ~ 0
 RPi_RX
 Text Label 10150 4200 0    50   ~ 0
 RPi_TX
-Text Label 1850 3000 2    50   ~ 0
+Text Label 1850 2900 2    50   ~ 0
 RPi_TX
 Text Label 1850 1400 2    50   ~ 0
 D1_IN1
 Text Label 1850 1500 2    50   ~ 0
 D1_IN2
-Text Label 1850 2150 2    50   ~ 0
+Text Label 3350 1400 0    50   ~ 0
 D2_IN1
-Text Label 1850 2250 2    50   ~ 0
+Text Label 3350 1500 0    50   ~ 0
 D2_IN2
-Text Label 3150 2700 0    50   ~ 0
+Text Label 3350 2800 0    50   ~ 0
 I2C1_SCL
-Text Label 3150 2800 0    50   ~ 0
+Text Label 3350 2900 0    50   ~ 0
 I2C1_SDA
-Text Label 1850 3350 2    50   ~ 0
+Text Label 3350 3300 0    50   ~ 0
 SPI2_SCK
-Text Label 1850 3450 2    50   ~ 0
+Text Label 3350 3400 0    50   ~ 0
 SPI2_MISO
-Text Label 1850 3550 2    50   ~ 0
+Text Label 3350 3500 0    50   ~ 0
 SPI2_MOSI
-Text Label 4100 6550 2    50   ~ 0
+Text Label 2150 6150 2    50   ~ 0
 SPI2_SCK
-Text Label 4100 6650 2    50   ~ 0
+Text Label 2150 6250 2    50   ~ 0
 SPI2_MISO
-Text Label 4100 6750 2    50   ~ 0
+Text Label 2150 6350 2    50   ~ 0
 SPI2_MOSI
-Text Label 4100 6850 2    50   ~ 0
-LoRa_SPI_NSS
-Text Label 3150 2950 0    50   ~ 0
+Text Label 3350 3050 0    50   ~ 0
 I2C2_SCL
-Text Label 3150 3050 0    50   ~ 0
+Text Label 3350 3150 0    50   ~ 0
 I2C2_SDA
-Text Label 1850 4300 2    50   ~ 0
+Text Label 1850 3950 2    50   ~ 0
 Battery_Current
 Text Label 6750 4200 0    50   ~ 0
 Battery_Current
-Text Label 1850 4200 2    50   ~ 0
+Text Label 1850 3850 2    50   ~ 0
 Battery_Temperature
-Text Label 1850 4400 2    50   ~ 0
+Text Label 1850 4050 2    50   ~ 0
 Battery_Cell_Voltage
 Text Label 6750 4100 0    50   ~ 0
 Battery_Cell_Voltage
-Text Label 1850 3100 2    50   ~ 0
+Text Label 3350 3850 0    50   ~ 0
 RPi_EN
 Text Label 6750 4300 0    50   ~ 0
 RPi_EN
 Text Label 6750 4000 0    50   ~ 0
 Battery_Overcurrent
-Text Label 1850 4500 2    50   ~ 0
+Text Label 1850 4150 2    50   ~ 0
 Battery_Overcurrent
-Text Label 3150 3750 0    50   ~ 0
-LoRa_IO
-Text Label 4100 7100 2    50   ~ 0
-LoRa_IO
-Text Label 4100 7000 2    50   ~ 0
+Text Label 2150 6600 2    50   ~ 0
 LoRa_EN
-Text Label 3150 3650 0    50   ~ 0
+Text Label 3350 4050 0    50   ~ 0
 LoRa_EN
 Text Label 1850 1900 2    50   ~ 0
 D1_SENSE
@@ -232,7 +213,7 @@ Text Label 1850 1700 2    50   ~ 0
 D1_IMODE
 Text Label 1850 1800 2    50   ~ 0
 D1_PMODE
-Text Label 1850 3200 2    50   ~ 0
+Text Label 1850 3000 2    50   ~ 0
 MCU_RESET
 Text Label 10150 4400 0    50   ~ 0
 MCU_RESET
@@ -246,14 +227,8 @@ Text Label 7050 1750 0    50   ~ 0
 D2_IMODE
 Text Label 7050 1850 0    50   ~ 0
 D2_PMODE
-Text Label 1850 4800 2    50   ~ 0
-Driver_Current_Limit_CS1
 Text Label 5550 2450 2    50   ~ 0
-Driver_Current_Limit_CS1
-Text Label 1850 4900 2    50   ~ 0
-Driver_Current_Limit_CS2
-Text Label 7050 2450 0    50   ~ 0
-Driver_Current_Limit_CS2
+D1_DigiPot_CS
 Text Label 7050 2650 0    50   ~ 0
 D2_DigiPot_SHDN
 Text Label 5550 2650 2    50   ~ 0
@@ -262,13 +237,13 @@ Text Label 7050 2550 0    50   ~ 0
 D2_DigiPot_WLAT
 Text Label 5550 2550 2    50   ~ 0
 D1_DigiPot_WLAT
-Text Label 1850 5350 2    50   ~ 0
+Text Label 3350 2300 0    50   ~ 0
 D2_DigiPot_SHDN
-Text Label 1850 5250 2    50   ~ 0
+Text Label 3350 2200 0    50   ~ 0
 D2_DigiPot_WLAT
-Text Label 1850 5150 2    50   ~ 0
+Text Label 1850 2300 2    50   ~ 0
 D1_DigiPot_SHDN
-Text Label 1850 5050 2    50   ~ 0
+Text Label 1850 2200 2    50   ~ 0
 D1_DigiPot_WLAT
 Text Label 10100 2050 0    50   ~ 0
 I2C2_SCL
@@ -279,14 +254,13 @@ S 9150 1450 950  850
 U 5D1373A3
 F0 "Sensors" 50
 F1 "sensors.sch" 50
-F2 "LEFT_ENC1" O L 9150 1900 50 
-F3 "LEFT_ENC2" O L 9150 2000 50 
-F4 "RIGHT_ENC1" O L 9150 2100 50 
-F5 "RIGHT_ENC2" O L 9150 2200 50 
-F6 "Ultra_EN" I R 10100 1550 50 
-F7 "Ultra" O R 10100 1650 50 
-F8 "IMU_SDA" B R 10100 2150 50 
-F9 "IMU_SCL" I R 10100 2050 50 
+F2 "Ultra_EN" I R 10100 1550 50 
+F3 "IMU_SDA" B R 10100 2150 50 
+F4 "IMU_SCL" I R 10100 2050 50 
+F5 "Motor2_ENC2" O L 9150 2200 50 
+F6 "Motor2_ENC1" O L 9150 2100 50 
+F7 "Motor1_ENC2" O L 9150 2000 50 
+F8 "Motor1_ENC1" O L 9150 1900 50 
 $EndSheet
 Text Label 7050 2150 0    50   ~ 0
 SPI2_SCK
@@ -308,60 +282,74 @@ Text Label 6750 4500 0    50   ~ 0
 I2C1_SCL
 Text Label 6750 4600 0    50   ~ 0
 I2C1_SDA
+Text Label 3350 3950 0    50   ~ 0
+Ultra_EN
+Text Label 6750 4800 0    50   ~ 0
+Battery_Temperature
+Text Label 7050 2450 0    50   ~ 0
+D2_DigiPot_CS
+Text Label 3350 2100 0    50   ~ 0
+D2_DigiPot_CS
+Text Label 1850 2100 2    50   ~ 0
+D1_DigiPot_CS
 $Sheet
-S 1850 1300 1300 4400
+S 1850 1300 1500 3150
 U 5D0ADCD4
 F0 "MCU" 50
 F1 "mcu.sch" 50
-F2 "LEFT_ENC1" I R 3150 1750 50 
-F3 "LEFT_ENC2" I R 3150 1850 50 
-F4 "RIGHT_ENC1" I R 3150 1950 50 
-F5 "RIGHT_ENC2" I R 3150 2050 50 
-F6 "SPI2_SCK" I L 1850 3350 50 
-F7 "SPI2_MISO" I L 1850 3450 50 
-F8 "SPI2_MOSI" O L 1850 3550 50 
-F9 "buzzer" O R 3150 2450 50 
-F10 "OLED_EN" O R 3150 2600 50 
-F11 "Motor2+" O L 1850 2250 50 
-F12 "Motor2-" O L 1850 2150 50 
-F13 "Motor1-" O L 1850 1400 50 
-F14 "Motor1+" O L 1850 1500 50 
-F15 "Ultrasonic" B R 3150 3350 50 
-F16 "Rotary_DT" I L 1850 3800 50 
-F17 "Rotary_CLK" I L 1850 3900 50 
-F18 "Rotary_SW" I L 1850 3700 50 
-F19 "USART1_RX" I L 1850 3000 50 
-F20 "USART1_TX" O L 1850 2900 50 
-F21 "I2C1_SCL" O R 3150 2700 50 
-F22 "I2C1_SDA" B R 3150 2800 50 
-F23 "Motor2_Sense" I L 1850 2650 50 
-F24 "Motor1_Sense" I L 1850 1900 50 
-F25 "I2C2_SCL" O R 3150 2950 50 
-F26 "I2C2_SDA" B R 3150 3050 50 
-F27 "Battery_temp" I L 1850 4200 50 
-F28 "Battery_Current" I L 1850 4300 50 
-F29 "Battery_Cell_Voltage" I L 1850 4400 50 
-F30 "RPi_EN" O L 1850 3100 50 
-F31 "Battery_Overcurrent" I L 1850 4500 50 
-F32 "LoRa_IO" B R 3150 3750 50 
-F33 "LoRa_EN" O R 3150 3650 50 
-F34 "Driver_Current_Limit_CS1" O L 1850 4800 50 
-F35 "Driver_Current_Limit_CS2" O L 1850 4900 50 
-F36 "Motor2_nSLEEP" O L 1850 2350 50 
-F37 "Motor2_IMODE" O L 1850 2450 50 
-F38 "Motor2_PMODE" O L 1850 2550 50 
-F39 "Motor2_nFAULT" I L 1850 2750 50 
-F40 "MCU_RESET" I L 1850 3200 50 
-F41 "Motor1_nSLEEP" O L 1850 1600 50 
-F42 "Motor1_PMODE" O L 1850 1800 50 
-F43 "Motor1_nFAULT" I L 1850 2000 50 
-F44 "Motor1_IMODE" O L 1850 1700 50 
-F45 "D1_DigiPot_WLAT" O L 1850 5050 50 
-F46 "D1_DigiPot_SHDN" O L 1850 5150 50 
-F47 "D2_DigiPot_WLAT" O L 1850 5250 50 
-F48 "D2_DigiPot_SHDN" O L 1850 5350 50 
-F49 "Ultra_EN" O R 3150 3450 50 
+F2 "SPI2_SCK" I R 3350 3300 50 
+F3 "SPI2_MISO" I R 3350 3400 50 
+F4 "SPI2_MOSI" O R 3350 3500 50 
+F5 "buzzer" O R 3350 4350 50 
+F6 "OLED_EN" O R 3350 4150 50 
+F7 "Motor2+" O R 3350 1500 50 
+F8 "Motor2-" O R 3350 1400 50 
+F9 "Motor1-" O L 1850 1400 50 
+F10 "Motor1+" O L 1850 1500 50 
+F11 "Rotary_DT" I L 1850 3400 50 
+F12 "Rotary_CLK" I L 1850 3500 50 
+F13 "Rotary_SW" I L 1850 3300 50 
+F14 "USART1_RX" I L 1850 2900 50 
+F15 "USART1_TX" O L 1850 2800 50 
+F16 "I2C1_SCL" O R 3350 2800 50 
+F17 "I2C1_SDA" B R 3350 2900 50 
+F18 "Motor2_Sense" I R 3350 1900 50 
+F19 "Motor1_Sense" I L 1850 1900 50 
+F20 "I2C2_SCL" O R 3350 3050 50 
+F21 "I2C2_SDA" B R 3350 3150 50 
+F22 "Battery_temp" I L 1850 3850 50 
+F23 "Battery_Current" I L 1850 3950 50 
+F24 "Battery_Cell_Voltage" I L 1850 4050 50 
+F25 "RPi_EN" O R 3350 3850 50 
+F26 "Battery_Overcurrent" I L 1850 4150 50 
+F27 "LoRa_EN" O R 3350 4050 50 
+F28 "Motor2_nSLEEP" O R 3350 1600 50 
+F29 "Motor2_IMODE" O R 3350 1700 50 
+F30 "Motor2_PMODE" O R 3350 1800 50 
+F31 "Motor2_nFAULT" I R 3350 2000 50 
+F32 "MCU_RESET" I L 1850 3000 50 
+F33 "Motor1_nSLEEP" O L 1850 1600 50 
+F34 "Motor1_PMODE" O L 1850 1800 50 
+F35 "Motor1_nFAULT" I L 1850 2000 50 
+F36 "Motor1_IMODE" O L 1850 1700 50 
+F37 "D1_DigiPot_WLAT" O L 1850 2200 50 
+F38 "D1_DigiPot_SHDN" O L 1850 2300 50 
+F39 "D2_DigiPot_WLAT" O R 3350 2200 50 
+F40 "D2_DigiPot_SHDN" O R 3350 2300 50 
+F41 "Ultra_EN" O R 3350 3950 50 
+F42 "D1_DigiPot_CS" O L 1850 2100 50 
+F43 "D2_DigiPot_CS" O R 3350 2100 50 
+F44 "Motor1_ENC1" I L 1850 2400 50 
+F45 "Motor1_ENC2" I L 1850 2500 50 
+F46 "Motor2_ENC1" I R 3350 2400 50 
+F47 "Motor2_ENC2" I R 3350 2500 50 
 $EndSheet
-Text Label 3150 3450 0    50   ~ 0
-Ultra_EN
+Text Label 1850 2400 2    50   ~ 0
+Motor1_ENC1
+Text Label 3350 2500 0    50   ~ 0
+Motor2_ENC2
+Text Label 1850 2500 2    50   ~ 0
+Motor1_ENC2
+Text Label 3350 2400 0    50   ~ 0
+Motor2_ENC1
 $EndSCHEMATC
