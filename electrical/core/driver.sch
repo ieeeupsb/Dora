@@ -323,7 +323,7 @@ AR Path="/5D25A1F3/5D71CCFF/5D646BCE" Ref="U3"  Part="1"
 F 0 "U3" H 4400 4631 50  0000 C CNN
 F 1 "DRV8874-Q1" H 4400 4540 50  0000 C CNN
 F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias" H 4400 3850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/drv8876.pdf" H 4400 3850 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/drv8874-q1.pdf" H 4400 3850 50  0001 C CNN
 	1    4400 3850
 	1    0    0    -1  
 $EndComp
