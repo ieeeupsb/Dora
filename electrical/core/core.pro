@@ -1,4 +1,4 @@
-update=Fri 11 Oct 2019 12:34:20 AM WEST
+update=qua 13 mai 2020 19:09:08 WEST
 version=1
 last_client=kicad
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=/home/gpereira/Documents/rasbot/electrical/libraries/sheet.k
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1

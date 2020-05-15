@@ -316,6 +316,7 @@ F44 "SPI2_MOSI" O R 3350 4250 50
 F45 "SPI2_MISO" I R 3350 4350 50 
 F46 "SPI2_SCK" O R 3350 4150 50 
 F47 "Vref_IN" I L 1850 5200 50 
+F48 "RPi_PG" I R 3350 5100 50 
 $EndSheet
 Text Label 1850 3250 2    50   ~ 0
 Motor1_ENC1
@@ -331,4 +332,12 @@ Text Label 3350 4250 0    50   ~ 0
 SPI2_MOSI
 Text Label 3350 4350 0    50   ~ 0
 SPI2_MISO
+Text Label 6600 5250 0    50   ~ 0
+Vref_opt
+Text Label 1850 5200 2    50   ~ 0
+Vref_opt
+Text Label 6600 4950 0    50   ~ 0
+RPi_PG
+Text Label 3350 5100 0    50   ~ 0
+RPi_PG
 $EndSCHEMATC

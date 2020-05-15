@@ -1937,4 +1937,6 @@ Wire Bus Line
 	1550 7450 1550 8200
 Wire Bus Line
 	1750 7350 1750 8200
+Text HLabel 8200 9100 2    50   Input ~ 0
+RPi_PG
 $EndSCHEMATC
