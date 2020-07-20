@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name rasbot)(type Legacy)(uri ${KIPRJMOD}/../libraries/rasbot.lib)(options "")(descr ""))
+  (lib (name IR_board-rescue)(type Legacy)(uri ${KIPRJMOD}/IR_board-rescue.lib)(options "")(descr ""))
 )
