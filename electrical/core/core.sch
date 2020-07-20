@@ -45,22 +45,6 @@ F25 "D2_DigiPot_CS" I R 6900 3000 50
 F26 "D2_DigiPot_WLAT" I R 6900 3100 50 
 F27 "D2_DigiPot_SHDN" I R 6900 3200 50 
 $EndSheet
-$Sheet
-S 9050 4400 950  1050
-U 5D3A4E48
-F0 "Interfaces" 50
-F1 "interfaces.sch" 50
-F2 "buzzer" I L 9050 4750 50 
-F3 "Rotary_SW" O L 9050 5150 50 
-F4 "Rotary_DT" O L 9050 5250 50 
-F5 "Rotary_CLK" O L 9050 5350 50 
-F6 "SCL" I L 9050 4900 50 
-F7 "OLED_EN" I R 10000 4500 50 
-F8 "RPi_UART_RX" I R 10000 4850 50 
-F9 "MCU_RESET" O R 10000 4950 50 
-F10 "RPi_UART_TX" O R 10000 4750 50 
-F11 "SDA" B L 9050 5000 50 
-$EndSheet
 Text Label 9000 2450 2    50   ~ 0
 Motor1_ENC1
 Text Label 9000 2750 2    50   ~ 0
@@ -71,19 +55,19 @@ Text Label 9000 2650 2    50   ~ 0
 Motor2_ENC1
 Text Label 3350 5200 0    50   ~ 0
 buzzer
-Text Label 9050 4750 2    50   ~ 0
+Text Label 9050 4500 2    50   ~ 0
 buzzer
-Text Label 10000 4500 0    50   ~ 0
+Text Label 10200 4500 0    50   ~ 0
 OLED_EN
 Text Label 3350 4900 0    50   ~ 0
 OLED_EN
 Text Label 9950 2100 0    50   ~ 0
 Ultra_EN
-Text Label 9050 5150 2    50   ~ 0
+Text Label 9050 4900 2    50   ~ 0
 Rotary_SW
-Text Label 9050 5250 2    50   ~ 0
+Text Label 9050 5000 2    50   ~ 0
 Rotary_DT
-Text Label 9050 5350 2    50   ~ 0
+Text Label 9050 5100 2    50   ~ 0
 Rotary_CLK
 Text Label 1850 4150 2    50   ~ 0
 Rotary_SW
@@ -134,11 +118,11 @@ F8 "VRef_opt" O R 6600 5250 50
 F9 "TH_out" O R 6600 5350 50 
 F10 "RPi_PG" O R 6600 4950 50 
 $EndSheet
-Text Label 10000 4850 0    50   ~ 0
+Text Label 10200 4750 0    50   ~ 0
 RPi_RX
 Text Label 1850 3650 2    50   ~ 0
 RPi_RX
-Text Label 10000 4750 0    50   ~ 0
+Text Label 10200 4650 0    50   ~ 0
 RPi_TX
 Text Label 1850 3750 2    50   ~ 0
 RPi_TX
@@ -188,7 +172,7 @@ Text Label 1850 2650 2    50   ~ 0
 D1_PMODE
 Text Label 1850 3850 2    50   ~ 0
 MCU_RESET
-Text Label 10000 4950 0    50   ~ 0
+Text Label 10200 4850 0    50   ~ 0
 MCU_RESET
 Text Label 6900 2500 0    50   ~ 0
 D2_SENSE
@@ -247,9 +231,9 @@ Text Label 5400 2800 2    50   ~ 0
 SPI2_MOSI
 Text Label 5400 2900 2    50   ~ 0
 SPI2_MISO
-Text Label 9050 4900 2    50   ~ 0
+Text Label 9050 4650 2    50   ~ 0
 I2C1_SCL
-Text Label 9050 5000 2    50   ~ 0
+Text Label 9050 4750 2    50   ~ 0
 I2C1_SDA
 Text Label 6600 5050 0    50   ~ 0
 I2C1_SCL
@@ -266,7 +250,7 @@ D2_DigiPot_CS
 Text Label 1850 2950 2    50   ~ 0
 D1_DigiPot_CS
 $Sheet
-S 1850 2150 1500 3150
+S 1850 2150 1500 3600
 U 5D0ADCD4
 F0 "MCU" 50
 F1 "mcu.sch" 50
@@ -317,6 +301,11 @@ F45 "SPI2_MISO" I R 3350 4350 50
 F46 "SPI2_SCK" O R 3350 4150 50 
 F47 "Vref_IN" I L 1850 5200 50 
 F48 "RPi_PG" I R 3350 5100 50 
+F49 "IR_Array_CS" O R 3350 4500 50 
+F50 "LED_Series_BIN" O R 3350 5350 50 
+F51 "LED_Series_LIN" O R 3350 5450 50 
+F52 "LED_Series_SIN" O R 3350 5550 50 
+F53 "LED_Series_CIN" O R 3350 5650 50 
 $EndSheet
 Text Label 1850 3250 2    50   ~ 0
 Motor1_ENC1
@@ -340,4 +329,54 @@ Text Label 6600 4950 0    50   ~ 0
 RPi_PG
 Text Label 3350 5100 0    50   ~ 0
 RPi_PG
+$Sheet
+S 9050 4400 1150 1250
+U 5D3A4E48
+F0 "Interfaces" 50
+F1 "interfaces.sch" 50
+F2 "buzzer" I L 9050 4500 50 
+F3 "Rotary_SW" O L 9050 4900 50 
+F4 "Rotary_DT" O L 9050 5000 50 
+F5 "Rotary_CLK" O L 9050 5100 50 
+F6 "SCL" I L 9050 4650 50 
+F7 "OLED_EN" I R 10200 4500 50 
+F8 "RPi_UART_RX" I R 10200 4750 50 
+F9 "MCU_RESET" O R 10200 4850 50 
+F10 "RPi_UART_TX" O R 10200 4650 50 
+F11 "SDA" B L 9050 4750 50 
+F12 "SPI_MISO" O R 10200 5550 50 
+F13 "SPI_MOSI" I R 10200 5450 50 
+F14 "SPI_SCK" I R 10200 5350 50 
+F15 "SPI_CS" I R 10200 5250 50 
+F16 "LED_Series_BIN" I L 9050 5250 50 
+F17 "LED_Series_LIN" I L 9050 5350 50 
+F18 "LED_Series_SIN" I L 9050 5450 50 
+F19 "LED_Series_CIN" I L 9050 5550 50 
+$EndSheet
+Text Label 10200 5250 0    50   ~ 0
+IR_Array_CS
+Text Label 10200 5350 0    50   ~ 0
+SPI2_SCK
+Text Label 10200 5450 0    50   ~ 0
+SPI2_MOSI
+Text Label 10200 5550 0    50   ~ 0
+SPI2_MISO
+Text Label 3350 4500 0    50   ~ 0
+IR_Array_CS
+Text Label 9050 5250 2    50   ~ 0
+LED_Series_BIN
+Text Label 9050 5350 2    50   ~ 0
+LED_Series_LIN
+Text Label 9050 5450 2    50   ~ 0
+LED_Series_SIN
+Text Label 9050 5550 2    50   ~ 0
+LED_Series_CIN
+Text Label 3350 5350 0    50   ~ 0
+LED_Series_BIN
+Text Label 3350 5450 0    50   ~ 0
+LED_Series_LIN
+Text Label 3350 5550 0    50   ~ 0
+LED_Series_SIN
+Text Label 3350 5650 0    50   ~ 0
+LED_Series_CIN
 $EndSCHEMATC
