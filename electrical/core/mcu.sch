@@ -1840,7 +1840,7 @@ U 1 1 5F9B8FD6
 P 7950 8600
 F 0 "J16" H 8000 10000 50  0000 C CNN
 F 1 "Expansion_Header_1" H 8000 9900 50  0000 C CNN
-F 2 "" H 7950 8600 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 7950 8600 50  0001 C CNN
 F 3 "~" H 7950 8600 50  0001 C CNN
 	1    7950 8600
 	1    0    0    -1  
@@ -1851,7 +1851,7 @@ U 1 1 5F9BDD9A
 P 9150 8600
 F 0 "J17" H 9200 10000 50  0000 C CNN
 F 1 "Expansion_Header_2" H 9200 9900 50  0000 C CNN
-F 2 "" H 9150 8600 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 9150 8600 50  0001 C CNN
 F 3 "~" H 9150 8600 50  0001 C CNN
 	1    9150 8600
 	1    0    0    -1  
@@ -1862,7 +1862,7 @@ U 1 1 5F9C0BB8
 P 10350 8600
 F 0 "J18" H 10400 10000 50  0000 C CNN
 F 1 "Expansion_Header_3" H 10400 9900 50  0000 C CNN
-F 2 "" H 10350 8600 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 10350 8600 50  0001 C CNN
 F 3 "~" H 10350 8600 50  0001 C CNN
 	1    10350 8600
 	1    0    0    -1  
@@ -2410,6 +2410,8 @@ Text Label 5950 8800 0    50   ~ 0
 EH_90
 Wire Wire Line
 	2650 2350 2650 2500
+Text Notes 8450 6900 0    100  ~ 20
+Expansion Headers
 Wire Wire Line
 	1650 8200 2650 8200
 Wire Wire Line
@@ -2422,6 +2424,4 @@ Wire Bus Line
 	1550 7450 1550 8200
 Wire Bus Line
 	1750 7350 1750 8200
-Text Notes 8450 6900 0    100  ~ 20
-Expansion Headers
 $EndSCHEMATC
