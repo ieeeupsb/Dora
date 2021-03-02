@@ -2616,26 +2616,26 @@ F 3 "~" H 6800 1400 50  0001 C CNN
 	1    6800 1450
 	0    -1   -1   0   
 $EndComp
-Text Notes 9200 4100 0    100  ~ 20
+Text Notes 9200 3800 0    100  ~ 20
 IR Array Module
 $Comp
 L Connector:Conn_01x04_Male J15
 U 1 1 5F19A1A1
-P 10000 4600
-F 0 "J15" H 9972 4482 50  0000 R CNN
-F 1 "IR_Array_Slave_Link" H 9972 4573 50  0000 R CNN
-F 2 "" H 10000 4600 50  0001 C CNN
-F 3 "~" H 10000 4600 50  0001 C CNN
-	1    10000 4600
+P 10000 4800
+F 0 "J15" H 9972 4682 50  0000 R CNN
+F 1 "IR_Array_Slave_Link" H 9972 4773 50  0000 R CNN
+F 2 "" H 10000 4800 50  0001 C CNN
+F 3 "~" H 10000 4800 50  0001 C CNN
+	1    10000 4800
 	-1   0    0    1   
 $EndComp
-Text HLabel 9800 4600 0    50   Output ~ 0
+Text HLabel 9800 4800 0    50   Output ~ 0
 SPI_MISO
-Text HLabel 9800 4700 0    50   Input ~ 0
+Text HLabel 9800 4900 0    50   Input ~ 0
 SPI_MOSI
-Text HLabel 9800 4500 0    50   Input ~ 0
+Text HLabel 9800 4700 0    50   Input ~ 0
 SPI_SCK
-Text HLabel 9800 4400 0    50   Input ~ 0
+Text HLabel 9800 4600 0    50   Input ~ 0
 SPI_CS
 Text HLabel 1250 2150 0    50   Input ~ 0
 LED_Series_BIN
@@ -2645,4 +2645,45 @@ Text HLabel 1250 2350 0    50   Input ~ 0
 LED_Series_SIN
 Text HLabel 1250 2450 0    50   Input ~ 0
 LED_Series_CIN
+$Comp
+L Connector:Conn_01x02_Male J19
+U 1 1 6060A3A0
+P 10000 4250
+F 0 "J19" H 9972 4132 50  0000 R CNN
+F 1 "IR_Array_Power_Pass-through" H 9972 4223 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal" H 10000 4250 50  0001 C CNN
+F 3 "~" H 10000 4250 50  0001 C CNN
+	1    10000 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+BATT #PWR0171
+U 1 1 6061D78E
+P 9750 4100
+F 0 "#PWR0171" H 9750 3950 50  0001 C CNN
+F 1 "+BATT" H 9765 4273 50  0000 C CNN
+F 2 "" H 9750 4100 50  0001 C CNN
+F 3 "" H 9750 4100 50  0001 C CNN
+	1    9750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0172
+U 1 1 6061E1CA
+P 9750 4300
+F 0 "#PWR0172" H 9750 4050 50  0001 C CNN
+F 1 "GND" H 9755 4127 50  0000 C CNN
+F 2 "" H 9750 4300 50  0001 C CNN
+F 3 "" H 9750 4300 50  0001 C CNN
+	1    9750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4150 9750 4150
+Wire Wire Line
+	9750 4150 9750 4100
+Wire Wire Line
+	9750 4300 9750 4250
+Wire Wire Line
+	9750 4250 9800 4250
 $EndSCHEMATC
