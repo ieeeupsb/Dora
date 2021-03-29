@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 11 12
+Sheet 11 15
 Title ""
 Date "2019-10-11"
 Rev "1.0"
@@ -16,10 +16,10 @@ $EndDescr
 Text Notes 3850 850  0    100  ~ 20
 Decoupling
 $Comp
-L power:+3.3V #PWR095
+L power:+3.3V #PWR099
 U 1 1 5D0BC77C
 P 4250 1200
-F 0 "#PWR095" H 4250 1050 50  0001 C CNN
+F 0 "#PWR099" H 4250 1050 50  0001 C CNN
 F 1 "+3.3V" H 4265 1373 50  0000 C CNN
 F 2 "" H 4250 1200 50  0001 C CNN
 F 3 "" H 4250 1200 50  0001 C CNN
@@ -93,10 +93,10 @@ F 3 "~" H 7450 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR096
+L power:GND #PWR0100
 U 1 1 5D0D37FC
 P 4250 1500
-F 0 "#PWR096" H 4250 1250 50  0001 C CNN
+F 0 "#PWR0100" H 4250 1250 50  0001 C CNN
 F 1 "GND" H 4255 1327 50  0000 C CNN
 F 2 "" H 4250 1500 50  0001 C CNN
 F 3 "" H 4250 1500 50  0001 C CNN
@@ -117,10 +117,10 @@ F 3 "~" H 8700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L power:GND #PWR0116
 U 1 1 5D0DEFF9
 P 8700 4250
-F 0 "#PWR0111" H 8700 4000 50  0001 C CNN
+F 0 "#PWR0116" H 8700 4000 50  0001 C CNN
 F 1 "GND" H 8705 4077 50  0000 C CNN
 F 2 "" H 8700 4250 50  0001 C CNN
 F 3 "" H 8700 4250 50  0001 C CNN
@@ -177,10 +177,10 @@ F 3 "~" H 9850 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L power:GND #PWR0126
 U 1 1 5D1B0C86
 P 9850 4250
-F 0 "#PWR0119" H 9850 4000 50  0001 C CNN
+F 0 "#PWR0126" H 9850 4000 50  0001 C CNN
 F 1 "GND" H 9855 4077 50  0000 C CNN
 F 2 "" H 9850 4250 50  0001 C CNN
 F 3 "" H 9850 4250 50  0001 C CNN
@@ -272,10 +272,10 @@ F 4 "ESR < 2 Ohm" H 8900 1700 50  0000 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L power:GND #PWR0117
 U 1 1 5D42878B
 P 8900 1600
-F 0 "#PWR0112" H 8900 1350 50  0001 C CNN
+F 0 "#PWR0117" H 8900 1350 50  0001 C CNN
 F 1 "GND" H 8905 1427 50  0000 C CNN
 F 2 "" H 8900 1600 50  0001 C CNN
 F 3 "" H 8900 1600 50  0001 C CNN
@@ -322,10 +322,10 @@ F 3 "~" H 9950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L power:GND #PWR0125
 U 1 1 5D42E69A
 P 9750 1600
-F 0 "#PWR0118" H 9750 1350 50  0001 C CNN
+F 0 "#PWR0125" H 9750 1350 50  0001 C CNN
 F 1 "GND" H 9755 1427 50  0000 C CNN
 F 2 "" H 9750 1600 50  0001 C CNN
 F 3 "" H 9750 1600 50  0001 C CNN
@@ -370,10 +370,10 @@ F 3 "~" H 10800 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0124
+L power:GND #PWR0132
 U 1 1 5D43C6FD
 P 10600 1600
-F 0 "#PWR0124" H 10600 1350 50  0001 C CNN
+F 0 "#PWR0132" H 10600 1350 50  0001 C CNN
 F 1 "GND" H 10605 1427 50  0000 C CNN
 F 2 "" H 10600 1600 50  0001 C CNN
 F 3 "" H 10600 1600 50  0001 C CNN
@@ -396,10 +396,10 @@ Wire Wire Line
 Wire Wire Line
 	10800 1100 10800 1200
 $Comp
-L power:+3.3V #PWR0123
+L power:+3.3V #PWR0131
 U 1 1 5D43F4A0
 P 10600 1050
-F 0 "#PWR0123" H 10600 900 50  0001 C CNN
+F 0 "#PWR0131" H 10600 900 50  0001 C CNN
 F 1 "+3.3V" H 10615 1223 50  0000 C CNN
 F 2 "" H 10600 1050 50  0001 C CNN
 F 3 "" H 10600 1050 50  0001 C CNN
@@ -430,27 +430,27 @@ F 3 "~" H 8450 4000 50  0001 C CNN
 	1    8450 4000
 	1    0    0    -1  
 $EndComp
-Text HLabel 5950 10200 2    50   Output ~ 0
+Text HLabel 5950 10100 2    50   Output ~ 0
 Motor1-
-Text HLabel 5950 10400 2    50   Output ~ 0
+Text HLabel 5950 10200 2    50   Output ~ 0
 Motor1+
-Text HLabel 5950 10600 2    50   Output ~ 0
+Text HLabel 5950 10300 2    50   Output ~ 0
 Motor2-
-Text HLabel 5950 10700 2    50   Output ~ 0
+Text HLabel 5950 10400 2    50   Output ~ 0
 Motor2+
-Text HLabel 2650 11300 0    50   Input ~ 0
+Text HLabel 5950 9300 2    50   Input ~ 0
 Motor1_ENC1
-Text HLabel 2650 11400 0    50   Input ~ 0
+Text HLabel 5950 9400 2    50   Input ~ 0
 Motor1_ENC2
-Text HLabel 2650 11500 0    50   Input ~ 0
+Text HLabel 5950 9500 2    50   Input ~ 0
 Motor2_ENC1
-Text HLabel 2650 11600 0    50   Input ~ 0
+Text HLabel 5950 9600 2    50   Input ~ 0
 Motor2_ENC2
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J8
+L Connector_Generic:Conn_02x05_Odd_Even J10
 U 1 1 5D4C40AE
 P 1100 14950
-F 0 "J8" H 1150 15367 50  0000 C CNN
+F 0 "J10" H 1150 15367 50  0000 C CNN
 F 1 "ST-Link V2 Clones" H 1150 15276 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1100 14950 50  0001 C CNN
 F 3 "~" H 1100 14950 50  0001 C CNN
@@ -461,10 +461,10 @@ Text Label 900  14750 2    50   ~ 0
 reset
 NoConn ~ 900  14850
 $Comp
-L power:GND #PWR090
+L power:GND #PWR094
 U 1 1 5D4D150B
 P 800 15200
-F 0 "#PWR090" H 800 14950 50  0001 C CNN
+F 0 "#PWR094" H 800 14950 50  0001 C CNN
 F 1 "GND" H 805 15027 50  0000 C CNN
 F 2 "" H 800 15200 50  0001 C CNN
 F 3 "" H 800 15200 50  0001 C CNN
@@ -478,10 +478,10 @@ NoConn ~ 900  15050
 NoConn ~ 1400 15150
 NoConn ~ 1400 15050
 $Comp
-L power:GND #PWR091
+L power:GND #PWR095
 U 1 1 5D4F57F0
 P 1500 15200
-F 0 "#PWR091" H 1500 14950 50  0001 C CNN
+F 0 "#PWR095" H 1500 14950 50  0001 C CNN
 F 1 "GND" H 1505 15027 50  0000 C CNN
 F 2 "" H 1500 15200 50  0001 C CNN
 F 3 "" H 1500 15200 50  0001 C CNN
@@ -533,10 +533,10 @@ Rotary_CLK
 Text HLabel 2650 11000 0    50   Input ~ 0
 Rotary_SW
 $Comp
-L power:+3.3V #PWR0114
+L power:+3.3V #PWR0119
 U 1 1 5D587BB5
 P 9000 13150
-F 0 "#PWR0114" H 9000 13000 50  0001 C CNN
+F 0 "#PWR0119" H 9000 13000 50  0001 C CNN
 F 1 "+3.3V" H 9015 13323 50  0000 C CNN
 F 2 "" H 9000 13150 50  0001 C CNN
 F 3 "" H 9000 13150 50  0001 C CNN
@@ -559,10 +559,10 @@ F 3 "~" H 10450 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0121
+L power:+3.3V #PWR0129
 U 1 1 5D6472BB
 P 10450 12900
-F 0 "#PWR0121" H 10450 12750 50  0001 C CNN
+F 0 "#PWR0129" H 10450 12750 50  0001 C CNN
 F 1 "+3.3V" H 10465 13073 50  0000 C CNN
 F 2 "" H 10450 12900 50  0001 C CNN
 F 3 "" H 10450 12900 50  0001 C CNN
@@ -570,10 +570,10 @@ F 3 "" H 10450 12900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L power:GND #PWR0130
 U 1 1 5D647A87
 P 10450 13200
-F 0 "#PWR0122" H 10450 12950 50  0001 C CNN
+F 0 "#PWR0130" H 10450 12950 50  0001 C CNN
 F 1 "GND" H 10455 13027 50  0000 C CNN
 F 2 "" H 10450 13200 50  0001 C CNN
 F 3 "" H 10450 13200 50  0001 C CNN
@@ -583,10 +583,10 @@ $EndComp
 Text Notes 8750 12850 0    100  ~ 20
 EEPROM
 $Comp
-L power:+3.3V #PWR0107
+L power:+3.3V #PWR0112
 U 1 1 5D8222CF
 P 8300 12900
-F 0 "#PWR0107" H 8300 12750 50  0001 C CNN
+F 0 "#PWR0112" H 8300 12750 50  0001 C CNN
 F 1 "+3.3V" H 8315 13073 50  0000 C CNN
 F 2 "" H 8300 12900 50  0001 C CNN
 F 3 "" H 8300 12900 50  0001 C CNN
@@ -594,10 +594,10 @@ F 3 "" H 8300 12900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L power:GND #PWR0113
 U 1 1 5D57A6E2
 P 8300 13300
-F 0 "#PWR0108" H 8300 13050 50  0001 C CNN
+F 0 "#PWR0113" H 8300 13050 50  0001 C CNN
 F 1 "GND" H 8305 13127 50  0000 C CNN
 F 2 "" H 8300 13300 50  0001 C CNN
 F 3 "" H 8300 13300 50  0001 C CNN
@@ -605,10 +605,10 @@ F 3 "" H 8300 13300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP22
+L Connector:TestPoint TP26
 U 1 1 5D7BD1AC
 P 10100 3350
-F 0 "TP22" H 10158 3468 50  0000 L CNN
+F 0 "TP26" H 10158 3468 50  0000 L CNN
 F 1 "TestPoint" H 10158 3377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10300 3350 50  0001 C CNN
 F 3 "~" H 10300 3350 50  0001 C CNN
@@ -619,10 +619,10 @@ Wire Wire Line
 	10100 3350 10100 3700
 Connection ~ 10100 3700
 $Comp
-L Connector:TestPoint TP20
+L Connector:TestPoint TP24
 U 1 1 5D7C5F2F
 P 9600 3350
-F 0 "TP20" H 9658 3468 50  0000 L CNN
+F 0 "TP24" H 9658 3468 50  0000 L CNN
 F 1 "TestPoint" H 9658 3377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9800 3350 50  0001 C CNN
 F 3 "~" H 9800 3350 50  0001 C CNN
@@ -633,10 +633,10 @@ Wire Wire Line
 	9600 3350 9600 3700
 Connection ~ 9600 3700
 $Comp
-L Connector:TestPoint TP18
+L Connector:TestPoint TP22
 U 1 1 5D7EC25C
 P 8950 3350
-F 0 "TP18" H 9008 3468 50  0000 L CNN
+F 0 "TP22" H 9008 3468 50  0000 L CNN
 F 1 "TestPoint" H 9008 3377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9150 3350 50  0001 C CNN
 F 3 "~" H 9150 3350 50  0001 C CNN
@@ -646,10 +646,10 @@ $EndComp
 Wire Wire Line
 	8950 3350 8950 3700
 $Comp
-L Connector:TestPoint TP17
+L Connector:TestPoint TP21
 U 1 1 5D7EC263
 P 8450 3350
-F 0 "TP17" H 8508 3468 50  0000 L CNN
+F 0 "TP21" H 8508 3468 50  0000 L CNN
 F 1 "TestPoint" H 8508 3377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8650 3350 50  0001 C CNN
 F 3 "~" H 8650 3350 50  0001 C CNN
@@ -659,10 +659,10 @@ $EndComp
 Wire Wire Line
 	8450 3350 8450 3700
 $Comp
-L Connector:TestPoint TP19
+L Connector:TestPoint TP23
 U 1 1 5D7F5F45
 P 9450 13950
-F 0 "TP19" H 9392 13976 50  0000 R CNN
+F 0 "TP23" H 9392 13976 50  0000 R CNN
 F 1 "TestPoint" H 9392 14067 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9650 13950 50  0001 C CNN
 F 3 "~" H 9650 13950 50  0001 C CNN
@@ -670,10 +670,10 @@ F 3 "~" H 9650 13950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP21
+L Connector:TestPoint TP25
 U 1 1 5D7F5C8F
 P 9900 13950
-F 0 "TP21" H 9842 13976 50  0000 R CNN
+F 0 "TP25" H 9842 13976 50  0000 R CNN
 F 1 "TestPoint" H 9842 14067 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10100 13950 50  0001 C CNN
 F 3 "~" H 10100 13950 50  0001 C CNN
@@ -681,10 +681,10 @@ F 3 "~" H 10100 13950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP23
+L Connector:TestPoint TP27
 U 1 1 5D7F58AC
 P 10350 13950
-F 0 "TP23" H 10292 13976 50  0000 R CNN
+F 0 "TP27" H 10292 13976 50  0000 R CNN
 F 1 "TestPoint" H 10292 14067 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10550 13950 50  0001 C CNN
 F 3 "~" H 10550 13950 50  0001 C CNN
@@ -703,10 +703,10 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf" H 9000 13650 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L power:GND #PWR0120
 U 1 1 5D58762D
 P 9000 13950
-F 0 "#PWR0115" H 9000 13700 50  0001 C CNN
+F 0 "#PWR0120" H 9000 13700 50  0001 C CNN
 F 1 "GND" H 9005 13777 50  0000 C CNN
 F 2 "" H 9000 13950 50  0001 C CNN
 F 3 "" H 9000 13950 50  0001 C CNN
@@ -736,9 +736,9 @@ Text HLabel 10150 13650 2    50   Input ~ 0
 I2C1_SCL
 Text HLabel 10150 13550 2    50   BiDi ~ 0
 I2C1_SDA
-Text HLabel 5950 4300 2    50   Input ~ 0
+Text HLabel 5950 5200 2    50   Input ~ 0
 Motor2_Sense
-Text HLabel 5950 3200 2    50   Input ~ 0
+Text HLabel 5950 5100 2    50   Input ~ 0
 Motor1_Sense
 Text HLabel 7100 11100 2    50   Output ~ 0
 I2C2_SCL
@@ -788,10 +788,10 @@ F 3 "~" H 9850 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0116
+L power:+3.3V #PWR0123
 U 1 1 5D0EA230
 P 9450 4950
-F 0 "#PWR0116" H 9450 4800 50  0001 C CNN
+F 0 "#PWR0123" H 9450 4800 50  0001 C CNN
 F 1 "+3.3V" H 9465 5123 50  0000 C CNN
 F 2 "" H 9450 4950 50  0001 C CNN
 F 3 "" H 9450 4950 50  0001 C CNN
@@ -807,10 +807,10 @@ Wire Wire Line
 	10200 5500 10200 5450
 Connection ~ 10200 5500
 $Comp
-L power:GND #PWR0120
+L power:GND #PWR0127
 U 1 1 5D0DE96B
 P 10200 5500
-F 0 "#PWR0120" H 10200 5250 50  0001 C CNN
+F 0 "#PWR0127" H 10200 5250 50  0001 C CNN
 F 1 "GND" H 10205 5327 50  0000 C CNN
 F 2 "" H 10200 5500 50  0001 C CNN
 F 3 "" H 10200 5500 50  0001 C CNN
@@ -835,10 +835,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 5300 9000 5250
 $Comp
-L power:GND #PWR0113
+L power:GND #PWR0118
 U 1 1 5D77A918
 P 9000 5300
-F 0 "#PWR0113" H 9000 5050 50  0001 C CNN
+F 0 "#PWR0118" H 9000 5050 50  0001 C CNN
 F 1 "GND" H 9005 5127 50  0000 C CNN
 F 2 "" H 9000 5300 50  0001 C CNN
 F 3 "" H 9000 5300 50  0001 C CNN
@@ -876,10 +876,10 @@ $EndComp
 Text Notes 8350 4900 0    50   ~ 0
 Power Indicator LED
 $Comp
-L power:+3.3V #PWR0106
+L power:+3.3V #PWR0111
 U 1 1 5D122362
 P 8200 5200
-F 0 "#PWR0106" H 8200 5050 50  0001 C CNN
+F 0 "#PWR0111" H 8200 5050 50  0001 C CNN
 F 1 "+3.3V" H 8215 5373 50  0000 C CNN
 F 2 "" H 8200 5200 50  0001 C CNN
 F 3 "" H 8200 5200 50  0001 C CNN
@@ -892,29 +892,21 @@ Text Label 2650 12300 2    50   ~ 0
 WP
 Text HLabel 2650 12400 0    50   Input ~ 0
 Battery_Overcurrent
-Text HLabel 5950 11900 2    50   Output ~ 0
+Text HLabel 5950 11700 2    50   Output ~ 0
 D1_DigiPot_CS
-Text HLabel 5950 12000 2    50   Output ~ 0
+Text HLabel 5950 11800 2    50   Output ~ 0
 D2_DigiPot_CS
-Text HLabel 5950 12100 2    50   Output ~ 0
-Motor2_nSLEEP
-Text HLabel 5950 4400 2    50   Output ~ 0
-Motor2_IMODE
-Text HLabel 5950 12200 2    50   Output ~ 0
-Motor2_PMODE
-Text HLabel 5950 12300 2    50   Input ~ 0
-Motor2_nFAULT
 Text HLabel 10600 5000 2    50   Input ~ 0
 MCU_RESET
 Wire Wire Line
 	10200 5000 10600 5000
-Text HLabel 5950 12400 2    50   Output ~ 0
+Text HLabel 5950 5900 2    50   Output ~ 0
 Motor1_nSLEEP
-Text HLabel 5950 12500 2    50   Output ~ 0
+Text HLabel 5950 6000 2    50   Output ~ 0
 Motor1_PMODE
-Text HLabel 5950 10000 2    50   Input ~ 0
+Text HLabel 5950 6100 2    50   Input ~ 0
 Motor1_nFAULT
-Text HLabel 5950 10100 2    50   Output ~ 0
+Text HLabel 5950 6200 2    50   Output ~ 0
 Motor1_IMODE
 Text HLabel 5950 8400 2    50   Output ~ 0
 D1_DigiPot_WLAT
@@ -936,10 +928,10 @@ F 3 "~" H 8300 13100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0104
+L power:+3.3V #PWR0108
 U 1 1 5E6D25CA
 P 7950 13450
-F 0 "#PWR0104" H 7950 13300 50  0001 C CNN
+F 0 "#PWR0108" H 7950 13300 50  0001 C CNN
 F 1 "+3.3V" H 7965 13623 50  0000 C CNN
 F 2 "" H 7950 13450 50  0001 C CNN
 F 3 "" H 7950 13450 50  0001 C CNN
@@ -947,10 +939,10 @@ F 3 "" H 7950 13450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR0109
 U 1 1 5E6D25D0
 P 7950 13850
-F 0 "#PWR0105" H 7950 13600 50  0001 C CNN
+F 0 "#PWR0109" H 7950 13600 50  0001 C CNN
 F 1 "GND" H 7955 13677 50  0000 C CNN
 F 2 "" H 7950 13850 50  0001 C CNN
 F 3 "" H 7950 13850 50  0001 C CNN
@@ -969,10 +961,10 @@ F 3 "~" H 7950 13650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0109
+L power:+3.3V #PWR0114
 U 1 1 5E6E0A7E
 P 8300 14000
-F 0 "#PWR0109" H 8300 13850 50  0001 C CNN
+F 0 "#PWR0114" H 8300 13850 50  0001 C CNN
 F 1 "+3.3V" H 8315 14173 50  0000 C CNN
 F 2 "" H 8300 14000 50  0001 C CNN
 F 3 "" H 8300 14000 50  0001 C CNN
@@ -980,10 +972,10 @@ F 3 "" H 8300 14000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L power:GND #PWR0115
 U 1 1 5E6E0A84
 P 8300 14400
-F 0 "#PWR0110" H 8300 14150 50  0001 C CNN
+F 0 "#PWR0115" H 8300 14150 50  0001 C CNN
 F 1 "GND" H 8305 14227 50  0000 C CNN
 F 2 "" H 8300 14400 50  0001 C CNN
 F 3 "" H 8300 14400 50  0001 C CNN
@@ -1018,10 +1010,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 11100 7000 10950
 $Comp
-L power:+3.3V #PWR0103
+L power:+3.3V #PWR0107
 U 1 1 5E7830D9
 P 7000 10550
-F 0 "#PWR0103" H 7000 10400 50  0001 C CNN
+F 0 "#PWR0107" H 7000 10400 50  0001 C CNN
 F 1 "+3.3V" H 7015 10723 50  0000 C CNN
 F 2 "" H 7000 10550 50  0001 C CNN
 F 3 "" H 7000 10550 50  0001 C CNN
@@ -1037,10 +1029,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 10600 7000 10600
 $Comp
-L power:+3.3V #PWR0102
+L power:+3.3V #PWR0106
 U 1 1 5E7BAE1B
 P 6900 4350
-F 0 "#PWR0102" H 6900 4200 50  0001 C CNN
+F 0 "#PWR0106" H 6900 4200 50  0001 C CNN
 F 1 "+3.3V" H 6915 4523 50  0000 C CNN
 F 2 "" H 6900 4350 50  0001 C CNN
 F 3 "" H 6900 4350 50  0001 C CNN
@@ -1128,10 +1120,10 @@ Connection ~ 9450 13550
 Wire Wire Line
 	9450 13550 10150 13550
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_20 J9
+L Connector:Conn_ARM_JTAG_SWD_20 J11
 U 1 1 5F039528
 P 3450 15000
-F 0 "J9" H 2921 15046 50  0000 R CNN
+F 0 "J11" H 2921 15046 50  0000 R CNN
 F 1 "Segger J-Link SWD/JTAG" H 2921 14955 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 3900 13950 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 3100 13750 50  0001 C CNN
@@ -1139,10 +1131,10 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_d
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR094
+L power:GND #PWR098
 U 1 1 5F03A5BD
 P 3350 15800
-F 0 "#PWR094" H 3350 15550 50  0001 C CNN
+F 0 "#PWR098" H 3350 15550 50  0001 C CNN
 F 1 "GND" H 3355 15627 50  0000 C CNN
 F 2 "" H 3350 15800 50  0001 C CNN
 F 3 "" H 3350 15800 50  0001 C CNN
@@ -1165,10 +1157,10 @@ NoConn ~ 4050 14800
 NoConn ~ 4050 15400
 NoConn ~ 4050 15500
 $Comp
-L power:+3.3V #PWR093
+L power:+3.3V #PWR097
 U 1 1 5F059ECD
 P 3350 14200
-F 0 "#PWR093" H 3350 14050 50  0001 C CNN
+F 0 "#PWR097" H 3350 14050 50  0001 C CNN
 F 1 "+3.3V" H 3365 14373 50  0000 C CNN
 F 2 "" H 3350 14200 50  0001 C CNN
 F 3 "" H 3350 14200 50  0001 C CNN
@@ -1177,10 +1169,10 @@ F 3 "" H 3350 14200 50  0001 C CNN
 $EndComp
 NoConn ~ 3450 14200
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J10
+L Connector:Conn_ARM_JTAG_SWD_10 J12
 U 1 1 5F062679
 P 5850 15000
-F 0 "J10" H 5406 15046 50  0000 R CNN
+F 0 "J12" H 5406 15046 50  0000 R CNN
 F 1 "ARM JTAG/SWD 10" H 5406 14955 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5850 15000 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 5500 13750 50  0001 C CNN
@@ -1188,10 +1180,10 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresigh
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0101
+L power:+3.3V #PWR0105
 U 1 1 5F064C1C
 P 5850 14400
-F 0 "#PWR0101" H 5850 14250 50  0001 C CNN
+F 0 "#PWR0105" H 5850 14250 50  0001 C CNN
 F 1 "+3.3V" H 5865 14573 50  0000 C CNN
 F 2 "" H 5850 14400 50  0001 C CNN
 F 3 "" H 5850 14400 50  0001 C CNN
@@ -1199,10 +1191,10 @@ F 3 "" H 5850 14400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0100
+L power:GND #PWR0104
 U 1 1 5F064F61
 P 5800 15600
-F 0 "#PWR0100" H 5800 15350 50  0001 C CNN
+F 0 "#PWR0104" H 5800 15350 50  0001 C CNN
 F 1 "GND" H 5805 15427 50  0000 C CNN
 F 2 "" H 5800 15600 50  0001 C CNN
 F 3 "" H 5800 15600 50  0001 C CNN
@@ -1274,10 +1266,10 @@ Wire Wire Line
 	7100 11100 7000 11100
 Connection ~ 7000 11100
 $Comp
-L power:GND #PWR098
+L power:GND #PWR0102
 U 1 1 5EC9562A
 P 4500 12800
-F 0 "#PWR098" H 4500 12550 50  0001 C CNN
+F 0 "#PWR0102" H 4500 12550 50  0001 C CNN
 F 1 "GND" H 4505 12627 50  0000 C CNN
 F 2 "" H 4500 12800 50  0001 C CNN
 F 3 "" H 4500 12800 50  0001 C CNN
@@ -1285,10 +1277,10 @@ F 3 "" H 4500 12800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR097
+L power:+3.3V #PWR0101
 U 1 1 5EC9D583
 P 4300 2200
-F 0 "#PWR097" H 4300 2050 50  0001 C CNN
+F 0 "#PWR0101" H 4300 2050 50  0001 C CNN
 F 1 "+3.3V" H 4315 2373 50  0000 C CNN
 F 2 "" H 4300 2200 50  0001 C CNN
 F 3 "" H 4300 2200 50  0001 C CNN
@@ -1350,10 +1342,10 @@ SPI2_MISO
 Text HLabel 6250 5500 2    50   Output ~ 0
 SPI2_SCK
 $Comp
-L power:+3.3V #PWR092
+L power:+3.3V #PWR096
 U 1 1 5EBCEB39
 P 2250 2600
-F 0 "#PWR092" H 2250 2450 50  0001 C CNN
+F 0 "#PWR096" H 2250 2450 50  0001 C CNN
 F 1 "+3.3V" H 2265 2773 50  0000 C CNN
 F 2 "" H 2250 2600 50  0001 C CNN
 F 3 "" H 2250 2600 50  0001 C CNN
@@ -1363,10 +1355,10 @@ $EndComp
 Wire Wire Line
 	2250 2600 2650 2600
 $Comp
-L power:+3.3V #PWR0117
+L power:+3.3V #PWR0124
 U 1 1 5EBDBC33
 P 9500 750
-F 0 "#PWR0117" H 9500 600 50  0001 C CNN
+F 0 "#PWR0124" H 9500 600 50  0001 C CNN
 F 1 "+3.3V" H 9515 923 50  0000 C CNN
 F 2 "" H 9500 750 50  0001 C CNN
 F 3 "" H 9500 750 50  0001 C CNN
@@ -1423,10 +1415,10 @@ VCAPDSI
 Text Label 10550 2100 2    50   ~ 0
 VCAPDSI
 $Comp
-L power:GND #PWR0125
+L power:GND #PWR0133
 U 1 1 5EC1A885
 P 10600 2450
-F 0 "#PWR0125" H 10600 2200 50  0001 C CNN
+F 0 "#PWR0133" H 10600 2200 50  0001 C CNN
 F 1 "GND" H 10605 2277 50  0000 C CNN
 F 2 "" H 10600 2450 50  0001 C CNN
 F 3 "" H 10600 2450 50  0001 C CNN
@@ -1441,10 +1433,10 @@ Connection ~ 10600 2100
 Wire Wire Line
 	10600 2100 10650 2100
 $Comp
-L power:+3.3V #PWR099
+L power:+3.3V #PWR0103
 U 1 1 5EC8D33B
 P 5400 2200
-F 0 "#PWR099" H 5400 2050 50  0001 C CNN
+F 0 "#PWR0103" H 5400 2050 50  0001 C CNN
 F 1 "+3.3V" H 5415 2373 50  0000 C CNN
 F 2 "" H 5400 2200 50  0001 C CNN
 F 3 "" H 5400 2200 50  0001 C CNN
@@ -1731,10 +1723,10 @@ LED_Series_SIN
 Text HLabel 5950 11500 2    50   Output ~ 0
 LED_Series_CIN
 $Comp
-L power:GND #PWR0167
+L power:GND #PWR0122
 U 1 1 5F23CD06
 P 9200 9800
-F 0 "#PWR0167" H 9200 9550 50  0001 C CNN
+F 0 "#PWR0122" H 9200 9550 50  0001 C CNN
 F 1 "GND" H 9205 9627 50  0000 C CNN
 F 2 "" H 9200 9800 50  0001 C CNN
 F 3 "" H 9200 9800 50  0001 C CNN
@@ -1751,10 +1743,10 @@ Wire Wire Line
 	8250 7600 8000 7600
 Connection ~ 8000 7600
 $Comp
-L power:+3.3V #PWR0168
+L power:+3.3V #PWR0110
 U 1 1 5F287555
 P 8000 7600
-F 0 "#PWR0168" H 8000 7450 50  0001 C CNN
+F 0 "#PWR0110" H 8000 7450 50  0001 C CNN
 F 1 "+3.3V" H 8015 7773 50  0000 C CNN
 F 2 "" H 8000 7600 50  0001 C CNN
 F 3 "" H 8000 7600 50  0001 C CNN
@@ -1768,10 +1760,10 @@ Wire Wire Line
 Wire Wire Line
 	10650 7600 10650 7700
 $Comp
-L power:+5V #PWR0169
+L power:+5V #PWR0121
 U 1 1 5F2CA98B
 P 9200 7600
-F 0 "#PWR0169" H 9200 7450 50  0001 C CNN
+F 0 "#PWR0121" H 9200 7450 50  0001 C CNN
 F 1 "+5V" H 9215 7773 50  0000 C CNN
 F 2 "" H 9200 7600 50  0001 C CNN
 F 3 "" H 9200 7600 50  0001 C CNN
@@ -1779,10 +1771,10 @@ F 3 "" H 9200 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VP #PWR0170
+L power:+5VP #PWR0128
 U 1 1 5F2CBA72
 P 10400 7600
-F 0 "#PWR0170" H 10400 7450 50  0001 C CNN
+F 0 "#PWR0128" H 10400 7450 50  0001 C CNN
 F 1 "+5VP" H 10415 7773 50  0000 C CNN
 F 2 "" H 10400 7600 50  0001 C CNN
 F 3 "" H 10400 7600 50  0001 C CNN
@@ -1792,9 +1784,9 @@ $EndComp
 Connection ~ 10400 7600
 Wire Wire Line
 	10400 7600 10650 7600
-Text Label 7750 7800 2    50   ~ 0
+Text Label 7750 8000 2    50   ~ 0
 EH_0
-Text Label 7750 7900 2    50   ~ 0
+Text Label 7750 8100 2    50   ~ 0
 EH_1
 Wire Wire Line
 	8950 7700 8950 7600
@@ -1835,10 +1827,10 @@ Wire Wire Line
 	7750 9600 7750 9800
 Connection ~ 8250 9800
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J16
+L Connector_Generic:Conn_02x20_Odd_Even J13
 U 1 1 5F9B8FD6
 P 7950 8600
-F 0 "J16" H 8000 10000 50  0000 C CNN
+F 0 "J13" H 8000 10000 50  0000 C CNN
 F 1 "Expansion_Header_1" H 8000 9900 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 7950 8600 50  0001 C CNN
 F 3 "~" H 7950 8600 50  0001 C CNN
@@ -1846,10 +1838,10 @@ F 3 "~" H 7950 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J17
+L Connector_Generic:Conn_02x20_Odd_Even J14
 U 1 1 5F9BDD9A
 P 9150 8600
-F 0 "J17" H 9200 10000 50  0000 C CNN
+F 0 "J14" H 9200 10000 50  0000 C CNN
 F 1 "Expansion_Header_2" H 9200 9900 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 9150 8600 50  0001 C CNN
 F 3 "~" H 9150 8600 50  0001 C CNN
@@ -1857,227 +1849,179 @@ F 3 "~" H 9150 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J18
+L Connector_Generic:Conn_02x20_Odd_Even J15
 U 1 1 5F9C0BB8
 P 10350 8600
-F 0 "J18" H 10400 10000 50  0000 C CNN
+F 0 "J15" H 10400 10000 50  0000 C CNN
 F 1 "Expansion_Header_3" H 10400 9900 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 10350 8600 50  0001 C CNN
 F 3 "~" H 10350 8600 50  0001 C CNN
 	1    10350 8600
 	1    0    0    -1  
 $EndComp
-Text Label 7750 8000 2    50   ~ 0
-EH_2
-Text Label 7750 8100 2    50   ~ 0
-EH_3
 Text Label 7750 8200 2    50   ~ 0
-EH_4
+EH_2
 Text Label 7750 8300 2    50   ~ 0
-EH_5
+EH_3
 Text Label 7750 8400 2    50   ~ 0
-EH_6
+EH_4
 Text Label 7750 8500 2    50   ~ 0
-EH_7
+EH_5
 Text Label 7750 8600 2    50   ~ 0
-EH_8
+EH_6
 Text Label 7750 8700 2    50   ~ 0
-EH_9
+EH_7
 Text Label 7750 8800 2    50   ~ 0
-EH_10
+EH_8
 Text Label 7750 8900 2    50   ~ 0
-EH_11
+EH_9
 Text Label 7750 9000 2    50   ~ 0
-EH_12
+EH_10
 Text Label 7750 9100 2    50   ~ 0
-EH_13
+EH_11
 Text Label 7750 9200 2    50   ~ 0
-EH_14
+EH_12
 Text Label 7750 9300 2    50   ~ 0
-EH_15
-Text Label 7750 9400 2    50   ~ 0
-EH_16
-Text Label 7750 9500 2    50   ~ 0
-EH_17
-Text Label 8250 9500 0    50   ~ 0
-EH_35
-Text Label 8250 9400 0    50   ~ 0
-EH_34
-Text Label 8250 9300 0    50   ~ 0
-EH_33
-Text Label 8250 9200 0    50   ~ 0
-EH_32
-Text Label 8250 9100 0    50   ~ 0
-EH_31
-Text Label 8250 9000 0    50   ~ 0
-EH_30
-Text Label 8250 8900 0    50   ~ 0
-EH_29
-Text Label 8250 8800 0    50   ~ 0
-EH_28
-Text Label 8250 8700 0    50   ~ 0
-EH_27
-Text Label 8250 8600 0    50   ~ 0
-EH_26
-Text Label 8250 8500 0    50   ~ 0
-EH_25
-Text Label 8250 8400 0    50   ~ 0
-EH_24
-Text Label 8250 8300 0    50   ~ 0
-EH_23
-Text Label 8250 8200 0    50   ~ 0
-EH_22
-Text Label 8250 8100 0    50   ~ 0
-EH_21
+EH_13
 Text Label 8250 8000 0    50   ~ 0
-EH_20
-Text Label 8250 7900 0    50   ~ 0
-EH_19
-Text Label 8250 7800 0    50   ~ 0
-EH_18
-Text Label 8950 7800 2    50   ~ 0
-EH_36
-Text Label 8950 7900 2    50   ~ 0
-EH_37
-Text Label 8950 8000 2    50   ~ 0
-EH_38
-Text Label 8950 8100 2    50   ~ 0
-EH_39
-Text Label 8950 8200 2    50   ~ 0
-EH_40
-Text Label 8950 8300 2    50   ~ 0
-EH_41
-Text Label 8950 8400 2    50   ~ 0
-EH_42
-Text Label 8950 8500 2    50   ~ 0
-EH_43
-Text Label 8950 8600 2    50   ~ 0
-EH_44
+EH_14
+Text Label 8250 8100 0    50   ~ 0
+EH_15
+Text Label 8250 8200 0    50   ~ 0
+EH_16
+Text Label 8250 8300 0    50   ~ 0
+EH_17
 Text Label 8950 8700 2    50   ~ 0
-EH_45
+EH_35
+Text Label 8950 8600 2    50   ~ 0
+EH_34
+Text Label 8950 8500 2    50   ~ 0
+EH_33
+Text Label 8950 8400 2    50   ~ 0
+EH_32
+Text Label 8950 8300 2    50   ~ 0
+EH_31
+Text Label 8950 8200 2    50   ~ 0
+EH_30
+Text Label 8950 8100 2    50   ~ 0
+EH_29
+Text Label 8950 8000 2    50   ~ 0
+EH_28
+Text Label 8250 9300 0    50   ~ 0
+EH_27
+Text Label 8250 9200 0    50   ~ 0
+EH_26
+Text Label 8250 9100 0    50   ~ 0
+EH_25
+Text Label 8250 9000 0    50   ~ 0
+EH_24
+Text Label 8250 8900 0    50   ~ 0
+EH_23
+Text Label 8250 8800 0    50   ~ 0
+EH_22
+Text Label 8250 8700 0    50   ~ 0
+EH_21
+Text Label 8250 8600 0    50   ~ 0
+EH_20
+Text Label 8250 8500 0    50   ~ 0
+EH_19
+Text Label 8250 8400 0    50   ~ 0
+EH_18
 Text Label 8950 8800 2    50   ~ 0
-EH_46
+EH_36
 Text Label 8950 8900 2    50   ~ 0
-EH_47
+EH_37
 Text Label 8950 9000 2    50   ~ 0
-EH_48
+EH_38
 Text Label 8950 9100 2    50   ~ 0
-EH_49
+EH_39
 Text Label 8950 9200 2    50   ~ 0
-EH_50
+EH_40
 Text Label 8950 9300 2    50   ~ 0
-EH_51
-Text Label 8950 9400 2    50   ~ 0
-EH_52
-Text Label 8950 9500 2    50   ~ 0
-EH_53
-Text Label 10150 7800 2    50   ~ 0
-EH_72
-Text Label 10150 7900 2    50   ~ 0
-EH_73
-Text Label 10150 8000 2    50   ~ 0
-EH_74
-Text Label 10150 8100 2    50   ~ 0
-EH_75
-Text Label 10150 8200 2    50   ~ 0
-EH_76
-Text Label 10150 8300 2    50   ~ 0
-EH_77
-Text Label 10150 8400 2    50   ~ 0
-EH_78
-Text Label 10150 8500 2    50   ~ 0
-EH_79
-Text Label 10150 8600 2    50   ~ 0
-EH_80
-Text Label 10150 8700 2    50   ~ 0
-EH_81
-Text Label 10150 8800 2    50   ~ 0
-EH_82
-Text Label 10150 8900 2    50   ~ 0
-EH_83
-Text Label 10150 9000 2    50   ~ 0
-EH_84
-Text Label 10150 9100 2    50   ~ 0
-EH_85
-Text Label 10150 9200 2    50   ~ 0
-EH_86
-Text Label 10150 9300 2    50   ~ 0
-EH_87
-Text Label 10150 9400 2    50   ~ 0
-EH_88
-Text Label 10150 9500 2    50   ~ 0
-EH_89
-Text Label 9450 9500 0    50   ~ 0
-EH_71
-Text Label 9450 9300 0    50   ~ 0
-EH_69
-Text Label 9450 9200 0    50   ~ 0
-EH_68
-Text Label 9450 9100 0    50   ~ 0
-EH_67
-Text Label 9450 9000 0    50   ~ 0
-EH_66
-Text Label 9450 8900 0    50   ~ 0
-EH_65
-Text Label 9450 8800 0    50   ~ 0
-EH_64
-Text Label 9450 8700 0    50   ~ 0
-EH_63
-Text Label 9450 8600 0    50   ~ 0
-EH_62
-Text Label 9450 8500 0    50   ~ 0
-EH_61
-Text Label 9450 8400 0    50   ~ 0
-EH_60
-Text Label 9450 8300 0    50   ~ 0
-EH_59
-Text Label 9450 8200 0    50   ~ 0
-EH_58
-Text Label 9450 8100 0    50   ~ 0
-EH_57
+EH_41
 Text Label 9450 8000 0    50   ~ 0
-EH_56
-Text Label 9450 7900 0    50   ~ 0
-EH_55
-Text Label 9450 7800 0    50   ~ 0
-EH_54
-Text Label 10650 9500 0    50   ~ 0
-EH_107
-Text Label 10650 9400 0    50   ~ 0
-EH_106
-Text Label 10650 9300 0    50   ~ 0
-EH_105
-Text Label 10650 9200 0    50   ~ 0
-EH_104
-Text Label 10650 9100 0    50   ~ 0
-EH_103
-Text Label 10650 9000 0    50   ~ 0
-EH_102
-Text Label 10650 8900 0    50   ~ 0
-EH_101
-Text Label 10650 8800 0    50   ~ 0
-EH_100
-Text Label 10650 8700 0    50   ~ 0
-EH_99
-Text Label 10650 8600 0    50   ~ 0
-EH_98
-Text Label 10650 8500 0    50   ~ 0
-EH_97
-Text Label 10650 8400 0    50   ~ 0
-EH_96
-Text Label 10650 8300 0    50   ~ 0
-EH_95
+EH_42
+Text Label 9450 8100 0    50   ~ 0
+EH_43
+Text Label 9450 8200 0    50   ~ 0
+EH_44
+Text Label 9450 8300 0    50   ~ 0
+EH_45
+Text Label 9450 8400 0    50   ~ 0
+EH_46
+Text Label 9450 8500 0    50   ~ 0
+EH_47
+Text Label 9450 8600 0    50   ~ 0
+EH_48
+Text Label 9450 8700 0    50   ~ 0
+EH_49
+Text Label 9450 8800 0    50   ~ 0
+EH_50
+Text Label 9450 8900 0    50   ~ 0
+EH_51
+Text Label 9450 9000 0    50   ~ 0
+EH_52
+Text Label 9450 9100 0    50   ~ 0
+EH_53
 Text Label 10650 8200 0    50   ~ 0
-EH_94
+EH_72
+Text Label 10650 8300 0    50   ~ 0
+EH_73
+Text Label 10650 8400 0    50   ~ 0
+EH_74
+Text Label 10650 8500 0    50   ~ 0
+EH_75
+Text Label 10650 8600 0    50   ~ 0
+EH_76
+Text Label 10650 8700 0    50   ~ 0
+EH_77
+Text Label 10650 8800 0    50   ~ 0
+EH_78
+Text Label 10650 8900 0    50   ~ 0
+EH_79
+Text Label 10650 9000 0    50   ~ 0
+EH_80
+Text Label 10650 9100 0    50   ~ 0
+EH_81
+Text Label 10650 9200 0    50   ~ 0
+EH_82
+Text Label 10650 9300 0    50   ~ 0
+EH_83
 Text Label 10650 8100 0    50   ~ 0
-EH_93
+EH_71
+Text Label 10150 9300 2    50   ~ 0
+EH_69
+Text Label 10150 9200 2    50   ~ 0
+EH_68
+Text Label 10150 9100 2    50   ~ 0
+EH_67
+Text Label 10150 9000 2    50   ~ 0
+EH_66
+Text Label 10150 8900 2    50   ~ 0
+EH_65
+Text Label 10150 8800 2    50   ~ 0
+EH_64
+Text Label 10150 8700 2    50   ~ 0
+EH_63
+Text Label 10150 8600 2    50   ~ 0
+EH_62
+Text Label 10150 8500 2    50   ~ 0
+EH_61
+Text Label 10150 8400 2    50   ~ 0
+EH_60
+Text Label 10150 8300 2    50   ~ 0
+EH_59
+Text Label 10150 8200 2    50   ~ 0
+EH_58
+Text Label 10150 8100 2    50   ~ 0
+EH_57
+Text Label 10150 8000 2    50   ~ 0
+EH_56
+Text Label 9450 9300 0    50   ~ 0
+EH_55
+Text Label 9450 9200 0    50   ~ 0
+EH_54
 Text Label 10650 8000 0    50   ~ 0
-EH_92
-Text Label 10650 7900 0    50   ~ 0
-EH_91
-Text Label 10650 7800 0    50   ~ 0
-EH_90
-Text Label 9450 9400 0    50   ~ 0
 EH_70
 Text Label 2650 2350 2    50   ~ 0
 EH_0
@@ -2262,69 +2206,53 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    4350 7500
 	1    0    0    -1  
 $EndComp
-Text Label 2650 11700 2    50   ~ 0
+Text Label 2650 11300 2    50   ~ 0
 EH_40
-Text Label 2650 11800 2    50   ~ 0
+Text Label 2650 11400 2    50   ~ 0
 EH_41
-Text Label 2650 11900 2    50   ~ 0
+Text Label 2650 11500 2    50   ~ 0
 EH_42
-Text Label 2650 12000 2    50   ~ 0
+Text Label 2650 11600 2    50   ~ 0
 EH_43
-Text Label 2650 12100 2    50   ~ 0
+Text Label 2650 11700 2    50   ~ 0
 EH_44
-Text Label 2650 12200 2    50   ~ 0
+Text Label 2650 11800 2    50   ~ 0
 EH_45
-Text Label 2650 12500 2    50   ~ 0
+Text Label 2650 11900 2    50   ~ 0
 EH_46
-Text Label 5950 2600 0    50   ~ 0
+Text Label 2650 12000 2    50   ~ 0
 EH_47
-Text Label 5950 2900 0    50   ~ 0
+Text Label 2650 12100 2    50   ~ 0
 EH_48
-Text Label 5950 3000 0    50   ~ 0
+Text Label 2650 12200 2    50   ~ 0
 EH_49
-Text Label 5950 3100 0    50   ~ 0
+Text Label 2650 12500 2    50   ~ 0
 EH_50
-Text Label 5950 3300 0    50   ~ 0
+Text Label 5950 2600 0    50   ~ 0
 EH_51
-Text Label 5950 3400 0    50   ~ 0
+Text Label 5950 2900 0    50   ~ 0
 EH_52
-Text Label 5950 3500 0    50   ~ 0
+Text Label 5950 3000 0    50   ~ 0
 EH_53
-Text Label 5950 6200 0    50   ~ 0
+Text Label 5950 7100 0    50   ~ 0
 EH_71
-Text Label 5950 6000 0    50   ~ 0
-EH_69
-Text Label 5950 5900 0    50   ~ 0
-EH_68
-Text Label 5950 5700 0    50   ~ 0
-EH_67
 Text Label 5950 5600 0    50   ~ 0
-EH_66
-Text Label 5950 5500 0    50   ~ 0
-EH_65
-Text Label 5950 5400 0    50   ~ 0
-EH_64
-Text Label 5950 5300 0    50   ~ 0
-EH_63
-Text Label 5950 5200 0    50   ~ 0
-EH_62
-Text Label 5950 5100 0    50   ~ 0
-EH_61
-Text Label 5950 5000 0    50   ~ 0
-EH_60
-Text Label 5950 4900 0    50   ~ 0
-EH_59
-Text Label 5950 4800 0    50   ~ 0
-EH_58
-Text Label 5950 4700 0    50   ~ 0
-EH_57
-Text Label 5950 4200 0    50   ~ 0
-EH_56
+EH_69
 Text Label 5950 3700 0    50   ~ 0
-EH_55
+EH_60
 Text Label 5950 3600 0    50   ~ 0
+EH_59
+Text Label 5950 3500 0    50   ~ 0
+EH_58
+Text Label 5950 3400 0    50   ~ 0
+EH_57
+Text Label 5950 3300 0    50   ~ 0
+EH_56
+Text Label 5950 3200 0    50   ~ 0
+EH_55
+Text Label 5950 3100 0    50   ~ 0
 EH_54
-Text Label 5950 6100 0    50   ~ 0
+Text Label 5950 5700 0    50   ~ 0
 EH_70
 Wire Wire Line
 	6250 5500 5950 5500
@@ -2336,82 +2264,177 @@ Wire Wire Line
 	6250 3400 5950 3400
 Wire Wire Line
 	5950 3500 6250 3500
-Text Label 5950 6300 0    50   ~ 0
-EH_72
-Text Label 5950 6400 0    50   ~ 0
-EH_73
-Text Label 5950 6500 0    50   ~ 0
-EH_74
-Text Label 5950 6600 0    50   ~ 0
-EH_75
-Text Label 5950 6700 0    50   ~ 0
-EH_76
-Text Label 5950 6800 0    50   ~ 0
-EH_77
-Text Label 5950 6900 0    50   ~ 0
-EH_78
-Text Label 5950 7000 0    50   ~ 0
-EH_79
-Text Label 5950 7100 0    50   ~ 0
-EH_80
 Text Label 5950 7200 0    50   ~ 0
-EH_81
-Text Label 5950 7600 0    50   ~ 0
-EH_82
-Text Label 5950 7700 0    50   ~ 0
-EH_83
-Text Label 5950 7800 0    50   ~ 0
-EH_84
-Text Label 5950 7900 0    50   ~ 0
-EH_85
+EH_72
 Text Label 5950 8000 0    50   ~ 0
-EH_86
+EH_73
 Text Label 5950 8100 0    50   ~ 0
-EH_87
-Text Label 5950 8300 0    50   ~ 0
-EH_89
+EH_74
 Text Label 5950 8200 0    50   ~ 0
-EH_88
-Text Label 5950 11800 0    50   ~ 0
-EH_107
-Text Label 5950 11700 0    50   ~ 0
-EH_106
-Text Label 5950 11100 0    50   ~ 0
-EH_105
+EH_75
+Text Label 5950 8300 0    50   ~ 0
+EH_76
 Text Label 5950 11000 0    50   ~ 0
-EH_104
-Text Label 5950 10800 0    50   ~ 0
-EH_103
-Text Label 5950 10500 0    50   ~ 0
-EH_102
-Text Label 5950 10300 0    50   ~ 0
-EH_101
-Text Label 5950 9900 0    50   ~ 0
-EH_100
-Text Label 5950 9800 0    50   ~ 0
-EH_99
-Text Label 5950 9700 0    50   ~ 0
-EH_98
-Text Label 5950 9600 0    50   ~ 0
-EH_97
-Text Label 5950 9500 0    50   ~ 0
-EH_96
-Text Label 5950 9400 0    50   ~ 0
-EH_95
-Text Label 5950 9300 0    50   ~ 0
-EH_94
-Text Label 5950 9100 0    50   ~ 0
-EH_93
-Text Label 5950 9000 0    50   ~ 0
-EH_92
-Text Label 5950 8900 0    50   ~ 0
-EH_91
-Text Label 5950 8800 0    50   ~ 0
-EH_90
+EH_77
+Text Label 5950 11100 0    50   ~ 0
+EH_78
+Text Label 5950 12100 0    50   ~ 0
+EH_79
+Text Label 5950 12200 0    50   ~ 0
+EH_80
+Text Label 5950 12300 0    50   ~ 0
+EH_81
+Text Label 5950 12400 0    50   ~ 0
+EH_82
+Text Label 5950 12500 0    50   ~ 0
+EH_83
 Wire Wire Line
 	2650 2350 2650 2500
 Text Notes 8450 6900 0    100  ~ 20
 Expansion Headers
+Text HLabel 5950 8800 2    50   Output ~ 0
+D3_DigiPot_WLAT
+Text HLabel 5950 8900 2    50   Output ~ 0
+D3_DigiPot_SHDN
+Text HLabel 5950 9000 2    50   Output ~ 0
+D4_DigiPot_WLAT
+Text HLabel 5950 9100 2    50   Output ~ 0
+D4_DigiPot_SHDN
+Text HLabel 5950 11900 2    50   Output ~ 0
+D3_DigiPot_CS
+Text HLabel 5950 12000 2    50   Output ~ 0
+D4_DigiPot_CS
+Text HLabel 5950 10500 2    50   Output ~ 0
+Motor3-
+Text HLabel 5950 10600 2    50   Output ~ 0
+Motor3+
+Text HLabel 5950 10700 2    50   Output ~ 0
+Motor4-
+Text HLabel 5950 10800 2    50   Output ~ 0
+Motor4+
+Text HLabel 5950 7600 2    50   Output ~ 0
+Motor4_nSLEEP
+Text HLabel 5950 7700 2    50   Output ~ 0
+Motor4_PMODE
+Text HLabel 5950 7800 2    50   Input ~ 0
+Motor4_nFAULT
+Text HLabel 5950 7000 2    50   Output ~ 0
+Motor3_IMODE
+Text HLabel 5950 6900 2    50   Input ~ 0
+Motor3_nFAULT
+Text HLabel 5950 6800 2    50   Output ~ 0
+Motor3_PMODE
+Text HLabel 5950 6700 2    50   Output ~ 0
+Motor3_nSLEEP
+Text HLabel 5950 6500 2    50   Input ~ 0
+Motor2_nFAULT
+Text HLabel 5950 6400 2    50   Output ~ 0
+Motor2_PMODE
+Text HLabel 5950 6600 2    50   Output ~ 0
+Motor2_IMODE
+Text HLabel 5950 6300 2    50   Output ~ 0
+Motor2_nSLEEP
+Text HLabel 5950 7900 2    50   Output ~ 0
+Motor4_IMODE
+Text HLabel 5950 5400 2    50   Input ~ 0
+Motor4_Sense
+Text HLabel 5950 5300 2    50   Input ~ 0
+Motor3_Sense
+Text HLabel 5950 9700 2    50   Input ~ 0
+Motor3_ENC1
+Text HLabel 5950 9800 2    50   Input ~ 0
+Motor3_ENC2
+Text HLabel 5950 9900 2    50   Input ~ 0
+Motor4_ENC1
+Text HLabel 5950 10000 2    50   Input ~ 0
+Motor4_ENC2
+Text Label 5950 5500 0    50   ~ 0
+EH_68
+Text Label 5950 4200 0    50   ~ 0
+EH_61
+Text Label 5950 4300 0    50   ~ 0
+EH_62
+Text Label 5950 4400 0    50   ~ 0
+EH_63
+Text Label 5950 4700 0    50   ~ 0
+EH_64
+Text Label 5950 4800 0    50   ~ 0
+EH_65
+Text Label 5950 4900 0    50   ~ 0
+EH_66
+Text Label 5950 5000 0    50   ~ 0
+EH_67
+Wire Wire Line
+	7750 9400 7750 9500
+Connection ~ 7750 9600
+Connection ~ 7750 9500
+Wire Wire Line
+	7750 9500 7750 9600
+Wire Wire Line
+	8250 9400 8250 9500
+Connection ~ 8250 9600
+Connection ~ 8250 9500
+Wire Wire Line
+	8250 9500 8250 9600
+Wire Wire Line
+	8950 9400 8950 9500
+Connection ~ 8950 9600
+Connection ~ 8950 9500
+Wire Wire Line
+	8950 9500 8950 9600
+Wire Wire Line
+	9450 9400 9450 9500
+Connection ~ 9450 9600
+Connection ~ 9450 9500
+Wire Wire Line
+	9450 9500 9450 9600
+Wire Wire Line
+	10150 9400 10150 9500
+Connection ~ 10150 9600
+Connection ~ 10150 9500
+Wire Wire Line
+	10150 9500 10150 9600
+Wire Wire Line
+	10650 9400 10650 9500
+Connection ~ 10650 9600
+Connection ~ 10650 9500
+Wire Wire Line
+	10650 9500 10650 9600
+Wire Wire Line
+	9450 7800 9450 7700
+Connection ~ 9450 7700
+Wire Wire Line
+	8950 7800 8950 7700
+Connection ~ 8950 7700
+Wire Wire Line
+	8250 7800 8250 7700
+Connection ~ 8250 7700
+Wire Wire Line
+	7750 7800 7750 7700
+Connection ~ 7750 7700
+Wire Wire Line
+	10150 7800 10150 7700
+Connection ~ 10150 7700
+Wire Wire Line
+	10650 7800 10650 7700
+Connection ~ 10650 7700
+Wire Wire Line
+	7750 7900 7750 7800
+Connection ~ 7750 7800
+Wire Wire Line
+	8250 7900 8250 7800
+Connection ~ 8250 7800
+Wire Wire Line
+	8950 7900 8950 7800
+Connection ~ 8950 7800
+Wire Wire Line
+	9450 7900 9450 7800
+Connection ~ 9450 7800
+Wire Wire Line
+	10150 7900 10150 7800
+Connection ~ 10150 7800
+Wire Wire Line
+	10650 7900 10650 7800
 Wire Wire Line
 	1650 8200 2650 8200
 Wire Wire Line
@@ -2424,4 +2447,5 @@ Wire Bus Line
 	1550 7450 1550 8200
 Wire Bus Line
 	1750 7350 1750 8200
+Connection ~ 10650 7800
 $EndSCHEMATC

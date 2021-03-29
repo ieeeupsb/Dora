@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 12
+Sheet 6 15
 Title ""
 Date "2019-10-11"
 Rev "1.0"
@@ -18,10 +18,10 @@ Wire Wire Line
 Wire Wire Line
 	8150 2300 8150 2250
 $Comp
-L power:GND #PWR068
+L power:GND #PWR070
 U 1 1 5D3EA3C8
 P 8150 2300
-F 0 "#PWR068" H 8150 2050 50  0001 C CNN
+F 0 "#PWR070" H 8150 2050 50  0001 C CNN
 F 1 "GND" H 8155 2127 50  0000 C CNN
 F 2 "" H 8150 2300 50  0001 C CNN
 F 3 "" H 8150 2300 50  0001 C CNN
@@ -37,10 +37,10 @@ Wire Wire Line
 Wire Wire Line
 	8350 1800 8350 1950
 $Comp
-L power:+3.3V #PWR069
+L power:+3.3V #PWR072
 U 1 1 5D3EA3BE
 P 8350 1800
-F 0 "#PWR069" H 8350 1650 50  0001 C CNN
+F 0 "#PWR072" H 8350 1650 50  0001 C CNN
 F 1 "+3.3V" H 8365 1973 50  0000 C CNN
 F 2 "" H 8350 1800 50  0001 C CNN
 F 3 "" H 8350 1800 50  0001 C CNN
@@ -52,10 +52,10 @@ Motor1_ENC2
 Text HLabel 7100 2050 2    50   Output ~ 0
 Motor1_ENC1
 $Comp
-L Connector:Conn_01x04_Male J3
+L Connector:Conn_01x04_Male J4
 U 1 1 5D3E6CE9
 P 7850 2050
-F 0 "J3" H 7958 2331 50  0000 C CNN
+F 0 "J4" H 7958 2331 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 7958 2240 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 7850 2050 50  0001 C CNN
 F 3 "~" H 7850 2050 50  0001 C CNN
@@ -65,10 +65,10 @@ $EndComp
 Text Notes 7100 1400 0    98   ~ 20
 Motor Encoders
 $Comp
-L Connector:TestPoint TP15
+L Connector:TestPoint TP17
 U 1 1 5D6BA442
 P 8500 1900
-F 0 "TP15" H 8558 2018 50  0000 L CNN
+F 0 "TP17" H 8558 2018 50  0000 L CNN
 F 1 "TestPoint" H 8558 1927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 1900 50  0001 C CNN
 F 3 "~" H 8700 1900 50  0001 C CNN
@@ -76,10 +76,10 @@ F 3 "~" H 8700 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP16
+L Connector:TestPoint TP19
 U 1 1 5D6BAA24
 P 8950 1900
-F 0 "TP16" H 9008 2018 50  0000 L CNN
+F 0 "TP19" H 9008 2018 50  0000 L CNN
 F 1 "TestPoint" H 9008 1927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9150 1900 50  0001 C CNN
 F 3 "~" H 9150 1900 50  0001 C CNN
@@ -142,10 +142,10 @@ F 3 "~" H 6700 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP14
+L Connector:TestPoint TP15
 U 1 1 5D6C828F
 P 6950 1900
-F 0 "TP14" H 7008 2018 50  0000 L CNN
+F 0 "TP15" H 7008 2018 50  0000 L CNN
 F 1 "TestPoint" H 7008 1927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7150 1900 50  0001 C CNN
 F 3 "~" H 7150 1900 50  0001 C CNN
@@ -167,10 +167,10 @@ Wire Wire Line
 Wire Wire Line
 	6050 2050 6500 2050
 $Comp
-L power:+3.3V #PWR067
+L power:+3.3V #PWR068
 U 1 1 5D65FC74
 P 6350 1800
-F 0 "#PWR067" H 6350 1650 50  0001 C CNN
+F 0 "#PWR068" H 6350 1650 50  0001 C CNN
 F 1 "+3.3V" H 6365 1973 50  0000 C CNN
 F 2 "" H 6350 1800 50  0001 C CNN
 F 3 "" H 6350 1800 50  0001 C CNN
@@ -438,6 +438,168 @@ Wire Wire Line
 	3100 2100 3450 2100
 Wire Wire Line
 	3200 2200 3450 2200
+Wire Wire Line
+	8150 3350 8050 3350
+Wire Wire Line
+	8150 3400 8150 3350
+$Comp
+L power:GND #PWR071
+U 1 1 614B4236
+P 8150 3400
+F 0 "#PWR071" H 8150 3150 50  0001 C CNN
+F 1 "GND" H 8155 3227 50  0000 C CNN
+F 2 "" H 8150 3400 50  0001 C CNN
+F 3 "" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	1    0    0    -1  
+$EndComp
+Text HLabel 9100 3250 2    50   Output ~ 0
+Motor4_ENC2
+Text HLabel 9100 3150 2    50   Output ~ 0
+Motor4_ENC1
+Wire Wire Line
+	8350 3050 8050 3050
+Wire Wire Line
+	8350 2900 8350 3050
+$Comp
+L power:+3.3V #PWR073
+U 1 1 614B4240
+P 8350 2900
+F 0 "#PWR073" H 8350 2750 50  0001 C CNN
+F 1 "+3.3V" H 8365 3073 50  0000 C CNN
+F 2 "" H 8350 2900 50  0001 C CNN
+F 3 "" H 8350 2900 50  0001 C CNN
+	1    8350 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 7100 3250 2    50   Output ~ 0
+Motor3_ENC2
+Text HLabel 7100 3150 2    50   Output ~ 0
+Motor3_ENC1
+$Comp
+L Connector:Conn_01x04_Male J5
+U 1 1 614B4248
+P 7850 3150
+F 0 "J5" H 7958 3431 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7958 3340 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 7850 3150 50  0001 C CNN
+F 3 "~" H 7850 3150 50  0001 C CNN
+	1    7850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 614B424E
+P 8500 3000
+F 0 "TP18" H 8558 3118 50  0000 L CNN
+F 1 "TestPoint" H 8558 3027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 3000 50  0001 C CNN
+F 3 "~" H 8700 3000 50  0001 C CNN
+	1    8500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP20
+U 1 1 614B4254
+P 8950 3000
+F 0 "TP20" H 9008 3118 50  0000 L CNN
+F 1 "TestPoint" H 9008 3027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9150 3000 50  0001 C CNN
+F 3 "~" H 9150 3000 50  0001 C CNN
+	1    8950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3250 8950 3250
+Wire Wire Line
+	8500 3000 8500 3150
+Connection ~ 8500 3150
+Wire Wire Line
+	8500 3150 9100 3150
+Wire Wire Line
+	8950 3000 8950 3250
+Connection ~ 8950 3250
+Wire Wire Line
+	8950 3250 8050 3250
+Wire Wire Line
+	8050 3150 8500 3150
+Wire Wire Line
+	6150 3350 6050 3350
+Wire Wire Line
+	6150 3400 6150 3350
+$Comp
+L power:GND #PWR067
+U 1 1 614B4264
+P 6150 3400
+F 0 "#PWR067" H 6150 3150 50  0001 C CNN
+F 1 "GND" H 6155 3227 50  0000 C CNN
+F 2 "" H 6150 3400 50  0001 C CNN
+F 3 "" H 6150 3400 50  0001 C CNN
+	1    6150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3050 6050 3050
+Wire Wire Line
+	6350 2900 6350 3050
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 614B426C
+P 5850 3150
+F 0 "J3" H 5958 3431 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5958 3340 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal" H 5850 3150 50  0001 C CNN
+F 3 "~" H 5850 3150 50  0001 C CNN
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 614B4272
+P 6500 3000
+F 0 "TP14" H 6558 3118 50  0000 L CNN
+F 1 "TestPoint" H 6558 3027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6700 3000 50  0001 C CNN
+F 3 "~" H 6700 3000 50  0001 C CNN
+	1    6500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 614B4278
+P 6950 3000
+F 0 "TP16" H 7008 3118 50  0000 L CNN
+F 1 "TestPoint" H 7008 3027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7150 3000 50  0001 C CNN
+F 3 "~" H 7150 3000 50  0001 C CNN
+	1    6950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3250 6950 3250
+Wire Wire Line
+	6500 3000 6500 3150
+Connection ~ 6500 3150
+Wire Wire Line
+	6500 3150 7100 3150
+Wire Wire Line
+	6950 3000 6950 3250
+Connection ~ 6950 3250
+Wire Wire Line
+	6950 3250 6050 3250
+Wire Wire Line
+	6050 3150 6500 3150
+$Comp
+L power:+3.3V #PWR069
+U 1 1 614B4286
+P 6350 2900
+F 0 "#PWR069" H 6350 2750 50  0001 C CNN
+F 1 "+3.3V" H 6365 3073 50  0000 C CNN
+F 2 "" H 6350 2900 50  0001 C CNN
+F 3 "" H 6350 2900 50  0001 C CNN
+	1    6350 2900
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	3550 1900 3550 2300
 Wire Bus Line
