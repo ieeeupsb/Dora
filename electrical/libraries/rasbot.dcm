@@ -70,14 +70,14 @@ K step-down dc-dc buck regulator
 F http://www.ti.com/lit/ds/symlink/tps62170.pdf
 $ENDCMP
 #
+$CMP TPS566235RJNx
+F http://www.ti.com/lit/ds/symlink/tps566235.pdf
+$ENDCMP
+#
 $CMP TPS62120
 D 15-V, 75-mA Highly Efficient Buck Converter
 K step-down dc-dc buck regulator
 F http://www.ti.com/lit/ds/symlink/tps62170.pdf
-$ENDCMP
-#
-$CMP TPS566235RJNx
-F http://www.ti.com/lit/ds/symlink/tps566235.pdf
 $ENDCMP
 #
 #End Doc Library
