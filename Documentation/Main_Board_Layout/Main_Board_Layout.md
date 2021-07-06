@@ -1,6 +1,36 @@
 # Description
 
-To do
+## List of systems:
+* Motors
+  * Motor 1
+  * Motor 2
+  * Motor 3
+  * Motor 4
+  * Motor Encoders
+* Power
+  * 3.3V Buck
+  * 5V Sonar Buck
+  * 5V RPi Buck
+  * BMS
+* MCU System
+  * MCU
+  * Power LED
+  * Clock
+  * EEPROM
+  * Reset
+  * Programming/Debugging
+* IO System
+  * RPi Headers
+  * Expansion Headers
+  * OLED
+  * IMU
+  * Buzzer
+  * IR Array Module
+  * RGB Leds
+  * UltraSonic 1
+  * UltraSonic 2
+  * UltraSonic 3
+  * UltraSonic 4
 
 # Size
 
@@ -9,6 +39,7 @@ To do
 # To do
 
 - [ ] Create basic layout figure
+- [ ] Define board setup (track width, clearance, etc)
 - [ ] Define board size
 - [ ] Layout the board
 - [ ] Check for possible issues with connections and sizes

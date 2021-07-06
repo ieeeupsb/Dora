@@ -9,6 +9,7 @@ To do
 # To do
 
 - [ ] Create basic layout figure
+- [ ] Define board setup (track width, clearance, etc)
 - [ ] Define board size
 - [ ] Layout the board
 - [ ] Check for possible issues with connections and sizes
