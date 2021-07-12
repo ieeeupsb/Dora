@@ -273,7 +273,7 @@ U 1 1 5DA133D3
 P 9400 4400
 F 0 "R24" V 9193 4400 50  0000 C CNN
 F 1 "1m" V 9284 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 9330 4400 50  0001 C CNN
 F 3 "~" H 9400 4400 50  0001 C CNN
 	1    9400 4400
 	0    1    1    0   
@@ -768,7 +768,7 @@ $EndComp
 Text HLabel 2200 6150 0    50   Input ~ 0
 RPi_ON
 Text Notes 1700 3400 0    100  ~ 20
-5V Buck Sonar\n
+5V Buck Ultrasonic
 $Comp
 L rasbot:TPS561201 U6
 U 1 1 5DBE7DE5
