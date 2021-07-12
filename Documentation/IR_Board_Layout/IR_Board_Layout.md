@@ -8,6 +8,7 @@ To do
 
 # To do
 
+- [ ] Verify schematic
 - [ ] Create basic layout figure
 - [ ] Define board setup (track width, clearance, etc)
 - [ ] Define board size
