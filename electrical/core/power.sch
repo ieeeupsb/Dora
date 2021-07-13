@@ -155,10 +155,10 @@ F 3 "" H 10550 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L Connector:TestPoint TP_+BATT
 U 1 1 5D6735AE
 P 10750 1600
-F 0 "TP12" H 10808 1718 50  0000 L CNN
+F 0 "TP_+BATT" H 10808 1718 50  0000 L CNN
 F 1 "TestPoint" H 10808 1627 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10950 1600 50  0001 C CNN
 F 3 "~" H 10950 1600 50  0001 C CNN
@@ -171,10 +171,10 @@ Connection ~ 10550 1600
 Wire Wire Line
 	10550 1600 10550 1650
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint TP_Cell3
 U 1 1 5D67CF1A
 P 6950 3100
-F 0 "TP7" H 7008 3218 50  0000 L CNN
+F 0 "TP_Cell3" H 7008 3218 50  0000 L CNN
 F 1 "TestPoint" H 7008 3127 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7150 3100 50  0001 C CNN
 F 3 "~" H 7150 3100 50  0001 C CNN
@@ -182,10 +182,10 @@ F 3 "~" H 7150 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint TP_Cell2
 U 1 1 5D68209B
 P 6950 3600
-F 0 "TP8" H 7008 3718 50  0000 L CNN
+F 0 "TP_Cell2" H 7008 3718 50  0000 L CNN
 F 1 "TestPoint" H 7008 3627 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7150 3600 50  0001 C CNN
 F 3 "~" H 7150 3600 50  0001 C CNN
@@ -193,10 +193,10 @@ F 3 "~" H 7150 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L Connector:TestPoint TP_Cell1
 U 1 1 5D686E1F
 P 6950 4100
-F 0 "TP9" H 7008 4218 50  0000 L CNN
+F 0 "TP_Cell1" H 7008 4218 50  0000 L CNN
 F 1 "TestPoint" H 7008 4127 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7150 4100 50  0001 C CNN
 F 3 "~" H 7150 4100 50  0001 C CNN
@@ -206,10 +206,10 @@ $EndComp
 Wire Wire Line
 	6950 4150 6650 4150
 $Comp
-L Connector:TestPoint TP10
+L Connector:TestPoint TP_Cell0
 U 1 1 5D69F25B
 P 6950 4550
-F 0 "TP10" H 7008 4668 50  0000 L CNN
+F 0 "TP_Cell0" H 7008 4668 50  0000 L CNN
 F 1 "TestPoint" H 7008 4577 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7150 4550 50  0001 C CNN
 F 3 "~" H 7150 4550 50  0001 C CNN
@@ -1077,10 +1077,10 @@ $EndComp
 Wire Wire Line
 	9150 1950 9150 2000
 $Comp
-L Connector:TestPoint TP11
+L Connector:TestPoint TP_TH1
 U 1 1 5D6B4F3C
 P 9150 1950
-F 0 "TP11" H 9208 2068 50  0000 L CNN
+F 0 "TP_TH1" H 9208 2068 50  0000 L CNN
 F 1 "TestPoint" H 9208 1977 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9350 1950 50  0001 C CNN
 F 3 "~" H 9350 1950 50  0001 C CNN
